@@ -1,0 +1,1440 @@
+2022-04-01 09:37:04,937 - PID 68737 started feature extraction
+2022-04-01 09:37:04,941 - Pika version 1.2.0 connecting to ('::1', 5672, 0, 0)
+2022-04-01 09:37:04,941 - Socket failed to connect: <socket.socket fd=16, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 62623, 0, 0)>; error=61 (Connection refused)
+2022-04-01 09:37:04,941 - TCP Connection attempt failed: ConnectionRefusedError(61, 'Connection refused'); dest=(<AddressFamily.AF_INET6: 30>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('::1', 5672, 0, 0))
+2022-04-01 09:37:04,941 - AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(61, 'Connection refused')
+2022-04-01 09:37:04,941 - Pika version 1.2.0 connecting to ('127.0.0.1', 5672)
+2022-04-01 09:37:04,942 - Socket connected: <socket.socket fd=16, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 62624), raddr=('127.0.0.1', 5672)>
+2022-04-01 09:37:04,942 - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x132dfd5b0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x132dfd5b0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+2022-04-01 09:37:04,946 - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x132dfd5b0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-01 09:37:04,946 - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x132dfd5b0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-01 09:37:04,946 - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x132dfd5b0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-01 09:37:04,946 - Created channel=1
+2022-04-01 09:37:05,665 - image 0_000 arrived at feature extraction
+2022-04-01 09:37:05,671 - image 1_000 arrived at feature extraction
+2022-04-01 09:37:05,884 - image 2_000 arrived at feature extraction
+2022-04-01 09:37:05,889 - image 3_001 arrived at feature extraction
+2022-04-01 09:37:06,109 - image 4_001 arrived at feature extraction
+2022-04-01 09:37:06,114 - image 5_002 arrived at feature extraction
+2022-04-01 09:37:06,272 - image 7_003 arrived at feature extraction
+2022-04-01 09:37:06,278 - image 6_002 arrived at feature extraction
+2022-04-01 09:37:06,278 - Extracting started: [('0', '000'), ('1', '000'), ('2', '000'), ('3', '001'), ('4', '001'), ('5', '002'), ('7', '003'), ('6', '002')] being feature-extracted
+2022-04-01 09:37:08,809 - Extracting completed: [('0', '000'), ('1', '000'), ('2', '000'), ('3', '001'), ('4', '001'), ('5', '002'), ('7', '003'), ('6', '002')] have been feature-extracted
+2022-04-01 09:37:08,809 - hashing: 0_000 started
+2022-04-01 09:37:08,810 - hashing: 0_000 completed
+2022-04-01 09:37:08,933 - hashing: 1_000 started
+2022-04-01 09:37:08,933 - hashing: 1_000 completed
+2022-04-01 09:37:08,938 - hashing: 2_000 started
+2022-04-01 09:37:08,939 - hashing: 2_000 completed
+2022-04-01 09:37:08,940 - hashing: 3_001 started
+2022-04-01 09:37:08,940 - hashing: 3_001 completed
+2022-04-01 09:37:08,941 - hashing: 4_001 started
+2022-04-01 09:37:08,941 - hashing: 4_001 completed
+2022-04-01 09:37:08,943 - hashing: 5_002 started
+2022-04-01 09:37:08,943 - hashing: 5_002 completed
+2022-04-01 09:37:08,944 - hashing: 7_003 started
+2022-04-01 09:37:08,944 - hashing: 7_003 completed
+2022-04-01 09:37:08,946 - hashing: 6_002 started
+2022-04-01 09:37:08,946 - hashing: 6_002 completed
+2022-04-01 09:37:08,948 - image 9_003 arrived at feature extraction
+2022-04-01 09:37:08,949 - image 8_003 arrived at feature extraction
+2022-04-01 09:37:08,950 - image 11_004 arrived at feature extraction
+2022-04-01 09:37:08,951 - image 10_004 arrived at feature extraction
+2022-04-01 09:37:08,952 - image 13_005 arrived at feature extraction
+2022-04-01 09:37:08,953 - image 12_005 arrived at feature extraction
+2022-04-01 09:37:08,954 - image 15_005 arrived at feature extraction
+2022-04-01 09:37:08,955 - image 14_005 arrived at feature extraction
+2022-04-01 09:37:08,955 - Extracting started: [('9', '003'), ('8', '003'), ('11', '004'), ('10', '004'), ('13', '005'), ('12', '005'), ('15', '005'), ('14', '005')] being feature-extracted
+2022-04-01 09:37:10,474 - Extracting completed: [('9', '003'), ('8', '003'), ('11', '004'), ('10', '004'), ('13', '005'), ('12', '005'), ('15', '005'), ('14', '005')] have been feature-extracted
+2022-04-01 09:37:10,475 - hashing: 9_003 started
+2022-04-01 09:37:10,475 - hashing: 9_003 completed
+2022-04-01 09:37:10,609 - hashing: 8_003 started
+2022-04-01 09:37:10,609 - hashing: 8_003 completed
+2022-04-01 09:37:10,619 - hashing: 11_004 started
+2022-04-01 09:37:10,619 - hashing: 11_004 completed
+2022-04-01 09:37:10,627 - hashing: 10_004 started
+2022-04-01 09:37:10,627 - hashing: 10_004 completed
+2022-04-01 09:37:10,629 - hashing: 13_005 started
+2022-04-01 09:37:10,629 - hashing: 13_005 completed
+2022-04-01 09:37:10,630 - hashing: 12_005 started
+2022-04-01 09:37:10,631 - hashing: 12_005 completed
+2022-04-01 09:37:10,632 - hashing: 15_005 started
+2022-04-01 09:37:10,632 - hashing: 15_005 completed
+2022-04-01 09:37:10,633 - hashing: 14_005 started
+2022-04-01 09:37:10,634 - hashing: 14_005 completed
+2022-04-01 09:37:10,636 - image 17_006 arrived at feature extraction
+2022-04-01 09:37:10,637 - image 19_007 arrived at feature extraction
+2022-04-01 09:37:10,639 - image 16_006 arrived at feature extraction
+2022-04-01 09:37:10,640 - image 18_007 arrived at feature extraction
+2022-04-01 09:37:10,641 - image 21_008 arrived at feature extraction
+2022-04-01 09:37:10,643 - image 23_009 arrived at feature extraction
+2022-04-01 09:37:10,644 - image 20_008 arrived at feature extraction
+2022-04-01 09:37:10,645 - image 22_009 arrived at feature extraction
+2022-04-01 09:37:10,645 - Extracting started: [('17', '006'), ('19', '007'), ('16', '006'), ('18', '007'), ('21', '008'), ('23', '009'), ('20', '008'), ('22', '009')] being feature-extracted
+2022-04-01 09:37:12,159 - Extracting completed: [('17', '006'), ('19', '007'), ('16', '006'), ('18', '007'), ('21', '008'), ('23', '009'), ('20', '008'), ('22', '009')] have been feature-extracted
+2022-04-01 09:37:12,159 - hashing: 17_006 started
+2022-04-01 09:37:12,160 - hashing: 17_006 completed
+2022-04-01 09:37:12,249 - hashing: 19_007 started
+2022-04-01 09:37:12,249 - hashing: 19_007 completed
+2022-04-01 09:37:12,255 - hashing: 16_006 started
+2022-04-01 09:37:12,255 - hashing: 16_006 completed
+2022-04-01 09:37:12,257 - hashing: 18_007 started
+2022-04-01 09:37:12,257 - hashing: 18_007 completed
+2022-04-01 09:37:12,258 - hashing: 21_008 started
+2022-04-01 09:37:12,259 - hashing: 21_008 completed
+2022-04-01 09:37:12,260 - hashing: 23_009 started
+2022-04-01 09:37:12,261 - hashing: 23_009 completed
+2022-04-01 09:37:12,262 - hashing: 20_008 started
+2022-04-01 09:37:12,262 - hashing: 20_008 completed
+2022-04-01 09:37:12,264 - hashing: 22_009 started
+2022-04-01 09:37:12,264 - hashing: 22_009 completed
+2022-04-01 09:37:12,267 - image 25_010 arrived at feature extraction
+2022-04-01 09:37:12,268 - image 24_009 arrived at feature extraction
+2022-04-01 09:37:12,269 - image 27_011 arrived at feature extraction
+2022-04-01 09:37:12,271 - image 29_012 arrived at feature extraction
+2022-04-01 09:37:12,272 - image 26_010 arrived at feature extraction
+2022-04-01 09:37:12,274 - image 31_013 arrived at feature extraction
+2022-04-01 09:37:12,275 - image 33_014 arrived at feature extraction
+2022-04-01 09:37:12,276 - image 28_011 arrived at feature extraction
+2022-04-01 09:37:12,277 - Extracting started: [('25', '010'), ('24', '009'), ('27', '011'), ('29', '012'), ('26', '010'), ('31', '013'), ('33', '014'), ('28', '011')] being feature-extracted
+2022-04-01 09:37:13,915 - Extracting completed: [('25', '010'), ('24', '009'), ('27', '011'), ('29', '012'), ('26', '010'), ('31', '013'), ('33', '014'), ('28', '011')] have been feature-extracted
+2022-04-01 09:37:13,915 - hashing: 25_010 started
+2022-04-01 09:37:13,915 - hashing: 25_010 completed
+2022-04-01 09:37:13,993 - hashing: 24_009 started
+2022-04-01 09:37:13,993 - hashing: 24_009 completed
+2022-04-01 09:37:13,995 - hashing: 27_011 started
+2022-04-01 09:37:13,995 - hashing: 27_011 completed
+2022-04-01 09:37:13,996 - hashing: 29_012 started
+2022-04-01 09:37:13,997 - hashing: 29_012 completed
+2022-04-01 09:37:13,998 - hashing: 26_010 started
+2022-04-01 09:37:13,999 - hashing: 26_010 completed
+2022-04-01 09:37:14,000 - hashing: 31_013 started
+2022-04-01 09:37:14,000 - hashing: 31_013 completed
+2022-04-01 09:37:14,001 - hashing: 33_014 started
+2022-04-01 09:37:14,001 - hashing: 33_014 completed
+2022-04-01 09:37:14,003 - hashing: 28_011 started
+2022-04-01 09:37:14,003 - hashing: 28_011 completed
+2022-04-01 09:37:14,006 - image 30_012 arrived at feature extraction
+2022-04-01 09:37:14,007 - image 35_014 arrived at feature extraction
+2022-04-01 09:37:14,008 - image 37_014 arrived at feature extraction
+2022-04-01 09:37:14,009 - image 32_013 arrived at feature extraction
+2022-04-01 09:37:14,010 - image 39_015 arrived at feature extraction
+2022-04-01 09:37:14,012 - image 34_014 arrived at feature extraction
+2022-04-01 09:37:14,013 - image 41_015 arrived at feature extraction
+2022-04-01 09:37:14,014 - image 36_014 arrived at feature extraction
+2022-04-01 09:37:14,014 - Extracting started: [('30', '012'), ('35', '014'), ('37', '014'), ('32', '013'), ('39', '015'), ('34', '014'), ('41', '015'), ('36', '014')] being feature-extracted
+2022-04-01 09:37:15,675 - Extracting completed: [('30', '012'), ('35', '014'), ('37', '014'), ('32', '013'), ('39', '015'), ('34', '014'), ('41', '015'), ('36', '014')] have been feature-extracted
+2022-04-01 09:37:15,675 - hashing: 30_012 started
+2022-04-01 09:37:15,676 - hashing: 30_012 completed
+2022-04-01 09:37:15,757 - hashing: 35_014 started
+2022-04-01 09:37:15,757 - hashing: 35_014 completed
+2022-04-01 09:37:15,763 - hashing: 37_014 started
+2022-04-01 09:37:15,764 - hashing: 37_014 completed
+2022-04-01 09:37:15,765 - hashing: 32_013 started
+2022-04-01 09:37:15,766 - hashing: 32_013 completed
+2022-04-01 09:37:15,767 - hashing: 39_015 started
+2022-04-01 09:37:15,767 - hashing: 39_015 completed
+2022-04-01 09:37:15,769 - hashing: 34_014 started
+2022-04-01 09:37:15,769 - hashing: 34_014 completed
+2022-04-01 09:37:15,771 - hashing: 41_015 started
+2022-04-01 09:37:15,771 - hashing: 41_015 completed
+2022-04-01 09:37:15,773 - hashing: 36_014 started
+2022-04-01 09:37:15,773 - hashing: 36_014 completed
+2022-04-01 09:37:15,775 - image 38_015 arrived at feature extraction
+2022-04-01 09:37:15,776 - image 43_016 arrived at feature extraction
+2022-04-01 09:37:15,777 - image 40_015 arrived at feature extraction
+2022-04-01 09:37:15,778 - image 45_017 arrived at feature extraction
+2022-04-01 09:37:15,779 - image 42_015 arrived at feature extraction
+2022-04-01 09:37:15,781 - image 47_017 arrived at feature extraction
+2022-04-01 09:37:15,782 - image 44_016 arrived at feature extraction
+2022-04-01 09:37:15,783 - image 49_018 arrived at feature extraction
+2022-04-01 09:37:15,783 - Extracting started: [('38', '015'), ('43', '016'), ('40', '015'), ('45', '017'), ('42', '015'), ('47', '017'), ('44', '016'), ('49', '018')] being feature-extracted
+2022-04-01 09:37:17,466 - Extracting completed: [('38', '015'), ('43', '016'), ('40', '015'), ('45', '017'), ('42', '015'), ('47', '017'), ('44', '016'), ('49', '018')] have been feature-extracted
+2022-04-01 09:37:17,466 - hashing: 38_015 started
+2022-04-01 09:37:17,467 - hashing: 38_015 completed
+2022-04-01 09:37:17,550 - hashing: 43_016 started
+2022-04-01 09:37:17,551 - hashing: 43_016 completed
+2022-04-01 09:37:17,556 - hashing: 40_015 started
+2022-04-01 09:37:17,557 - hashing: 40_015 completed
+2022-04-01 09:37:17,558 - hashing: 45_017 started
+2022-04-01 09:37:17,558 - hashing: 45_017 completed
+2022-04-01 09:37:17,560 - hashing: 42_015 started
+2022-04-01 09:37:17,560 - hashing: 42_015 completed
+2022-04-01 09:37:17,562 - hashing: 47_017 started
+2022-04-01 09:37:17,562 - hashing: 47_017 completed
+2022-04-01 09:37:17,563 - hashing: 44_016 started
+2022-04-01 09:37:17,564 - hashing: 44_016 completed
+2022-04-01 09:37:17,565 - hashing: 49_018 started
+2022-04-01 09:37:17,565 - hashing: 49_018 completed
+2022-04-01 09:37:17,568 - image 46_017 arrived at feature extraction
+2022-04-01 09:37:17,570 - image 51_019 arrived at feature extraction
+2022-04-01 09:37:17,571 - image 48_018 arrived at feature extraction
+2022-04-01 09:37:17,572 - image 53_020 arrived at feature extraction
+2022-04-01 09:37:17,573 - image 50_019 arrived at feature extraction
+2022-04-01 09:37:17,574 - image 55_021 arrived at feature extraction
+2022-04-01 09:37:17,575 - image 52_020 arrived at feature extraction
+2022-04-01 09:37:17,577 - image 57_022 arrived at feature extraction
+2022-04-01 09:37:17,577 - Extracting started: [('46', '017'), ('51', '019'), ('48', '018'), ('53', '020'), ('50', '019'), ('55', '021'), ('52', '020'), ('57', '022')] being feature-extracted
+2022-04-01 09:37:19,119 - Extracting completed: [('46', '017'), ('51', '019'), ('48', '018'), ('53', '020'), ('50', '019'), ('55', '021'), ('52', '020'), ('57', '022')] have been feature-extracted
+2022-04-01 09:37:19,119 - hashing: 46_017 started
+2022-04-01 09:37:19,120 - hashing: 46_017 completed
+2022-04-01 09:37:19,197 - hashing: 51_019 started
+2022-04-01 09:37:19,197 - hashing: 51_019 completed
+2022-04-01 09:37:19,198 - hashing: 48_018 started
+2022-04-01 09:37:19,198 - hashing: 48_018 completed
+2022-04-01 09:37:19,200 - hashing: 53_020 started
+2022-04-01 09:37:19,200 - hashing: 53_020 completed
+2022-04-01 09:37:19,202 - hashing: 50_019 started
+2022-04-01 09:37:19,202 - hashing: 50_019 completed
+2022-04-01 09:37:19,203 - hashing: 55_021 started
+2022-04-01 09:37:19,203 - hashing: 55_021 completed
+2022-04-01 09:37:19,205 - hashing: 52_020 started
+2022-04-01 09:37:19,205 - hashing: 52_020 completed
+2022-04-01 09:37:19,206 - hashing: 57_022 started
+2022-04-01 09:37:19,207 - hashing: 57_022 completed
+2022-04-01 09:37:19,209 - image 54_021 arrived at feature extraction
+2022-04-01 09:37:19,211 - image 59_023 arrived at feature extraction
+2022-04-01 09:37:19,212 - image 61_023 arrived at feature extraction
+2022-04-01 09:37:19,214 - image 63_024 arrived at feature extraction
+2022-04-01 09:37:19,215 - image 65_024 arrived at feature extraction
+2022-04-01 09:37:19,216 - image 67_025 arrived at feature extraction
+2022-04-01 09:37:19,217 - image 69_026 arrived at feature extraction
+2022-04-01 09:37:19,219 - image 71_027 arrived at feature extraction
+2022-04-01 09:37:19,219 - Extracting started: [('54', '021'), ('59', '023'), ('61', '023'), ('63', '024'), ('65', '024'), ('67', '025'), ('69', '026'), ('71', '027')] being feature-extracted
+2022-04-01 09:37:20,766 - Extracting completed: [('54', '021'), ('59', '023'), ('61', '023'), ('63', '024'), ('65', '024'), ('67', '025'), ('69', '026'), ('71', '027')] have been feature-extracted
+2022-04-01 09:37:20,766 - hashing: 54_021 started
+2022-04-01 09:37:20,767 - hashing: 54_021 completed
+2022-04-01 09:37:20,841 - hashing: 59_023 started
+2022-04-01 09:37:20,841 - hashing: 59_023 completed
+2022-04-01 09:37:20,843 - hashing: 61_023 started
+2022-04-01 09:37:20,843 - hashing: 61_023 completed
+2022-04-01 09:37:20,845 - hashing: 63_024 started
+2022-04-01 09:37:20,845 - hashing: 63_024 completed
+2022-04-01 09:37:20,846 - hashing: 65_024 started
+2022-04-01 09:37:20,847 - hashing: 65_024 completed
+2022-04-01 09:37:20,848 - hashing: 67_025 started
+2022-04-01 09:37:20,848 - hashing: 67_025 completed
+2022-04-01 09:37:20,850 - hashing: 69_026 started
+2022-04-01 09:37:20,850 - hashing: 69_026 completed
+2022-04-01 09:37:20,852 - hashing: 71_027 started
+2022-04-01 09:37:20,852 - hashing: 71_027 completed
+2022-04-01 09:37:20,854 - image 73_028 arrived at feature extraction
+2022-04-01 09:37:20,855 - image 75_029 arrived at feature extraction
+2022-04-01 09:37:20,856 - image 77_030 arrived at feature extraction
+2022-04-01 09:37:20,857 - image 79_030 arrived at feature extraction
+2022-04-01 09:37:20,858 - image 81_031 arrived at feature extraction
+2022-04-01 09:37:20,860 - image 83_032 arrived at feature extraction
+2022-04-01 09:37:20,861 - image 80_031 arrived at feature extraction
+2022-04-01 09:37:20,862 - image 82_031 arrived at feature extraction
+2022-04-01 09:37:20,862 - Extracting started: [('73', '028'), ('75', '029'), ('77', '030'), ('79', '030'), ('81', '031'), ('83', '032'), ('80', '031'), ('82', '031')] being feature-extracted
+2022-04-01 09:37:22,507 - Extracting completed: [('73', '028'), ('75', '029'), ('77', '030'), ('79', '030'), ('81', '031'), ('83', '032'), ('80', '031'), ('82', '031')] have been feature-extracted
+2022-04-01 09:37:22,508 - hashing: 73_028 started
+2022-04-01 09:37:22,508 - hashing: 73_028 completed
+2022-04-01 09:37:22,565 - hashing: 75_029 started
+2022-04-01 09:37:22,565 - hashing: 75_029 completed
+2022-04-01 09:37:22,567 - hashing: 77_030 started
+2022-04-01 09:37:22,567 - hashing: 77_030 completed
+2022-04-01 09:37:22,568 - hashing: 79_030 started
+2022-04-01 09:37:22,569 - hashing: 79_030 completed
+2022-04-01 09:37:22,570 - hashing: 81_031 started
+2022-04-01 09:37:22,571 - hashing: 81_031 completed
+2022-04-01 09:37:22,572 - hashing: 83_032 started
+2022-04-01 09:37:22,572 - hashing: 83_032 completed
+2022-04-01 09:37:22,574 - hashing: 80_031 started
+2022-04-01 09:37:22,574 - hashing: 80_031 completed
+2022-04-01 09:37:22,576 - hashing: 82_031 started
+2022-04-01 09:37:22,576 - hashing: 82_031 completed
+2022-04-01 09:37:22,578 - image 84_032 arrived at feature extraction
+2022-04-01 09:37:22,579 - image 91_033 arrived at feature extraction
+2022-04-01 09:37:22,581 - image 93_034 arrived at feature extraction
+2022-04-01 09:37:22,582 - image 90_033 arrived at feature extraction
+2022-04-01 09:37:22,583 - image 97_035 arrived at feature extraction
+2022-04-01 09:37:22,584 - image 99_036 arrived at feature extraction
+2022-04-01 09:37:22,585 - image 96_035 arrived at feature extraction
+2022-04-01 09:37:22,586 - image 98_035 arrived at feature extraction
+2022-04-01 09:37:22,587 - Extracting started: [('84', '032'), ('91', '033'), ('93', '034'), ('90', '033'), ('97', '035'), ('99', '036'), ('96', '035'), ('98', '035')] being feature-extracted
+2022-04-01 09:37:24,228 - Extracting completed: [('84', '032'), ('91', '033'), ('93', '034'), ('90', '033'), ('97', '035'), ('99', '036'), ('96', '035'), ('98', '035')] have been feature-extracted
+2022-04-01 09:37:24,228 - hashing: 84_032 started
+2022-04-01 09:37:24,228 - hashing: 84_032 completed
+2022-04-01 09:37:24,292 - hashing: 91_033 started
+2022-04-01 09:37:24,292 - hashing: 91_033 completed
+2022-04-01 09:37:24,294 - hashing: 93_034 started
+2022-04-01 09:37:24,295 - hashing: 93_034 completed
+2022-04-01 09:37:24,296 - hashing: 90_033 started
+2022-04-01 09:37:24,296 - hashing: 90_033 completed
+2022-04-01 09:37:24,298 - hashing: 97_035 started
+2022-04-01 09:37:24,298 - hashing: 97_035 completed
+2022-04-01 09:37:24,300 - hashing: 99_036 started
+2022-04-01 09:37:24,300 - hashing: 99_036 completed
+2022-04-01 09:37:24,302 - hashing: 96_035 started
+2022-04-01 09:37:24,302 - hashing: 96_035 completed
+2022-04-01 09:37:24,304 - hashing: 98_035 started
+2022-04-01 09:37:24,304 - hashing: 98_035 completed
+2022-04-01 09:37:24,307 - image 100_036 arrived at feature extraction
+2022-04-01 09:37:24,309 - image 102_037 arrived at feature extraction
+2022-04-01 09:37:24,310 - image 104_038 arrived at feature extraction
+2022-04-01 09:37:24,312 - image 106_039 arrived at feature extraction
+2022-04-01 09:37:24,313 - image 108_039 arrived at feature extraction
+2022-04-01 09:37:24,314 - image 110_040 arrived at feature extraction
+2022-04-01 09:37:24,315 - image 112_040 arrived at feature extraction
+2022-04-01 09:37:24,316 - image 114_040 arrived at feature extraction
+2022-04-01 09:37:24,316 - Extracting started: [('100', '036'), ('102', '037'), ('104', '038'), ('106', '039'), ('108', '039'), ('110', '040'), ('112', '040'), ('114', '040')] being feature-extracted
+2022-04-01 09:37:25,919 - Extracting completed: [('100', '036'), ('102', '037'), ('104', '038'), ('106', '039'), ('108', '039'), ('110', '040'), ('112', '040'), ('114', '040')] have been feature-extracted
+2022-04-01 09:37:25,919 - hashing: 100_036 started
+2022-04-01 09:37:25,920 - hashing: 100_036 completed
+2022-04-01 09:37:25,980 - hashing: 102_037 started
+2022-04-01 09:37:25,980 - hashing: 102_037 completed
+2022-04-01 09:37:25,982 - hashing: 104_038 started
+2022-04-01 09:37:25,982 - hashing: 104_038 completed
+2022-04-01 09:37:25,984 - hashing: 106_039 started
+2022-04-01 09:37:25,984 - hashing: 106_039 completed
+2022-04-01 09:37:25,985 - hashing: 108_039 started
+2022-04-01 09:37:25,985 - hashing: 108_039 completed
+2022-04-01 09:37:25,986 - hashing: 110_040 started
+2022-04-01 09:37:25,987 - hashing: 110_040 completed
+2022-04-01 09:37:25,988 - hashing: 112_040 started
+2022-04-01 09:37:25,988 - hashing: 112_040 completed
+2022-04-01 09:37:25,989 - hashing: 114_040 started
+2022-04-01 09:37:25,990 - hashing: 114_040 completed
+2022-04-01 09:37:25,992 - image 116_041 arrived at feature extraction
+2022-04-01 09:37:25,994 - image 118_042 arrived at feature extraction
+2022-04-01 09:37:25,995 - image 120_042 arrived at feature extraction
+2022-04-01 09:37:25,996 - image 122_043 arrived at feature extraction
+2022-04-01 09:37:25,997 - image 124_044 arrived at feature extraction
+2022-04-01 09:37:25,999 - image 126_044 arrived at feature extraction
+2022-04-01 09:37:26,000 - image 128_045 arrived at feature extraction
+2022-04-01 09:37:26,001 - image 130_046 arrived at feature extraction
+2022-04-01 09:37:26,001 - Extracting started: [('116', '041'), ('118', '042'), ('120', '042'), ('122', '043'), ('124', '044'), ('126', '044'), ('128', '045'), ('130', '046')] being feature-extracted
+2022-04-01 09:37:27,657 - Extracting completed: [('116', '041'), ('118', '042'), ('120', '042'), ('122', '043'), ('124', '044'), ('126', '044'), ('128', '045'), ('130', '046')] have been feature-extracted
+2022-04-01 09:37:27,657 - hashing: 116_041 started
+2022-04-01 09:37:27,658 - hashing: 116_041 completed
+2022-04-01 09:37:27,732 - hashing: 118_042 started
+2022-04-01 09:37:27,732 - hashing: 118_042 completed
+2022-04-01 09:37:27,739 - hashing: 120_042 started
+2022-04-01 09:37:27,740 - hashing: 120_042 completed
+2022-04-01 09:37:27,741 - hashing: 122_043 started
+2022-04-01 09:37:27,741 - hashing: 122_043 completed
+2022-04-01 09:37:27,743 - hashing: 124_044 started
+2022-04-01 09:37:27,743 - hashing: 124_044 completed
+2022-04-01 09:37:27,745 - hashing: 126_044 started
+2022-04-01 09:37:27,745 - hashing: 126_044 completed
+2022-04-01 09:37:27,747 - hashing: 128_045 started
+2022-04-01 09:37:27,747 - hashing: 128_045 completed
+2022-04-01 09:37:27,748 - hashing: 130_046 started
+2022-04-01 09:37:27,749 - hashing: 130_046 completed
+2022-04-01 09:37:27,751 - image 132_047 arrived at feature extraction
+2022-04-01 09:37:27,752 - image 134_048 arrived at feature extraction
+2022-04-01 09:37:27,754 - image 136_048 arrived at feature extraction
+2022-04-01 09:37:27,755 - image 138_049 arrived at feature extraction
+2022-04-01 09:37:27,756 - image 140_050 arrived at feature extraction
+2022-04-01 09:37:27,757 - image 142_050 arrived at feature extraction
+2022-04-01 09:37:27,758 - image 144_051 arrived at feature extraction
+2022-04-01 09:37:27,759 - image 146_051 arrived at feature extraction
+2022-04-01 09:37:27,760 - Extracting started: [('132', '047'), ('134', '048'), ('136', '048'), ('138', '049'), ('140', '050'), ('142', '050'), ('144', '051'), ('146', '051')] being feature-extracted
+2022-04-01 09:37:29,400 - Extracting completed: [('132', '047'), ('134', '048'), ('136', '048'), ('138', '049'), ('140', '050'), ('142', '050'), ('144', '051'), ('146', '051')] have been feature-extracted
+2022-04-01 09:37:29,401 - hashing: 132_047 started
+2022-04-01 09:37:29,401 - hashing: 132_047 completed
+2022-04-01 09:37:29,486 - hashing: 134_048 started
+2022-04-01 09:37:29,487 - hashing: 134_048 completed
+2022-04-01 09:37:29,493 - hashing: 136_048 started
+2022-04-01 09:37:29,494 - hashing: 136_048 completed
+2022-04-01 09:37:29,495 - hashing: 138_049 started
+2022-04-01 09:37:29,495 - hashing: 138_049 completed
+2022-04-01 09:37:29,497 - hashing: 140_050 started
+2022-04-01 09:37:29,497 - hashing: 140_050 completed
+2022-04-01 09:37:29,498 - hashing: 142_050 started
+2022-04-01 09:37:29,499 - hashing: 142_050 completed
+2022-04-01 09:37:29,500 - hashing: 144_051 started
+2022-04-01 09:37:29,500 - hashing: 144_051 completed
+2022-04-01 09:37:29,502 - hashing: 146_051 started
+2022-04-01 09:37:29,502 - hashing: 146_051 completed
+2022-04-01 09:37:29,505 - image 148_052 arrived at feature extraction
+2022-04-01 09:37:29,506 - image 150_053 arrived at feature extraction
+2022-04-01 09:37:29,507 - image 152_054 arrived at feature extraction
+2022-04-01 09:37:29,509 - image 154_055 arrived at feature extraction
+2022-04-01 09:37:29,510 - image 156_056 arrived at feature extraction
+2022-04-01 09:37:29,511 - image 158_057 arrived at feature extraction
+2022-04-01 09:37:29,512 - image 165_060 arrived at feature extraction
+2022-04-01 09:37:29,514 - image 167_060 arrived at feature extraction
+2022-04-01 09:37:29,514 - Extracting started: [('148', '052'), ('150', '053'), ('152', '054'), ('154', '055'), ('156', '056'), ('158', '057'), ('165', '060'), ('167', '060')] being feature-extracted
+2022-04-01 09:37:31,136 - Extracting completed: [('148', '052'), ('150', '053'), ('152', '054'), ('154', '055'), ('156', '056'), ('158', '057'), ('165', '060'), ('167', '060')] have been feature-extracted
+2022-04-01 09:37:31,136 - hashing: 148_052 started
+2022-04-01 09:37:31,137 - hashing: 148_052 completed
+2022-04-01 09:37:31,242 - hashing: 150_053 started
+2022-04-01 09:37:31,242 - hashing: 150_053 completed
+2022-04-01 09:37:31,250 - hashing: 152_054 started
+2022-04-01 09:37:31,250 - hashing: 152_054 completed
+2022-04-01 09:37:31,252 - hashing: 154_055 started
+2022-04-01 09:37:31,252 - hashing: 154_055 completed
+2022-04-01 09:37:31,254 - hashing: 156_056 started
+2022-04-01 09:37:31,254 - hashing: 156_056 completed
+2022-04-01 09:37:31,256 - hashing: 158_057 started
+2022-04-01 09:37:31,256 - hashing: 158_057 completed
+2022-04-01 09:37:31,257 - hashing: 165_060 started
+2022-04-01 09:37:31,257 - hashing: 165_060 completed
+2022-04-01 09:37:31,259 - hashing: 167_060 started
+2022-04-01 09:37:31,259 - hashing: 167_060 completed
+2022-04-01 09:37:31,261 - image 169_061 arrived at feature extraction
+2022-04-01 09:37:31,263 - image 171_062 arrived at feature extraction
+2022-04-01 09:37:31,264 - image 168_061 arrived at feature extraction
+2022-04-01 09:37:31,265 - image 170_062 arrived at feature extraction
+2022-04-01 09:37:31,267 - image 175_064 arrived at feature extraction
+2022-04-01 09:37:31,268 - image 174_063 arrived at feature extraction
+2022-04-01 09:37:31,270 - image 179_065 arrived at feature extraction
+2022-04-01 09:37:31,271 - image 181_066 arrived at feature extraction
+2022-04-01 09:37:31,271 - Extracting started: [('169', '061'), ('171', '062'), ('168', '061'), ('170', '062'), ('175', '064'), ('174', '063'), ('179', '065'), ('181', '066')] being feature-extracted
+2022-04-01 09:37:32,830 - Extracting completed: [('169', '061'), ('171', '062'), ('168', '061'), ('170', '062'), ('175', '064'), ('174', '063'), ('179', '065'), ('181', '066')] have been feature-extracted
+2022-04-01 09:37:32,830 - hashing: 169_061 started
+2022-04-01 09:37:32,831 - hashing: 169_061 completed
+2022-04-01 09:37:32,912 - hashing: 171_062 started
+2022-04-01 09:37:32,912 - hashing: 171_062 completed
+2022-04-01 09:37:32,919 - hashing: 168_061 started
+2022-04-01 09:37:32,919 - hashing: 168_061 completed
+2022-04-01 09:37:32,921 - hashing: 170_062 started
+2022-04-01 09:37:32,921 - hashing: 170_062 completed
+2022-04-01 09:37:32,922 - hashing: 175_064 started
+2022-04-01 09:37:32,923 - hashing: 175_064 completed
+2022-04-01 09:37:32,924 - hashing: 174_063 started
+2022-04-01 09:37:32,924 - hashing: 174_063 completed
+2022-04-01 09:37:32,926 - hashing: 179_065 started
+2022-04-01 09:37:32,926 - hashing: 179_065 completed
+2022-04-01 09:37:32,927 - hashing: 181_066 started
+2022-04-01 09:37:32,927 - hashing: 181_066 completed
+2022-04-01 09:37:32,930 - image 180_065 arrived at feature extraction
+2022-04-01 09:37:32,931 - image 185_066 arrived at feature extraction
+2022-04-01 09:37:32,932 - image 184_066 arrived at feature extraction
+2022-04-01 09:37:32,933 - image 189_067 arrived at feature extraction
+2022-04-01 09:37:32,934 - image 191_067 arrived at feature extraction
+2022-04-01 09:37:32,935 - image 193_068 arrived at feature extraction
+2022-04-01 09:37:32,936 - image 195_069 arrived at feature extraction
+2022-04-01 09:37:32,937 - image 197_069 arrived at feature extraction
+2022-04-01 09:37:32,937 - Extracting started: [('180', '065'), ('185', '066'), ('184', '066'), ('189', '067'), ('191', '067'), ('193', '068'), ('195', '069'), ('197', '069')] being feature-extracted
+2022-04-01 09:37:34,560 - Extracting completed: [('180', '065'), ('185', '066'), ('184', '066'), ('189', '067'), ('191', '067'), ('193', '068'), ('195', '069'), ('197', '069')] have been feature-extracted
+2022-04-01 09:37:34,561 - hashing: 180_065 started
+2022-04-01 09:37:34,561 - hashing: 180_065 completed
+2022-04-01 09:37:34,645 - hashing: 185_066 started
+2022-04-01 09:37:34,646 - hashing: 185_066 completed
+2022-04-01 09:37:34,647 - hashing: 184_066 started
+2022-04-01 09:37:34,648 - hashing: 184_066 completed
+2022-04-01 09:37:34,649 - hashing: 189_067 started
+2022-04-01 09:37:34,649 - hashing: 189_067 completed
+2022-04-01 09:37:34,651 - hashing: 191_067 started
+2022-04-01 09:37:34,651 - hashing: 191_067 completed
+2022-04-01 09:37:34,653 - hashing: 193_068 started
+2022-04-01 09:37:34,653 - hashing: 193_068 completed
+2022-04-01 09:37:34,655 - hashing: 195_069 started
+2022-04-01 09:37:34,655 - hashing: 195_069 completed
+2022-04-01 09:37:34,657 - hashing: 197_069 started
+2022-04-01 09:37:34,657 - hashing: 197_069 completed
+2022-04-01 09:37:34,660 - image 199_070 arrived at feature extraction
+2022-04-01 09:37:34,661 - image 200_070 arrived at feature extraction
+2022-04-01 09:37:34,662 - image 202_071 arrived at feature extraction
+2022-04-01 09:37:34,664 - image 204_072 arrived at feature extraction
+2022-04-01 09:37:34,665 - image 206_072 arrived at feature extraction
+2022-04-01 09:37:34,666 - image 208_073 arrived at feature extraction
+2022-04-01 09:37:34,667 - image 210_074 arrived at feature extraction
+2022-04-01 09:37:34,668 - image 212_075 arrived at feature extraction
+2022-04-01 09:37:34,668 - Extracting started: [('199', '070'), ('200', '070'), ('202', '071'), ('204', '072'), ('206', '072'), ('208', '073'), ('210', '074'), ('212', '075')] being feature-extracted
+2022-04-01 09:37:36,301 - Extracting completed: [('199', '070'), ('200', '070'), ('202', '071'), ('204', '072'), ('206', '072'), ('208', '073'), ('210', '074'), ('212', '075')] have been feature-extracted
+2022-04-01 09:37:36,301 - hashing: 199_070 started
+2022-04-01 09:37:36,302 - hashing: 199_070 completed
+2022-04-01 09:37:36,392 - hashing: 200_070 started
+2022-04-01 09:37:36,392 - hashing: 200_070 completed
+2022-04-01 09:37:36,394 - hashing: 202_071 started
+2022-04-01 09:37:36,394 - hashing: 202_071 completed
+2022-04-01 09:37:36,396 - hashing: 204_072 started
+2022-04-01 09:37:36,396 - hashing: 204_072 completed
+2022-04-01 09:37:36,397 - hashing: 206_072 started
+2022-04-01 09:37:36,398 - hashing: 206_072 completed
+2022-04-01 09:37:36,399 - hashing: 208_073 started
+2022-04-01 09:37:36,399 - hashing: 208_073 completed
+2022-04-01 09:37:36,400 - hashing: 210_074 started
+2022-04-01 09:37:36,400 - hashing: 210_074 completed
+2022-04-01 09:37:36,402 - hashing: 212_075 started
+2022-04-01 09:37:36,402 - hashing: 212_075 completed
+2022-04-01 09:37:36,405 - image 214_076 arrived at feature extraction
+2022-04-01 09:37:36,406 - image 216_077 arrived at feature extraction
+2022-04-01 09:37:36,407 - image 218_078 arrived at feature extraction
+2022-04-01 09:37:36,408 - image 220_079 arrived at feature extraction
+2022-04-01 09:37:36,409 - image 223_080 arrived at feature extraction
+2022-04-01 09:37:36,410 - image 225_081 arrived at feature extraction
+2022-04-01 09:37:36,411 - image 226_081 arrived at feature extraction
+2022-04-01 09:37:36,412 - image 229_081 arrived at feature extraction
+2022-04-01 09:37:36,413 - Extracting started: [('214', '076'), ('216', '077'), ('218', '078'), ('220', '079'), ('223', '080'), ('225', '081'), ('226', '081'), ('229', '081')] being feature-extracted
+2022-04-01 09:37:38,059 - Extracting completed: [('214', '076'), ('216', '077'), ('218', '078'), ('220', '079'), ('223', '080'), ('225', '081'), ('226', '081'), ('229', '081')] have been feature-extracted
+2022-04-01 09:37:38,060 - hashing: 214_076 started
+2022-04-01 09:37:38,060 - hashing: 214_076 completed
+2022-04-01 09:37:38,136 - hashing: 216_077 started
+2022-04-01 09:37:38,136 - hashing: 216_077 completed
+2022-04-01 09:37:38,138 - hashing: 218_078 started
+2022-04-01 09:37:38,138 - hashing: 218_078 completed
+2022-04-01 09:37:38,139 - hashing: 220_079 started
+2022-04-01 09:37:38,140 - hashing: 220_079 completed
+2022-04-01 09:37:38,141 - hashing: 223_080 started
+2022-04-01 09:37:38,142 - hashing: 223_080 completed
+2022-04-01 09:37:38,143 - hashing: 225_081 started
+2022-04-01 09:37:38,144 - hashing: 225_081 completed
+2022-04-01 09:37:38,146 - hashing: 226_081 started
+2022-04-01 09:37:38,146 - hashing: 226_081 completed
+2022-04-01 09:37:38,147 - hashing: 229_081 started
+2022-04-01 09:37:38,148 - hashing: 229_081 completed
+2022-04-01 09:37:38,150 - image 230_081 arrived at feature extraction
+2022-04-01 09:37:38,151 - image 232_082 arrived at feature extraction
+2022-04-01 09:37:38,152 - image 234_082 arrived at feature extraction
+2022-04-01 09:37:38,153 - image 236_083 arrived at feature extraction
+2022-04-01 09:37:38,154 - image 238_084 arrived at feature extraction
+2022-04-01 09:37:38,155 - image 240_085 arrived at feature extraction
+2022-04-01 09:37:38,156 - image 242_086 arrived at feature extraction
+2022-04-01 09:37:38,157 - image 244_087 arrived at feature extraction
+2022-04-01 09:37:38,157 - Extracting started: [('230', '081'), ('232', '082'), ('234', '082'), ('236', '083'), ('238', '084'), ('240', '085'), ('242', '086'), ('244', '087')] being feature-extracted
+2022-04-01 09:37:39,778 - Extracting completed: [('230', '081'), ('232', '082'), ('234', '082'), ('236', '083'), ('238', '084'), ('240', '085'), ('242', '086'), ('244', '087')] have been feature-extracted
+2022-04-01 09:37:39,778 - hashing: 230_081 started
+2022-04-01 09:37:39,779 - hashing: 230_081 completed
+2022-04-01 09:37:39,858 - hashing: 232_082 started
+2022-04-01 09:37:39,858 - hashing: 232_082 completed
+2022-04-01 09:37:39,860 - hashing: 234_082 started
+2022-04-01 09:37:39,860 - hashing: 234_082 completed
+2022-04-01 09:37:39,862 - hashing: 236_083 started
+2022-04-01 09:37:39,862 - hashing: 236_083 completed
+2022-04-01 09:37:39,864 - hashing: 238_084 started
+2022-04-01 09:37:39,864 - hashing: 238_084 completed
+2022-04-01 09:37:39,866 - hashing: 240_085 started
+2022-04-01 09:37:39,866 - hashing: 240_085 completed
+2022-04-01 09:37:39,868 - hashing: 242_086 started
+2022-04-01 09:37:39,868 - hashing: 242_086 completed
+2022-04-01 09:37:39,869 - hashing: 244_087 started
+2022-04-01 09:37:39,870 - hashing: 244_087 completed
+2022-04-01 09:37:39,873 - image 246_088 arrived at feature extraction
+2022-04-01 09:37:39,874 - image 249_089 arrived at feature extraction
+2022-04-01 09:37:39,875 - image 251_089 arrived at feature extraction
+2022-04-01 09:37:39,876 - image 253_090 arrived at feature extraction
+2022-04-01 09:37:39,877 - image 255_091 arrived at feature extraction
+2022-04-01 09:37:39,879 - image 257_092 arrived at feature extraction
+2022-04-01 09:37:39,880 - image 258_093 arrived at feature extraction
+2022-04-01 09:37:39,881 - image 260_094 arrived at feature extraction
+2022-04-01 09:37:39,881 - Extracting started: [('246', '088'), ('249', '089'), ('251', '089'), ('253', '090'), ('255', '091'), ('257', '092'), ('258', '093'), ('260', '094')] being feature-extracted
+2022-04-01 09:37:41,490 - Extracting completed: [('246', '088'), ('249', '089'), ('251', '089'), ('253', '090'), ('255', '091'), ('257', '092'), ('258', '093'), ('260', '094')] have been feature-extracted
+2022-04-01 09:37:41,490 - hashing: 246_088 started
+2022-04-01 09:37:41,490 - hashing: 246_088 completed
+2022-04-01 09:37:41,579 - hashing: 249_089 started
+2022-04-01 09:37:41,579 - hashing: 249_089 completed
+2022-04-01 09:37:41,580 - hashing: 251_089 started
+2022-04-01 09:37:41,580 - hashing: 251_089 completed
+2022-04-01 09:37:41,582 - hashing: 253_090 started
+2022-04-01 09:37:41,582 - hashing: 253_090 completed
+2022-04-01 09:37:41,584 - hashing: 255_091 started
+2022-04-01 09:37:41,584 - hashing: 255_091 completed
+2022-04-01 09:37:41,586 - hashing: 257_092 started
+2022-04-01 09:37:41,586 - hashing: 257_092 completed
+2022-04-01 09:37:41,587 - hashing: 258_093 started
+2022-04-01 09:37:41,587 - hashing: 258_093 completed
+2022-04-01 09:37:41,589 - hashing: 260_094 started
+2022-04-01 09:37:41,589 - hashing: 260_094 completed
+2022-04-01 09:37:41,591 - image 262_094 arrived at feature extraction
+2022-04-01 09:37:41,592 - image 264_095 arrived at feature extraction
+2022-04-01 09:37:41,593 - image 266_096 arrived at feature extraction
+2022-04-01 09:37:41,594 - image 268_097 arrived at feature extraction
+2022-04-01 09:37:41,595 - image 270_098 arrived at feature extraction
+2022-04-01 09:37:41,596 - image 272_099 arrived at feature extraction
+2022-04-01 09:37:41,597 - image 274_100 arrived at feature extraction
+2022-04-01 09:37:41,599 - image 276_101 arrived at feature extraction
+2022-04-01 09:37:41,599 - Extracting started: [('262', '094'), ('264', '095'), ('266', '096'), ('268', '097'), ('270', '098'), ('272', '099'), ('274', '100'), ('276', '101')] being feature-extracted
+2022-04-01 09:37:43,237 - Extracting completed: [('262', '094'), ('264', '095'), ('266', '096'), ('268', '097'), ('270', '098'), ('272', '099'), ('274', '100'), ('276', '101')] have been feature-extracted
+2022-04-01 09:37:43,237 - hashing: 262_094 started
+2022-04-01 09:37:43,237 - hashing: 262_094 completed
+2022-04-01 09:37:43,321 - hashing: 264_095 started
+2022-04-01 09:37:43,322 - hashing: 264_095 completed
+2022-04-01 09:37:43,323 - hashing: 266_096 started
+2022-04-01 09:37:43,323 - hashing: 266_096 completed
+2022-04-01 09:37:43,325 - hashing: 268_097 started
+2022-04-01 09:37:43,325 - hashing: 268_097 completed
+2022-04-01 09:37:43,327 - hashing: 270_098 started
+2022-04-01 09:37:43,327 - hashing: 270_098 completed
+2022-04-01 09:37:43,328 - hashing: 272_099 started
+2022-04-01 09:37:43,328 - hashing: 272_099 completed
+2022-04-01 09:37:43,330 - hashing: 274_100 started
+2022-04-01 09:37:43,330 - hashing: 274_100 completed
+2022-04-01 09:37:43,332 - hashing: 276_101 started
+2022-04-01 09:37:43,332 - hashing: 276_101 completed
+2022-04-01 09:37:43,335 - image 278_102 arrived at feature extraction
+2022-04-01 09:37:43,337 - image 280_103 arrived at feature extraction
+2022-04-01 09:37:43,338 - image 282_103 arrived at feature extraction
+2022-04-01 09:37:43,340 - image 284_104 arrived at feature extraction
+2022-04-01 09:37:43,341 - image 286_105 arrived at feature extraction
+2022-04-01 09:37:43,342 - image 288_106 arrived at feature extraction
+2022-04-01 09:37:43,343 - image 290_107 arrived at feature extraction
+2022-04-01 09:37:43,344 - image 292_108 arrived at feature extraction
+2022-04-01 09:37:43,345 - Extracting started: [('278', '102'), ('280', '103'), ('282', '103'), ('284', '104'), ('286', '105'), ('288', '106'), ('290', '107'), ('292', '108')] being feature-extracted
+2022-04-01 09:37:45,039 - Extracting completed: [('278', '102'), ('280', '103'), ('282', '103'), ('284', '104'), ('286', '105'), ('288', '106'), ('290', '107'), ('292', '108')] have been feature-extracted
+2022-04-01 09:37:45,040 - hashing: 278_102 started
+2022-04-01 09:37:45,040 - hashing: 278_102 completed
+2022-04-01 09:37:45,116 - hashing: 280_103 started
+2022-04-01 09:37:45,117 - hashing: 280_103 completed
+2022-04-01 09:37:45,118 - hashing: 282_103 started
+2022-04-01 09:37:45,118 - hashing: 282_103 completed
+2022-04-01 09:37:45,120 - hashing: 284_104 started
+2022-04-01 09:37:45,120 - hashing: 284_104 completed
+2022-04-01 09:37:45,122 - hashing: 286_105 started
+2022-04-01 09:37:45,122 - hashing: 286_105 completed
+2022-04-01 09:37:45,123 - hashing: 288_106 started
+2022-04-01 09:37:45,124 - hashing: 288_106 completed
+2022-04-01 09:37:45,125 - hashing: 290_107 started
+2022-04-01 09:37:45,125 - hashing: 290_107 completed
+2022-04-01 09:37:45,127 - hashing: 292_108 started
+2022-04-01 09:37:45,127 - hashing: 292_108 completed
+2022-04-01 09:37:45,129 - image 294_108 arrived at feature extraction
+2022-04-01 09:37:45,130 - image 296_109 arrived at feature extraction
+2022-04-01 09:37:45,132 - image 298_110 arrived at feature extraction
+2022-04-01 09:37:45,133 - image 300_111 arrived at feature extraction
+2022-04-01 09:37:45,134 - image 302_112 arrived at feature extraction
+2022-04-01 09:37:45,136 - image 304_113 arrived at feature extraction
+2022-04-01 09:37:45,137 - image 306_114 arrived at feature extraction
+2022-04-01 09:37:45,138 - image 308_115 arrived at feature extraction
+2022-04-01 09:37:45,139 - Extracting started: [('294', '108'), ('296', '109'), ('298', '110'), ('300', '111'), ('302', '112'), ('304', '113'), ('306', '114'), ('308', '115')] being feature-extracted
+2022-04-01 09:37:46,771 - Extracting completed: [('294', '108'), ('296', '109'), ('298', '110'), ('300', '111'), ('302', '112'), ('304', '113'), ('306', '114'), ('308', '115')] have been feature-extracted
+2022-04-01 09:37:46,772 - hashing: 294_108 started
+2022-04-01 09:37:46,772 - hashing: 294_108 completed
+2022-04-01 09:37:46,853 - hashing: 296_109 started
+2022-04-01 09:37:46,853 - hashing: 296_109 completed
+2022-04-01 09:37:46,855 - hashing: 298_110 started
+2022-04-01 09:37:46,855 - hashing: 298_110 completed
+2022-04-01 09:37:46,864 - hashing: 300_111 started
+2022-04-01 09:37:46,864 - hashing: 300_111 completed
+2022-04-01 09:37:46,866 - hashing: 302_112 started
+2022-04-01 09:37:46,866 - hashing: 302_112 completed
+2022-04-01 09:37:46,867 - hashing: 304_113 started
+2022-04-01 09:37:46,868 - hashing: 304_113 completed
+2022-04-01 09:37:46,869 - hashing: 306_114 started
+2022-04-01 09:37:46,869 - hashing: 306_114 completed
+2022-04-01 09:37:46,871 - hashing: 308_115 started
+2022-04-01 09:37:46,871 - hashing: 308_115 completed
+2022-04-01 09:37:46,874 - image 310_116 arrived at feature extraction
+2022-04-01 09:37:46,875 - image 312_117 arrived at feature extraction
+2022-04-01 09:37:46,876 - image 314_117 arrived at feature extraction
+2022-04-01 09:37:46,877 - image 316_118 arrived at feature extraction
+2022-04-01 09:37:46,879 - image 318_119 arrived at feature extraction
+2022-04-01 09:37:46,880 - image 320_120 arrived at feature extraction
+2022-04-01 09:37:46,881 - image 322_120 arrived at feature extraction
+2022-04-01 09:37:46,883 - image 324_121 arrived at feature extraction
+2022-04-01 09:37:46,883 - Extracting started: [('310', '116'), ('312', '117'), ('314', '117'), ('316', '118'), ('318', '119'), ('320', '120'), ('322', '120'), ('324', '121')] being feature-extracted
+2022-04-01 09:37:48,517 - Extracting completed: [('310', '116'), ('312', '117'), ('314', '117'), ('316', '118'), ('318', '119'), ('320', '120'), ('322', '120'), ('324', '121')] have been feature-extracted
+2022-04-01 09:37:48,517 - hashing: 310_116 started
+2022-04-01 09:37:48,518 - hashing: 310_116 completed
+2022-04-01 09:37:48,591 - hashing: 312_117 started
+2022-04-01 09:37:48,591 - hashing: 312_117 completed
+2022-04-01 09:37:48,600 - hashing: 314_117 started
+2022-04-01 09:37:48,600 - hashing: 314_117 completed
+2022-04-01 09:37:48,602 - hashing: 316_118 started
+2022-04-01 09:37:48,602 - hashing: 316_118 completed
+2022-04-01 09:37:48,603 - hashing: 318_119 started
+2022-04-01 09:37:48,603 - hashing: 318_119 completed
+2022-04-01 09:37:48,605 - hashing: 320_120 started
+2022-04-01 09:37:48,605 - hashing: 320_120 completed
+2022-04-01 09:37:48,607 - hashing: 322_120 started
+2022-04-01 09:37:48,607 - hashing: 322_120 completed
+2022-04-01 09:37:48,609 - hashing: 324_121 started
+2022-04-01 09:37:48,609 - hashing: 324_121 completed
+2022-04-01 09:37:48,612 - image 326_122 arrived at feature extraction
+2022-04-01 09:37:48,613 - image 328_123 arrived at feature extraction
+2022-04-01 09:37:48,614 - image 330_123 arrived at feature extraction
+2022-04-01 09:37:48,616 - image 332_124 arrived at feature extraction
+2022-04-01 09:37:48,617 - image 334_124 arrived at feature extraction
+2022-04-01 09:37:48,619 - image 336_124 arrived at feature extraction
+2022-04-01 09:37:48,620 - image 338_124 arrived at feature extraction
+2022-04-01 09:37:48,622 - image 340_125 arrived at feature extraction
+2022-04-01 09:37:48,622 - Extracting started: [('326', '122'), ('328', '123'), ('330', '123'), ('332', '124'), ('334', '124'), ('336', '124'), ('338', '124'), ('340', '125')] being feature-extracted
+2022-04-01 09:37:50,256 - Extracting completed: [('326', '122'), ('328', '123'), ('330', '123'), ('332', '124'), ('334', '124'), ('336', '124'), ('338', '124'), ('340', '125')] have been feature-extracted
+2022-04-01 09:37:50,256 - hashing: 326_122 started
+2022-04-01 09:37:50,256 - hashing: 326_122 completed
+2022-04-01 09:37:50,335 - hashing: 328_123 started
+2022-04-01 09:37:50,335 - hashing: 328_123 completed
+2022-04-01 09:37:50,337 - hashing: 330_123 started
+2022-04-01 09:37:50,337 - hashing: 330_123 completed
+2022-04-01 09:37:50,339 - hashing: 332_124 started
+2022-04-01 09:37:50,339 - hashing: 332_124 completed
+2022-04-01 09:37:50,341 - hashing: 334_124 started
+2022-04-01 09:37:50,341 - hashing: 334_124 completed
+2022-04-01 09:37:50,342 - hashing: 336_124 started
+2022-04-01 09:37:50,343 - hashing: 336_124 completed
+2022-04-01 09:37:50,344 - hashing: 338_124 started
+2022-04-01 09:37:50,344 - hashing: 338_124 completed
+2022-04-01 09:37:50,346 - hashing: 340_125 started
+2022-04-01 09:37:50,346 - hashing: 340_125 completed
+2022-04-01 09:37:50,348 - image 342_126 arrived at feature extraction
+2022-04-01 09:37:50,350 - image 344_126 arrived at feature extraction
+2022-04-01 09:37:50,351 - image 346_127 arrived at feature extraction
+2022-04-01 09:37:50,352 - image 348_128 arrived at feature extraction
+2022-04-01 09:37:50,353 - image 350_129 arrived at feature extraction
+2022-04-01 09:37:50,354 - image 352_130 arrived at feature extraction
+2022-04-01 09:37:50,355 - image 354_131 arrived at feature extraction
+2022-04-01 09:37:50,357 - image 356_132 arrived at feature extraction
+2022-04-01 09:37:50,357 - Extracting started: [('342', '126'), ('344', '126'), ('346', '127'), ('348', '128'), ('350', '129'), ('352', '130'), ('354', '131'), ('356', '132')] being feature-extracted
+2022-04-01 09:37:52,032 - Extracting completed: [('342', '126'), ('344', '126'), ('346', '127'), ('348', '128'), ('350', '129'), ('352', '130'), ('354', '131'), ('356', '132')] have been feature-extracted
+2022-04-01 09:37:52,033 - hashing: 342_126 started
+2022-04-01 09:37:52,033 - hashing: 342_126 completed
+2022-04-01 09:37:52,114 - hashing: 344_126 started
+2022-04-01 09:37:52,114 - hashing: 344_126 completed
+2022-04-01 09:37:52,121 - hashing: 346_127 started
+2022-04-01 09:37:52,122 - hashing: 346_127 completed
+2022-04-01 09:37:52,123 - hashing: 348_128 started
+2022-04-01 09:37:52,123 - hashing: 348_128 completed
+2022-04-01 09:37:52,125 - hashing: 350_129 started
+2022-04-01 09:37:52,126 - hashing: 350_129 completed
+2022-04-01 09:37:52,127 - hashing: 352_130 started
+2022-04-01 09:37:52,128 - hashing: 352_130 completed
+2022-04-01 09:37:52,129 - hashing: 354_131 started
+2022-04-01 09:37:52,130 - hashing: 354_131 completed
+2022-04-01 09:37:52,131 - hashing: 356_132 started
+2022-04-01 09:37:52,132 - hashing: 356_132 completed
+2022-04-01 09:37:52,135 - image 358_133 arrived at feature extraction
+2022-04-01 09:37:52,136 - image 360_134 arrived at feature extraction
+2022-04-01 09:37:52,138 - image 362_134 arrived at feature extraction
+2022-04-01 09:37:52,139 - image 364_134 arrived at feature extraction
+2022-04-01 09:37:52,141 - image 366_135 arrived at feature extraction
+2022-04-01 09:37:52,143 - image 368_136 arrived at feature extraction
+2022-04-01 09:37:52,144 - image 370_137 arrived at feature extraction
+2022-04-01 09:37:52,146 - image 372_138 arrived at feature extraction
+2022-04-01 09:37:52,146 - Extracting started: [('358', '133'), ('360', '134'), ('362', '134'), ('364', '134'), ('366', '135'), ('368', '136'), ('370', '137'), ('372', '138')] being feature-extracted
+2022-04-01 09:37:53,789 - Extracting completed: [('358', '133'), ('360', '134'), ('362', '134'), ('364', '134'), ('366', '135'), ('368', '136'), ('370', '137'), ('372', '138')] have been feature-extracted
+2022-04-01 09:37:53,789 - hashing: 358_133 started
+2022-04-01 09:37:53,790 - hashing: 358_133 completed
+2022-04-01 09:37:53,858 - hashing: 360_134 started
+2022-04-01 09:37:53,858 - hashing: 360_134 completed
+2022-04-01 09:37:53,865 - hashing: 362_134 started
+2022-04-01 09:37:53,865 - hashing: 362_134 completed
+2022-04-01 09:37:53,867 - hashing: 364_134 started
+2022-04-01 09:37:53,867 - hashing: 364_134 completed
+2022-04-01 09:37:53,869 - hashing: 366_135 started
+2022-04-01 09:37:53,869 - hashing: 366_135 completed
+2022-04-01 09:37:53,870 - hashing: 368_136 started
+2022-04-01 09:37:53,870 - hashing: 368_136 completed
+2022-04-01 09:37:53,872 - hashing: 370_137 started
+2022-04-01 09:37:53,872 - hashing: 370_137 completed
+2022-04-01 09:37:53,874 - hashing: 372_138 started
+2022-04-01 09:37:53,874 - hashing: 372_138 completed
+2022-04-01 09:37:53,877 - image 374_139 arrived at feature extraction
+2022-04-01 09:37:53,879 - image 376_140 arrived at feature extraction
+2022-04-01 09:37:53,880 - image 378_140 arrived at feature extraction
+2022-04-01 09:37:53,882 - image 380_141 arrived at feature extraction
+2022-04-01 09:37:53,883 - image 382_142 arrived at feature extraction
+2022-04-01 09:37:53,884 - image 384_143 arrived at feature extraction
+2022-04-01 09:37:53,886 - image 386_144 arrived at feature extraction
+2022-04-01 09:37:53,887 - image 388_145 arrived at feature extraction
+2022-04-01 09:37:53,887 - Extracting started: [('374', '139'), ('376', '140'), ('378', '140'), ('380', '141'), ('382', '142'), ('384', '143'), ('386', '144'), ('388', '145')] being feature-extracted
+2022-04-01 09:37:55,524 - Extracting completed: [('374', '139'), ('376', '140'), ('378', '140'), ('380', '141'), ('382', '142'), ('384', '143'), ('386', '144'), ('388', '145')] have been feature-extracted
+2022-04-01 09:37:55,524 - hashing: 374_139 started
+2022-04-01 09:37:55,524 - hashing: 374_139 completed
+2022-04-01 09:37:55,599 - hashing: 376_140 started
+2022-04-01 09:37:55,599 - hashing: 376_140 completed
+2022-04-01 09:37:55,608 - hashing: 378_140 started
+2022-04-01 09:37:55,608 - hashing: 378_140 completed
+2022-04-01 09:37:55,610 - hashing: 380_141 started
+2022-04-01 09:37:55,610 - hashing: 380_141 completed
+2022-04-01 09:37:55,611 - hashing: 382_142 started
+2022-04-01 09:37:55,612 - hashing: 382_142 completed
+2022-04-01 09:37:55,613 - hashing: 384_143 started
+2022-04-01 09:37:55,613 - hashing: 384_143 completed
+2022-04-01 09:37:55,615 - hashing: 386_144 started
+2022-04-01 09:37:55,615 - hashing: 386_144 completed
+2022-04-01 09:37:55,617 - hashing: 388_145 started
+2022-04-01 09:37:55,617 - hashing: 388_145 completed
+2022-04-01 09:37:55,620 - image 390_145 arrived at feature extraction
+2022-04-01 09:37:55,622 - image 392_145 arrived at feature extraction
+2022-04-01 09:37:55,623 - image 394_146 arrived at feature extraction
+2022-04-01 09:37:55,624 - image 396_147 arrived at feature extraction
+2022-04-01 09:37:55,625 - image 398_147 arrived at feature extraction
+2022-04-01 09:37:55,627 - image 400_148 arrived at feature extraction
+2022-04-01 09:37:55,628 - image 402_149 arrived at feature extraction
+2022-04-01 09:37:55,629 - image 404_149 arrived at feature extraction
+2022-04-01 09:37:55,630 - Extracting started: [('390', '145'), ('392', '145'), ('394', '146'), ('396', '147'), ('398', '147'), ('400', '148'), ('402', '149'), ('404', '149')] being feature-extracted
+2022-04-01 09:37:57,269 - Extracting completed: [('390', '145'), ('392', '145'), ('394', '146'), ('396', '147'), ('398', '147'), ('400', '148'), ('402', '149'), ('404', '149')] have been feature-extracted
+2022-04-01 09:37:57,270 - hashing: 390_145 started
+2022-04-01 09:37:57,272 - hashing: 390_145 completed
+2022-04-01 09:37:57,350 - hashing: 392_145 started
+2022-04-01 09:37:57,350 - hashing: 392_145 completed
+2022-04-01 09:37:57,357 - hashing: 394_146 started
+2022-04-01 09:37:57,357 - hashing: 394_146 completed
+2022-04-01 09:37:57,359 - hashing: 396_147 started
+2022-04-01 09:37:57,360 - hashing: 396_147 completed
+2022-04-01 09:37:57,361 - hashing: 398_147 started
+2022-04-01 09:37:57,362 - hashing: 398_147 completed
+2022-04-01 09:37:57,364 - hashing: 400_148 started
+2022-04-01 09:37:57,364 - hashing: 400_148 completed
+2022-04-01 09:37:57,365 - hashing: 402_149 started
+2022-04-01 09:37:57,366 - hashing: 402_149 completed
+2022-04-01 09:37:57,367 - hashing: 404_149 started
+2022-04-01 09:37:57,367 - hashing: 404_149 completed
+2022-04-01 09:37:57,370 - image 406_150 arrived at feature extraction
+2022-04-01 09:37:57,371 - image 408_151 arrived at feature extraction
+2022-04-01 09:37:57,372 - image 410_152 arrived at feature extraction
+2022-04-01 09:37:57,373 - image 412_153 arrived at feature extraction
+2022-04-01 09:37:57,374 - image 414_154 arrived at feature extraction
+2022-04-01 09:37:57,375 - image 416_155 arrived at feature extraction
+2022-04-01 09:37:57,377 - image 418_156 arrived at feature extraction
+2022-04-01 09:37:57,378 - image 420_157 arrived at feature extraction
+2022-04-01 09:37:57,379 - Extracting started: [('406', '150'), ('408', '151'), ('410', '152'), ('412', '153'), ('414', '154'), ('416', '155'), ('418', '156'), ('420', '157')] being feature-extracted
+2022-04-01 09:37:59,014 - Extracting completed: [('406', '150'), ('408', '151'), ('410', '152'), ('412', '153'), ('414', '154'), ('416', '155'), ('418', '156'), ('420', '157')] have been feature-extracted
+2022-04-01 09:37:59,014 - hashing: 406_150 started
+2022-04-01 09:37:59,015 - hashing: 406_150 completed
+2022-04-01 09:37:59,093 - hashing: 408_151 started
+2022-04-01 09:37:59,093 - hashing: 408_151 completed
+2022-04-01 09:37:59,100 - hashing: 410_152 started
+2022-04-01 09:37:59,100 - hashing: 410_152 completed
+2022-04-01 09:37:59,102 - hashing: 412_153 started
+2022-04-01 09:37:59,102 - hashing: 412_153 completed
+2022-04-01 09:37:59,103 - hashing: 414_154 started
+2022-04-01 09:37:59,103 - hashing: 414_154 completed
+2022-04-01 09:37:59,105 - hashing: 416_155 started
+2022-04-01 09:37:59,105 - hashing: 416_155 completed
+2022-04-01 09:37:59,107 - hashing: 418_156 started
+2022-04-01 09:37:59,107 - hashing: 418_156 completed
+2022-04-01 09:37:59,109 - hashing: 420_157 started
+2022-04-01 09:37:59,109 - hashing: 420_157 completed
+2022-04-01 09:37:59,112 - image 422_157 arrived at feature extraction
+2022-04-01 09:37:59,113 - image 424_158 arrived at feature extraction
+2022-04-01 09:37:59,114 - image 426_159 arrived at feature extraction
+2022-04-01 09:37:59,115 - image 428_160 arrived at feature extraction
+2022-04-01 09:37:59,116 - image 430_160 arrived at feature extraction
+2022-04-01 09:37:59,117 - image 432_161 arrived at feature extraction
+2022-04-01 09:37:59,118 - image 434_162 arrived at feature extraction
+2022-04-01 09:37:59,119 - image 436_163 arrived at feature extraction
+2022-04-01 09:37:59,120 - Extracting started: [('422', '157'), ('424', '158'), ('426', '159'), ('428', '160'), ('430', '160'), ('432', '161'), ('434', '162'), ('436', '163')] being feature-extracted
+2022-04-01 09:38:00,768 - Extracting completed: [('422', '157'), ('424', '158'), ('426', '159'), ('428', '160'), ('430', '160'), ('432', '161'), ('434', '162'), ('436', '163')] have been feature-extracted
+2022-04-01 09:38:00,768 - hashing: 422_157 started
+2022-04-01 09:38:00,768 - hashing: 422_157 completed
+2022-04-01 09:38:00,853 - hashing: 424_158 started
+2022-04-01 09:38:00,853 - hashing: 424_158 completed
+2022-04-01 09:38:00,859 - hashing: 426_159 started
+2022-04-01 09:38:00,859 - hashing: 426_159 completed
+2022-04-01 09:38:00,861 - hashing: 428_160 started
+2022-04-01 09:38:00,861 - hashing: 428_160 completed
+2022-04-01 09:38:00,863 - hashing: 430_160 started
+2022-04-01 09:38:00,863 - hashing: 430_160 completed
+2022-04-01 09:38:00,864 - hashing: 432_161 started
+2022-04-01 09:38:00,864 - hashing: 432_161 completed
+2022-04-01 09:38:00,866 - hashing: 434_162 started
+2022-04-01 09:38:00,866 - hashing: 434_162 completed
+2022-04-01 09:38:00,867 - hashing: 436_163 started
+2022-04-01 09:38:00,867 - hashing: 436_163 completed
+2022-04-01 09:38:00,870 - image 438_164 arrived at feature extraction
+2022-04-01 09:38:00,871 - image 440_165 arrived at feature extraction
+2022-04-01 09:38:00,873 - image 442_166 arrived at feature extraction
+2022-04-01 09:38:00,874 - image 444_167 arrived at feature extraction
+2022-04-01 09:38:00,875 - image 446_167 arrived at feature extraction
+2022-04-01 09:38:00,876 - image 448_168 arrived at feature extraction
+2022-04-01 09:38:00,878 - image 450_168 arrived at feature extraction
+2022-04-01 09:38:00,879 - image 452_169 arrived at feature extraction
+2022-04-01 09:38:00,879 - Extracting started: [('438', '164'), ('440', '165'), ('442', '166'), ('444', '167'), ('446', '167'), ('448', '168'), ('450', '168'), ('452', '169')] being feature-extracted
+2022-04-01 09:38:02,511 - Extracting completed: [('438', '164'), ('440', '165'), ('442', '166'), ('444', '167'), ('446', '167'), ('448', '168'), ('450', '168'), ('452', '169')] have been feature-extracted
+2022-04-01 09:38:02,511 - hashing: 438_164 started
+2022-04-01 09:38:02,512 - hashing: 438_164 completed
+2022-04-01 09:38:02,593 - hashing: 440_165 started
+2022-04-01 09:38:02,593 - hashing: 440_165 completed
+2022-04-01 09:38:02,595 - hashing: 442_166 started
+2022-04-01 09:38:02,595 - hashing: 442_166 completed
+2022-04-01 09:38:02,597 - hashing: 444_167 started
+2022-04-01 09:38:02,597 - hashing: 444_167 completed
+2022-04-01 09:38:02,599 - hashing: 446_167 started
+2022-04-01 09:38:02,599 - hashing: 446_167 completed
+2022-04-01 09:38:02,601 - hashing: 448_168 started
+2022-04-01 09:38:02,601 - hashing: 448_168 completed
+2022-04-01 09:38:02,603 - hashing: 450_168 started
+2022-04-01 09:38:02,603 - hashing: 450_168 completed
+2022-04-01 09:38:02,605 - hashing: 452_169 started
+2022-04-01 09:38:02,605 - hashing: 452_169 completed
+2022-04-01 09:38:02,608 - image 454_170 arrived at feature extraction
+2022-04-01 09:38:02,610 - image 456_171 arrived at feature extraction
+2022-04-01 09:38:02,611 - image 458_171 arrived at feature extraction
+2022-04-01 09:38:02,613 - image 460_172 arrived at feature extraction
+2022-04-01 09:38:02,615 - image 462_173 arrived at feature extraction
+2022-04-01 09:38:02,616 - image 464_174 arrived at feature extraction
+2022-04-01 09:38:02,618 - image 466_174 arrived at feature extraction
+2022-04-01 09:38:02,619 - image 468_175 arrived at feature extraction
+2022-04-01 09:38:02,619 - Extracting started: [('454', '170'), ('456', '171'), ('458', '171'), ('460', '172'), ('462', '173'), ('464', '174'), ('466', '174'), ('468', '175')] being feature-extracted
+2022-04-01 09:38:04,264 - Extracting completed: [('454', '170'), ('456', '171'), ('458', '171'), ('460', '172'), ('462', '173'), ('464', '174'), ('466', '174'), ('468', '175')] have been feature-extracted
+2022-04-01 09:38:04,264 - hashing: 454_170 started
+2022-04-01 09:38:04,265 - hashing: 454_170 completed
+2022-04-01 09:38:04,371 - hashing: 456_171 started
+2022-04-01 09:38:04,371 - hashing: 456_171 completed
+2022-04-01 09:38:04,377 - hashing: 458_171 started
+2022-04-01 09:38:04,378 - hashing: 458_171 completed
+2022-04-01 09:38:04,379 - hashing: 460_172 started
+2022-04-01 09:38:04,379 - hashing: 460_172 completed
+2022-04-01 09:38:04,381 - hashing: 462_173 started
+2022-04-01 09:38:04,381 - hashing: 462_173 completed
+2022-04-01 09:38:04,382 - hashing: 464_174 started
+2022-04-01 09:38:04,383 - hashing: 464_174 completed
+2022-04-01 09:38:04,384 - hashing: 466_174 started
+2022-04-01 09:38:04,384 - hashing: 466_174 completed
+2022-04-01 09:38:04,386 - hashing: 468_175 started
+2022-04-01 09:38:04,386 - hashing: 468_175 completed
+2022-04-01 09:38:04,389 - image 470_176 arrived at feature extraction
+2022-04-01 09:38:04,391 - image 472_177 arrived at feature extraction
+2022-04-01 09:38:04,392 - image 474_178 arrived at feature extraction
+2022-04-01 09:38:04,394 - image 476_178 arrived at feature extraction
+2022-04-01 09:38:04,395 - image 478_179 arrived at feature extraction
+2022-04-01 09:38:04,396 - image 480_180 arrived at feature extraction
+2022-04-01 09:38:04,398 - image 482_180 arrived at feature extraction
+2022-04-01 09:38:04,399 - image 484_181 arrived at feature extraction
+2022-04-01 09:38:04,399 - Extracting started: [('470', '176'), ('472', '177'), ('474', '178'), ('476', '178'), ('478', '179'), ('480', '180'), ('482', '180'), ('484', '181')] being feature-extracted
+2022-04-01 09:38:06,046 - Extracting completed: [('470', '176'), ('472', '177'), ('474', '178'), ('476', '178'), ('478', '179'), ('480', '180'), ('482', '180'), ('484', '181')] have been feature-extracted
+2022-04-01 09:38:06,046 - hashing: 470_176 started
+2022-04-01 09:38:06,047 - hashing: 470_176 completed
+2022-04-01 09:38:06,127 - hashing: 472_177 started
+2022-04-01 09:38:06,128 - hashing: 472_177 completed
+2022-04-01 09:38:06,134 - hashing: 474_178 started
+2022-04-01 09:38:06,135 - hashing: 474_178 completed
+2022-04-01 09:38:06,136 - hashing: 476_178 started
+2022-04-01 09:38:06,137 - hashing: 476_178 completed
+2022-04-01 09:38:06,138 - hashing: 478_179 started
+2022-04-01 09:38:06,139 - hashing: 478_179 completed
+2022-04-01 09:38:06,141 - hashing: 480_180 started
+2022-04-01 09:38:06,141 - hashing: 480_180 completed
+2022-04-01 09:38:06,143 - hashing: 482_180 started
+2022-04-01 09:38:06,143 - hashing: 482_180 completed
+2022-04-01 09:38:06,144 - hashing: 484_181 started
+2022-04-01 09:38:06,144 - hashing: 484_181 completed
+2022-04-01 09:38:06,147 - image 486_182 arrived at feature extraction
+2022-04-01 09:38:06,148 - image 488_183 arrived at feature extraction
+2022-04-01 09:38:06,149 - image 490_183 arrived at feature extraction
+2022-04-01 09:38:06,151 - image 492_184 arrived at feature extraction
+2022-04-01 09:38:06,152 - image 494_184 arrived at feature extraction
+2022-04-01 09:38:06,153 - image 496_185 arrived at feature extraction
+2022-04-01 09:38:06,154 - image 497_186 arrived at feature extraction
+2022-04-01 09:38:06,155 - image 500_187 arrived at feature extraction
+2022-04-01 09:38:06,155 - Extracting started: [('486', '182'), ('488', '183'), ('490', '183'), ('492', '184'), ('494', '184'), ('496', '185'), ('497', '186'), ('500', '187')] being feature-extracted
+2022-04-01 09:38:07,793 - Extracting completed: [('486', '182'), ('488', '183'), ('490', '183'), ('492', '184'), ('494', '184'), ('496', '185'), ('497', '186'), ('500', '187')] have been feature-extracted
+2022-04-01 09:38:07,794 - hashing: 486_182 started
+2022-04-01 09:38:07,795 - hashing: 486_182 completed
+2022-04-01 09:38:07,879 - hashing: 488_183 started
+2022-04-01 09:38:07,879 - hashing: 488_183 completed
+2022-04-01 09:38:07,887 - hashing: 490_183 started
+2022-04-01 09:38:07,887 - hashing: 490_183 completed
+2022-04-01 09:38:07,889 - hashing: 492_184 started
+2022-04-01 09:38:07,889 - hashing: 492_184 completed
+2022-04-01 09:38:07,891 - hashing: 494_184 started
+2022-04-01 09:38:07,891 - hashing: 494_184 completed
+2022-04-01 09:38:07,893 - hashing: 496_185 started
+2022-04-01 09:38:07,893 - hashing: 496_185 completed
+2022-04-01 09:38:07,895 - hashing: 497_186 started
+2022-04-01 09:38:07,895 - hashing: 497_186 completed
+2022-04-01 09:38:07,897 - hashing: 500_187 started
+2022-04-01 09:38:07,897 - hashing: 500_187 completed
+2022-04-01 09:38:07,900 - image 501_188 arrived at feature extraction
+2022-04-01 09:38:07,902 - image 504_188 arrived at feature extraction
+2022-04-01 09:38:07,903 - image 506_189 arrived at feature extraction
+2022-04-01 09:38:07,905 - image 507_190 arrived at feature extraction
+2022-04-01 09:38:07,906 - image 510_191 arrived at feature extraction
+2022-04-01 09:38:07,908 - image 511_192 arrived at feature extraction
+2022-04-01 09:38:07,910 - image 514_192 arrived at feature extraction
+2022-04-01 09:38:07,911 - image 515_193 arrived at feature extraction
+2022-04-01 09:38:07,911 - Extracting started: [('501', '188'), ('504', '188'), ('506', '189'), ('507', '190'), ('510', '191'), ('511', '192'), ('514', '192'), ('515', '193')] being feature-extracted
+2022-04-01 09:38:09,555 - Extracting completed: [('501', '188'), ('504', '188'), ('506', '189'), ('507', '190'), ('510', '191'), ('511', '192'), ('514', '192'), ('515', '193')] have been feature-extracted
+2022-04-01 09:38:09,555 - hashing: 501_188 started
+2022-04-01 09:38:09,555 - hashing: 501_188 completed
+2022-04-01 09:38:09,639 - hashing: 504_188 started
+2022-04-01 09:38:09,639 - hashing: 504_188 completed
+2022-04-01 09:38:09,640 - hashing: 506_189 started
+2022-04-01 09:38:09,641 - hashing: 506_189 completed
+2022-04-01 09:38:09,642 - hashing: 507_190 started
+2022-04-01 09:38:09,643 - hashing: 507_190 completed
+2022-04-01 09:38:09,644 - hashing: 510_191 started
+2022-04-01 09:38:09,644 - hashing: 510_191 completed
+2022-04-01 09:38:09,653 - hashing: 511_192 started
+2022-04-01 09:38:09,653 - hashing: 511_192 completed
+2022-04-01 09:38:09,654 - hashing: 514_192 started
+2022-04-01 09:38:09,654 - hashing: 514_192 completed
+2022-04-01 09:38:09,656 - hashing: 515_193 started
+2022-04-01 09:38:09,656 - hashing: 515_193 completed
+2022-04-01 09:38:09,659 - image 518_194 arrived at feature extraction
+2022-04-01 09:38:09,660 - image 519_195 arrived at feature extraction
+2022-04-01 09:38:09,662 - image 522_196 arrived at feature extraction
+2022-04-01 09:38:09,663 - image 523_196 arrived at feature extraction
+2022-04-01 09:38:09,664 - image 526_196 arrived at feature extraction
+2022-04-01 09:38:09,666 - image 527_197 arrived at feature extraction
+2022-04-01 09:38:09,667 - image 530_197 arrived at feature extraction
+2022-04-01 09:38:09,669 - image 531_197 arrived at feature extraction
+2022-04-01 09:38:09,669 - Extracting started: [('518', '194'), ('519', '195'), ('522', '196'), ('523', '196'), ('526', '196'), ('527', '197'), ('530', '197'), ('531', '197')] being feature-extracted
+2022-04-01 09:38:11,307 - Extracting completed: [('518', '194'), ('519', '195'), ('522', '196'), ('523', '196'), ('526', '196'), ('527', '197'), ('530', '197'), ('531', '197')] have been feature-extracted
+2022-04-01 09:38:11,307 - hashing: 518_194 started
+2022-04-01 09:38:11,308 - hashing: 518_194 completed
+2022-04-01 09:38:11,403 - hashing: 519_195 started
+2022-04-01 09:38:11,403 - hashing: 519_195 completed
+2022-04-01 09:38:11,410 - hashing: 522_196 started
+2022-04-01 09:38:11,410 - hashing: 522_196 completed
+2022-04-01 09:38:11,412 - hashing: 523_196 started
+2022-04-01 09:38:11,412 - hashing: 523_196 completed
+2022-04-01 09:38:11,414 - hashing: 526_196 started
+2022-04-01 09:38:11,414 - hashing: 526_196 completed
+2022-04-01 09:38:11,415 - hashing: 527_197 started
+2022-04-01 09:38:11,415 - hashing: 527_197 completed
+2022-04-01 09:38:11,417 - hashing: 530_197 started
+2022-04-01 09:38:11,417 - hashing: 530_197 completed
+2022-04-01 09:38:11,419 - hashing: 531_197 started
+2022-04-01 09:38:11,419 - hashing: 531_197 completed
+2022-04-01 09:38:11,422 - image 534_199 arrived at feature extraction
+2022-04-01 09:38:11,423 - image 536_200 arrived at feature extraction
+2022-04-01 09:38:11,424 - image 537_200 arrived at feature extraction
+2022-04-01 09:38:11,426 - image 540_202 arrived at feature extraction
+2022-04-01 09:38:11,427 - image 541_202 arrived at feature extraction
+2022-04-01 09:38:11,429 - image 544_204 arrived at feature extraction
+2022-04-01 09:38:11,430 - image 545_204 arrived at feature extraction
+2022-04-01 09:38:11,432 - image 548_206 arrived at feature extraction
+2022-04-01 09:38:11,432 - Extracting started: [('534', '199'), ('536', '200'), ('537', '200'), ('540', '202'), ('541', '202'), ('544', '204'), ('545', '204'), ('548', '206')] being feature-extracted
+2022-04-01 09:38:13,074 - Extracting completed: [('534', '199'), ('536', '200'), ('537', '200'), ('540', '202'), ('541', '202'), ('544', '204'), ('545', '204'), ('548', '206')] have been feature-extracted
+2022-04-01 09:38:13,074 - hashing: 534_199 started
+2022-04-01 09:38:13,075 - hashing: 534_199 completed
+2022-04-01 09:38:13,174 - hashing: 536_200 started
+2022-04-01 09:38:13,174 - hashing: 536_200 completed
+2022-04-01 09:38:13,183 - hashing: 537_200 started
+2022-04-01 09:38:13,183 - hashing: 537_200 completed
+2022-04-01 09:38:13,185 - hashing: 540_202 started
+2022-04-01 09:38:13,185 - hashing: 540_202 completed
+2022-04-01 09:38:13,187 - hashing: 541_202 started
+2022-04-01 09:38:13,187 - hashing: 541_202 completed
+2022-04-01 09:38:13,188 - hashing: 544_204 started
+2022-04-01 09:38:13,189 - hashing: 544_204 completed
+2022-04-01 09:38:13,190 - hashing: 545_204 started
+2022-04-01 09:38:13,191 - hashing: 545_204 completed
+2022-04-01 09:38:13,192 - hashing: 548_206 started
+2022-04-01 09:38:13,192 - hashing: 548_206 completed
+2022-04-01 09:38:13,195 - image 549_206 arrived at feature extraction
+2022-04-01 09:38:13,197 - image 552_207 arrived at feature extraction
+2022-04-01 09:38:13,198 - image 553_207 arrived at feature extraction
+2022-04-01 09:38:13,200 - image 556_209 arrived at feature extraction
+2022-04-01 09:38:13,201 - image 557_209 arrived at feature extraction
+2022-04-01 09:38:13,203 - image 560_211 arrived at feature extraction
+2022-04-01 09:38:13,204 - image 561_211 arrived at feature extraction
+2022-04-01 09:38:13,205 - image 564_213 arrived at feature extraction
+2022-04-01 09:38:13,205 - Extracting started: [('549', '206'), ('552', '207'), ('553', '207'), ('556', '209'), ('557', '209'), ('560', '211'), ('561', '211'), ('564', '213')] being feature-extracted
+2022-04-01 09:38:14,839 - Extracting completed: [('549', '206'), ('552', '207'), ('553', '207'), ('556', '209'), ('557', '209'), ('560', '211'), ('561', '211'), ('564', '213')] have been feature-extracted
+2022-04-01 09:38:14,842 - hashing: 549_206 started
+2022-04-01 09:38:14,842 - hashing: 549_206 completed
+2022-04-01 09:38:14,881 - hashing: 552_207 started
+2022-04-01 09:38:14,881 - hashing: 552_207 completed
+2022-04-01 09:38:14,882 - hashing: 553_207 started
+2022-04-01 09:38:14,883 - hashing: 553_207 completed
+2022-04-01 09:38:14,884 - hashing: 556_209 started
+2022-04-01 09:38:14,884 - hashing: 556_209 completed
+2022-04-01 09:38:14,885 - hashing: 557_209 started
+2022-04-01 09:38:14,885 - hashing: 557_209 completed
+2022-04-01 09:38:14,886 - hashing: 560_211 started
+2022-04-01 09:38:14,887 - hashing: 560_211 completed
+2022-04-01 09:38:14,888 - hashing: 561_211 started
+2022-04-01 09:38:14,888 - hashing: 561_211 completed
+2022-04-01 09:38:14,889 - hashing: 564_213 started
+2022-04-01 09:38:14,889 - hashing: 564_213 completed
+2022-04-01 09:38:14,891 - image 566_214 arrived at feature extraction
+2022-04-01 09:38:14,892 - image 567_214 arrived at feature extraction
+2022-04-01 09:38:14,894 - image 570_214 arrived at feature extraction
+2022-04-01 09:38:14,895 - image 571_215 arrived at feature extraction
+2022-04-01 09:38:14,896 - image 573_216 arrived at feature extraction
+2022-04-01 09:38:14,897 - image 575_217 arrived at feature extraction
+2022-04-01 09:38:14,898 - image 577_218 arrived at feature extraction
+2022-04-01 09:38:14,899 - image 579_219 arrived at feature extraction
+2022-04-01 09:38:14,900 - Extracting started: [('566', '214'), ('567', '214'), ('570', '214'), ('571', '215'), ('573', '216'), ('575', '217'), ('577', '218'), ('579', '219')] being feature-extracted
+2022-04-01 09:38:16,413 - Extracting completed: [('566', '214'), ('567', '214'), ('570', '214'), ('571', '215'), ('573', '216'), ('575', '217'), ('577', '218'), ('579', '219')] have been feature-extracted
+2022-04-01 09:38:16,413 - hashing: 566_214 started
+2022-04-01 09:38:16,414 - hashing: 566_214 completed
+2022-04-01 09:38:16,416 - hashing: 567_214 started
+2022-04-01 09:38:16,416 - hashing: 567_214 completed
+2022-04-01 09:38:16,418 - hashing: 570_214 started
+2022-04-01 09:38:16,418 - hashing: 570_214 completed
+2022-04-01 09:38:16,420 - hashing: 571_215 started
+2022-04-01 09:38:16,420 - hashing: 571_215 completed
+2022-04-01 09:38:16,422 - hashing: 573_216 started
+2022-04-01 09:38:16,422 - hashing: 573_216 completed
+2022-04-01 09:38:16,424 - hashing: 575_217 started
+2022-04-01 09:38:16,424 - hashing: 575_217 completed
+2022-04-01 09:38:16,426 - hashing: 577_218 started
+2022-04-01 09:38:16,426 - hashing: 577_218 completed
+2022-04-01 09:38:16,428 - hashing: 579_219 started
+2022-04-01 09:38:16,428 - hashing: 579_219 completed
+2022-04-01 09:38:16,433 - image 581_220 arrived at feature extraction
+2022-04-01 09:38:16,433 - image 583_220 arrived at feature extraction
+2022-04-01 09:38:16,434 - image 585_221 arrived at feature extraction
+2022-04-01 09:38:16,435 - image 587_222 arrived at feature extraction
+2022-04-01 09:38:16,437 - image 589_222 arrived at feature extraction
+2022-04-01 09:38:16,438 - image 591_223 arrived at feature extraction
+2022-04-01 09:38:16,439 - image 594_224 arrived at feature extraction
+2022-04-01 09:38:16,440 - image 596_224 arrived at feature extraction
+2022-04-01 09:38:16,441 - Extracting started: [('581', '220'), ('583', '220'), ('585', '221'), ('587', '222'), ('589', '222'), ('591', '223'), ('594', '224'), ('596', '224')] being feature-extracted
+2022-04-01 09:38:17,935 - Extracting completed: [('581', '220'), ('583', '220'), ('585', '221'), ('587', '222'), ('589', '222'), ('591', '223'), ('594', '224'), ('596', '224')] have been feature-extracted
+2022-04-01 09:38:17,935 - hashing: 581_220 started
+2022-04-01 09:38:17,936 - hashing: 581_220 completed
+2022-04-01 09:38:17,938 - hashing: 583_220 started
+2022-04-01 09:38:17,938 - hashing: 583_220 completed
+2022-04-01 09:38:17,939 - hashing: 585_221 started
+2022-04-01 09:38:17,939 - hashing: 585_221 completed
+2022-04-01 09:38:17,941 - hashing: 587_222 started
+2022-04-01 09:38:17,941 - hashing: 587_222 completed
+2022-04-01 09:38:17,943 - hashing: 589_222 started
+2022-04-01 09:38:17,943 - hashing: 589_222 completed
+2022-04-01 09:38:17,945 - hashing: 591_223 started
+2022-04-01 09:38:17,946 - hashing: 591_223 completed
+2022-04-01 09:38:17,947 - hashing: 594_224 started
+2022-04-01 09:38:17,947 - hashing: 594_224 completed
+2022-04-01 09:38:17,948 - hashing: 596_224 started
+2022-04-01 09:38:17,949 - hashing: 596_224 completed
+2022-04-01 09:38:17,951 - image 597_225 arrived at feature extraction
+2022-04-01 09:38:17,952 - image 599_225 arrived at feature extraction
+2022-04-01 09:38:17,953 - image 601_225 arrived at feature extraction
+2022-04-01 09:38:17,953 - image 603_226 arrived at feature extraction
+2022-04-01 09:38:17,954 - image 605_227 arrived at feature extraction
+2022-04-01 09:38:17,955 - image 607_227 arrived at feature extraction
+2022-04-01 09:38:17,956 - image 609_227 arrived at feature extraction
+2022-04-01 09:38:17,957 - image 611_227 arrived at feature extraction
+2022-04-01 09:38:17,957 - Extracting started: [('597', '225'), ('599', '225'), ('601', '225'), ('603', '226'), ('605', '227'), ('607', '227'), ('609', '227'), ('611', '227')] being feature-extracted
+2022-04-01 09:38:19,407 - Extracting completed: [('597', '225'), ('599', '225'), ('601', '225'), ('603', '226'), ('605', '227'), ('607', '227'), ('609', '227'), ('611', '227')] have been feature-extracted
+2022-04-01 09:38:19,407 - hashing: 597_225 started
+2022-04-01 09:38:19,408 - hashing: 597_225 completed
+2022-04-01 09:38:19,409 - hashing: 599_225 started
+2022-04-01 09:38:19,410 - hashing: 599_225 completed
+2022-04-01 09:38:19,411 - hashing: 601_225 started
+2022-04-01 09:38:19,412 - hashing: 601_225 completed
+2022-04-01 09:38:19,413 - hashing: 603_226 started
+2022-04-01 09:38:19,414 - hashing: 603_226 completed
+2022-04-01 09:38:19,415 - hashing: 605_227 started
+2022-04-01 09:38:19,416 - hashing: 605_227 completed
+2022-04-01 09:38:19,417 - hashing: 607_227 started
+2022-04-01 09:38:19,418 - hashing: 607_227 completed
+2022-04-01 09:38:19,420 - hashing: 609_227 started
+2022-04-01 09:38:19,420 - hashing: 609_227 completed
+2022-04-01 09:38:19,421 - hashing: 611_227 started
+2022-04-01 09:38:19,421 - hashing: 611_227 completed
+2022-04-01 09:38:19,424 - image 613_227 arrived at feature extraction
+2022-04-01 09:38:19,425 - image 615_228 arrived at feature extraction
+2022-04-01 09:38:19,426 - image 617_229 arrived at feature extraction
+2022-04-01 09:38:19,427 - image 619_230 arrived at feature extraction
+2022-04-01 09:38:19,427 - image 621_230 arrived at feature extraction
+2022-04-01 09:38:19,428 - image 623_231 arrived at feature extraction
+2022-04-01 09:38:19,429 - image 625_232 arrived at feature extraction
+2022-04-01 09:38:19,430 - image 627_232 arrived at feature extraction
+2022-04-01 09:38:19,430 - Extracting started: [('613', '227'), ('615', '228'), ('617', '229'), ('619', '230'), ('621', '230'), ('623', '231'), ('625', '232'), ('627', '232')] being feature-extracted
+2022-04-01 09:38:20,884 - Extracting completed: [('613', '227'), ('615', '228'), ('617', '229'), ('619', '230'), ('621', '230'), ('623', '231'), ('625', '232'), ('627', '232')] have been feature-extracted
+2022-04-01 09:38:20,884 - hashing: 613_227 started
+2022-04-01 09:38:20,884 - hashing: 613_227 completed
+2022-04-01 09:38:20,886 - hashing: 615_228 started
+2022-04-01 09:38:20,886 - hashing: 615_228 completed
+2022-04-01 09:38:20,888 - hashing: 617_229 started
+2022-04-01 09:38:20,889 - hashing: 617_229 completed
+2022-04-01 09:38:20,891 - hashing: 619_230 started
+2022-04-01 09:38:20,891 - hashing: 619_230 completed
+2022-04-01 09:38:20,893 - hashing: 621_230 started
+2022-04-01 09:38:20,894 - hashing: 621_230 completed
+2022-04-01 09:38:20,895 - hashing: 623_231 started
+2022-04-01 09:38:20,895 - hashing: 623_231 completed
+2022-04-01 09:38:20,897 - hashing: 625_232 started
+2022-04-01 09:38:20,897 - hashing: 625_232 completed
+2022-04-01 09:38:20,898 - hashing: 627_232 started
+2022-04-01 09:38:20,899 - hashing: 627_232 completed
+2022-04-01 09:38:20,902 - image 629_232 arrived at feature extraction
+2022-04-01 09:38:20,903 - image 631_233 arrived at feature extraction
+2022-04-01 09:38:20,904 - image 633_234 arrived at feature extraction
+2022-04-01 09:38:20,905 - image 635_234 arrived at feature extraction
+2022-04-01 09:38:20,906 - image 637_234 arrived at feature extraction
+2022-04-01 09:38:20,907 - image 639_235 arrived at feature extraction
+2022-04-01 09:38:20,908 - image 641_236 arrived at feature extraction
+2022-04-01 09:38:20,910 - image 643_237 arrived at feature extraction
+2022-04-01 09:38:20,910 - Extracting started: [('629', '232'), ('631', '233'), ('633', '234'), ('635', '234'), ('637', '234'), ('639', '235'), ('641', '236'), ('643', '237')] being feature-extracted
+2022-04-01 09:38:22,358 - Extracting completed: [('629', '232'), ('631', '233'), ('633', '234'), ('635', '234'), ('637', '234'), ('639', '235'), ('641', '236'), ('643', '237')] have been feature-extracted
+2022-04-01 09:38:22,359 - hashing: 629_232 started
+2022-04-01 09:38:22,359 - hashing: 629_232 completed
+2022-04-01 09:38:22,361 - hashing: 631_233 started
+2022-04-01 09:38:22,361 - hashing: 631_233 completed
+2022-04-01 09:38:22,363 - hashing: 633_234 started
+2022-04-01 09:38:22,363 - hashing: 633_234 completed
+2022-04-01 09:38:22,365 - hashing: 635_234 started
+2022-04-01 09:38:22,366 - hashing: 635_234 completed
+2022-04-01 09:38:22,367 - hashing: 637_234 started
+2022-04-01 09:38:22,367 - hashing: 637_234 completed
+2022-04-01 09:38:22,369 - hashing: 639_235 started
+2022-04-01 09:38:22,369 - hashing: 639_235 completed
+2022-04-01 09:38:22,371 - hashing: 641_236 started
+2022-04-01 09:38:22,371 - hashing: 641_236 completed
+2022-04-01 09:38:22,372 - hashing: 643_237 started
+2022-04-01 09:38:22,372 - hashing: 643_237 completed
+2022-04-01 09:38:22,375 - image 645_238 arrived at feature extraction
+2022-04-01 09:38:22,376 - image 647_239 arrived at feature extraction
+2022-04-01 09:38:22,376 - image 649_240 arrived at feature extraction
+2022-04-01 09:38:22,378 - image 651_240 arrived at feature extraction
+2022-04-01 09:38:22,379 - image 653_241 arrived at feature extraction
+2022-04-01 09:38:22,380 - image 655_242 arrived at feature extraction
+2022-04-01 09:38:22,381 - image 657_242 arrived at feature extraction
+2022-04-01 09:38:22,382 - image 659_243 arrived at feature extraction
+2022-04-01 09:38:22,382 - Extracting started: [('645', '238'), ('647', '239'), ('649', '240'), ('651', '240'), ('653', '241'), ('655', '242'), ('657', '242'), ('659', '243')] being feature-extracted
+2022-04-01 09:38:23,926 - Extracting completed: [('645', '238'), ('647', '239'), ('649', '240'), ('651', '240'), ('653', '241'), ('655', '242'), ('657', '242'), ('659', '243')] have been feature-extracted
+2022-04-01 09:38:23,926 - hashing: 645_238 started
+2022-04-01 09:38:23,926 - hashing: 645_238 completed
+2022-04-01 09:38:23,928 - hashing: 647_239 started
+2022-04-01 09:38:23,928 - hashing: 647_239 completed
+2022-04-01 09:38:23,930 - hashing: 649_240 started
+2022-04-01 09:38:23,930 - hashing: 649_240 completed
+2022-04-01 09:38:23,932 - hashing: 651_240 started
+2022-04-01 09:38:23,932 - hashing: 651_240 completed
+2022-04-01 09:38:23,934 - hashing: 653_241 started
+2022-04-01 09:38:23,934 - hashing: 653_241 completed
+2022-04-01 09:38:23,935 - hashing: 655_242 started
+2022-04-01 09:38:23,935 - hashing: 655_242 completed
+2022-04-01 09:38:23,937 - hashing: 657_242 started
+2022-04-01 09:38:23,937 - hashing: 657_242 completed
+2022-04-01 09:38:23,938 - hashing: 659_243 started
+2022-04-01 09:38:23,938 - hashing: 659_243 completed
+2022-04-01 09:38:23,941 - image 661_244 arrived at feature extraction
+2022-04-01 09:38:23,943 - image 663_244 arrived at feature extraction
+2022-04-01 09:38:23,944 - image 665_245 arrived at feature extraction
+2022-04-01 09:38:23,945 - image 667_246 arrived at feature extraction
+2022-04-01 09:38:23,946 - image 669_247 arrived at feature extraction
+2022-04-01 09:38:23,947 - image 671_248 arrived at feature extraction
+2022-04-01 09:38:23,948 - image 673_249 arrived at feature extraction
+2022-04-01 09:38:23,950 - image 678_251 arrived at feature extraction
+2022-04-01 09:38:23,950 - Extracting started: [('661', '244'), ('663', '244'), ('665', '245'), ('667', '246'), ('669', '247'), ('671', '248'), ('673', '249'), ('678', '251')] being feature-extracted
+2022-04-01 09:38:25,406 - Extracting completed: [('661', '244'), ('663', '244'), ('665', '245'), ('667', '246'), ('669', '247'), ('671', '248'), ('673', '249'), ('678', '251')] have been feature-extracted
+2022-04-01 09:38:25,406 - hashing: 661_244 started
+2022-04-01 09:38:25,406 - hashing: 661_244 completed
+2022-04-01 09:38:25,408 - hashing: 663_244 started
+2022-04-01 09:38:25,409 - hashing: 663_244 completed
+2022-04-01 09:38:25,411 - hashing: 665_245 started
+2022-04-01 09:38:25,411 - hashing: 665_245 completed
+2022-04-01 09:38:25,413 - hashing: 667_246 started
+2022-04-01 09:38:25,413 - hashing: 667_246 completed
+2022-04-01 09:38:25,415 - hashing: 669_247 started
+2022-04-01 09:38:25,415 - hashing: 669_247 completed
+2022-04-01 09:38:25,416 - hashing: 671_248 started
+2022-04-01 09:38:25,416 - hashing: 671_248 completed
+2022-04-01 09:38:25,418 - hashing: 673_249 started
+2022-04-01 09:38:25,418 - hashing: 673_249 completed
+2022-04-01 09:38:25,419 - hashing: 678_251 started
+2022-04-01 09:38:25,419 - hashing: 678_251 completed
+2022-04-01 09:38:25,422 - image 680_252 arrived at feature extraction
+2022-04-01 09:38:25,423 - image 682_252 arrived at feature extraction
+2022-04-01 09:38:25,424 - image 681_252 arrived at feature extraction
+2022-04-01 09:38:25,425 - image 683_252 arrived at feature extraction
+2022-04-01 09:38:25,425 - image 685_253 arrived at feature extraction
+2022-04-01 09:38:25,426 - image 687_254 arrived at feature extraction
+2022-04-01 09:38:25,428 - image 689_255 arrived at feature extraction
+2022-04-01 09:38:25,429 - image 691_256 arrived at feature extraction
+2022-04-01 09:38:25,429 - Extracting started: [('680', '252'), ('682', '252'), ('681', '252'), ('683', '252'), ('685', '253'), ('687', '254'), ('689', '255'), ('691', '256')] being feature-extracted
+2022-04-01 09:38:26,890 - Extracting completed: [('680', '252'), ('682', '252'), ('681', '252'), ('683', '252'), ('685', '253'), ('687', '254'), ('689', '255'), ('691', '256')] have been feature-extracted
+2022-04-01 09:38:26,891 - hashing: 680_252 started
+2022-04-01 09:38:26,891 - hashing: 680_252 completed
+2022-04-01 09:38:26,894 - hashing: 682_252 started
+2022-04-01 09:38:26,894 - hashing: 682_252 completed
+2022-04-01 09:38:26,896 - hashing: 681_252 started
+2022-04-01 09:38:26,896 - hashing: 681_252 completed
+2022-04-01 09:38:26,898 - hashing: 683_252 started
+2022-04-01 09:38:26,898 - hashing: 683_252 completed
+2022-04-01 09:38:26,899 - hashing: 685_253 started
+2022-04-01 09:38:26,900 - hashing: 685_253 completed
+2022-04-01 09:38:26,901 - hashing: 687_254 started
+2022-04-01 09:38:26,902 - hashing: 687_254 completed
+2022-04-01 09:38:26,903 - hashing: 689_255 started
+2022-04-01 09:38:26,903 - hashing: 689_255 completed
+2022-04-01 09:38:26,906 - hashing: 691_256 started
+2022-04-01 09:38:26,906 - hashing: 691_256 completed
+2022-04-01 09:38:26,910 - image 693_257 arrived at feature extraction
+2022-04-01 09:38:26,911 - image 695_257 arrived at feature extraction
+2022-04-01 09:38:26,912 - image 697_258 arrived at feature extraction
+2022-04-01 09:38:26,913 - image 699_259 arrived at feature extraction
+2022-04-01 09:38:26,914 - image 701_260 arrived at feature extraction
+2022-04-01 09:38:26,915 - image 703_260 arrived at feature extraction
+2022-04-01 09:38:26,916 - image 708_262 arrived at feature extraction
+2022-04-01 09:38:26,917 - image 710_263 arrived at feature extraction
+2022-04-01 09:38:26,917 - Extracting started: [('693', '257'), ('695', '257'), ('697', '258'), ('699', '259'), ('701', '260'), ('703', '260'), ('708', '262'), ('710', '263')] being feature-extracted
+2022-04-01 09:38:28,443 - Extracting completed: [('693', '257'), ('695', '257'), ('697', '258'), ('699', '259'), ('701', '260'), ('703', '260'), ('708', '262'), ('710', '263')] have been feature-extracted
+2022-04-01 09:38:28,443 - hashing: 693_257 started
+2022-04-01 09:38:28,444 - hashing: 693_257 completed
+2022-04-01 09:38:28,446 - hashing: 695_257 started
+2022-04-01 09:38:28,446 - hashing: 695_257 completed
+2022-04-01 09:38:28,448 - hashing: 697_258 started
+2022-04-01 09:38:28,448 - hashing: 697_258 completed
+2022-04-01 09:38:28,450 - hashing: 699_259 started
+2022-04-01 09:38:28,450 - hashing: 699_259 completed
+2022-04-01 09:38:28,452 - hashing: 701_260 started
+2022-04-01 09:38:28,452 - hashing: 701_260 completed
+2022-04-01 09:38:28,453 - hashing: 703_260 started
+2022-04-01 09:38:28,453 - hashing: 703_260 completed
+2022-04-01 09:38:28,455 - hashing: 708_262 started
+2022-04-01 09:38:28,456 - hashing: 708_262 completed
+2022-04-01 09:38:28,457 - hashing: 710_263 started
+2022-04-01 09:38:28,457 - hashing: 710_263 completed
+2022-04-01 09:38:28,461 - image 709_262 arrived at feature extraction
+2022-04-01 09:38:28,463 - image 714_264 arrived at feature extraction
+2022-04-01 09:38:28,464 - image 716_265 arrived at feature extraction
+2022-04-01 09:38:28,465 - image 718_266 arrived at feature extraction
+2022-04-01 09:38:28,466 - image 720_267 arrived at feature extraction
+2022-04-01 09:38:28,467 - image 722_267 arrived at feature extraction
+2022-04-01 09:38:28,468 - image 724_267 arrived at feature extraction
+2022-04-01 09:38:28,469 - image 726_268 arrived at feature extraction
+2022-04-01 09:38:28,469 - Extracting started: [('709', '262'), ('714', '264'), ('716', '265'), ('718', '266'), ('720', '267'), ('722', '267'), ('724', '267'), ('726', '268')] being feature-extracted
+2022-04-01 09:38:30,027 - Extracting completed: [('709', '262'), ('714', '264'), ('716', '265'), ('718', '266'), ('720', '267'), ('722', '267'), ('724', '267'), ('726', '268')] have been feature-extracted
+2022-04-01 09:38:30,027 - hashing: 709_262 started
+2022-04-01 09:38:30,027 - hashing: 709_262 completed
+2022-04-01 09:38:30,029 - hashing: 714_264 started
+2022-04-01 09:38:30,030 - hashing: 714_264 completed
+2022-04-01 09:38:30,031 - hashing: 716_265 started
+2022-04-01 09:38:30,032 - hashing: 716_265 completed
+2022-04-01 09:38:30,033 - hashing: 718_266 started
+2022-04-01 09:38:30,034 - hashing: 718_266 completed
+2022-04-01 09:38:30,035 - hashing: 720_267 started
+2022-04-01 09:38:30,035 - hashing: 720_267 completed
+2022-04-01 09:38:30,037 - hashing: 722_267 started
+2022-04-01 09:38:30,037 - hashing: 722_267 completed
+2022-04-01 09:38:30,039 - hashing: 724_267 started
+2022-04-01 09:38:30,039 - hashing: 724_267 completed
+2022-04-01 09:38:30,041 - hashing: 726_268 started
+2022-04-01 09:38:30,041 - hashing: 726_268 completed
+2022-04-01 09:38:30,046 - image 725_267 arrived at feature extraction
+2022-04-01 09:38:30,048 - image 730_268 arrived at feature extraction
+2022-04-01 09:38:30,049 - image 729_268 arrived at feature extraction
+2022-04-01 09:38:30,049 - image 734_268 arrived at feature extraction
+2022-04-01 09:38:30,050 - image 736_269 arrived at feature extraction
+2022-04-01 09:38:30,051 - image 735_269 arrived at feature extraction
+2022-04-01 09:38:30,053 - image 737_269 arrived at feature extraction
+2022-04-01 09:38:30,054 - image 739_270 arrived at feature extraction
+2022-04-01 09:38:30,054 - Extracting started: [('725', '267'), ('730', '268'), ('729', '268'), ('734', '268'), ('736', '269'), ('735', '269'), ('737', '269'), ('739', '270')] being feature-extracted
+2022-04-01 09:38:31,829 - Extracting completed: [('725', '267'), ('730', '268'), ('729', '268'), ('734', '268'), ('736', '269'), ('735', '269'), ('737', '269'), ('739', '270')] have been feature-extracted
+2022-04-01 09:38:31,830 - hashing: 725_267 started
+2022-04-01 09:38:31,830 - hashing: 725_267 completed
+2022-04-01 09:38:31,833 - hashing: 730_268 started
+2022-04-01 09:38:31,833 - hashing: 730_268 completed
+2022-04-01 09:38:31,835 - hashing: 729_268 started
+2022-04-01 09:38:31,835 - hashing: 729_268 completed
+2022-04-01 09:38:31,837 - hashing: 734_268 started
+2022-04-01 09:38:31,838 - hashing: 734_268 completed
+2022-04-01 09:38:31,840 - hashing: 736_269 started
+2022-04-01 09:38:31,841 - hashing: 736_269 completed
+2022-04-01 09:38:31,843 - hashing: 735_269 started
+2022-04-01 09:38:31,844 - hashing: 735_269 completed
+2022-04-01 09:38:31,846 - hashing: 737_269 started
+2022-04-01 09:38:31,846 - hashing: 737_269 completed
+2022-04-01 09:38:31,848 - hashing: 739_270 started
+2022-04-01 09:38:31,848 - hashing: 739_270 completed
+2022-04-01 09:38:31,853 - image 744_272 arrived at feature extraction
+2022-04-01 09:38:31,854 - image 746_273 arrived at feature extraction
+2022-04-01 09:38:31,855 - image 748_274 arrived at feature extraction
+2022-04-01 09:38:31,856 - image 750_274 arrived at feature extraction
+2022-04-01 09:38:31,858 - image 752_275 arrived at feature extraction
+2022-04-01 09:38:31,860 - image 754_275 arrived at feature extraction
+2022-04-01 09:38:31,862 - image 756_276 arrived at feature extraction
+2022-04-01 09:38:31,864 - image 758_277 arrived at feature extraction
+2022-04-01 09:38:31,864 - Extracting started: [('744', '272'), ('746', '273'), ('748', '274'), ('750', '274'), ('752', '275'), ('754', '275'), ('756', '276'), ('758', '277')] being feature-extracted
+2022-04-01 09:38:33,903 - Extracting completed: [('744', '272'), ('746', '273'), ('748', '274'), ('750', '274'), ('752', '275'), ('754', '275'), ('756', '276'), ('758', '277')] have been feature-extracted
+2022-04-01 09:38:33,904 - hashing: 744_272 started
+2022-04-01 09:38:33,904 - hashing: 744_272 completed
+2022-04-01 09:38:33,907 - hashing: 746_273 started
+2022-04-01 09:38:33,908 - hashing: 746_273 completed
+2022-04-01 09:38:33,911 - hashing: 748_274 started
+2022-04-01 09:38:33,911 - hashing: 748_274 completed
+2022-04-01 09:38:33,914 - hashing: 750_274 started
+2022-04-01 09:38:33,914 - hashing: 750_274 completed
+2022-04-01 09:38:33,916 - hashing: 752_275 started
+2022-04-01 09:38:33,917 - hashing: 752_275 completed
+2022-04-01 09:38:33,919 - hashing: 754_275 started
+2022-04-01 09:38:33,919 - hashing: 754_275 completed
+2022-04-01 09:38:33,921 - hashing: 756_276 started
+2022-04-01 09:38:33,921 - hashing: 756_276 completed
+2022-04-01 09:38:33,924 - hashing: 758_277 started
+2022-04-01 09:38:33,924 - hashing: 758_277 completed
+2022-04-01 09:38:33,929 - image 760_278 arrived at feature extraction
+2022-04-01 09:38:33,930 - image 762_278 arrived at feature extraction
+2022-04-01 09:38:33,931 - image 764_279 arrived at feature extraction
+2022-04-01 09:38:33,932 - image 766_280 arrived at feature extraction
+2022-04-01 09:38:33,933 - image 768_281 arrived at feature extraction
+2022-04-01 09:38:33,934 - image 770_282 arrived at feature extraction
+2022-04-01 09:38:33,936 - image 769_281 arrived at feature extraction
+2022-04-01 09:38:33,937 - image 774_284 arrived at feature extraction
+2022-04-01 09:38:33,938 - Extracting started: [('760', '278'), ('762', '278'), ('764', '279'), ('766', '280'), ('768', '281'), ('770', '282'), ('769', '281'), ('774', '284')] being feature-extracted
+2022-04-01 09:38:36,158 - Extracting completed: [('760', '278'), ('762', '278'), ('764', '279'), ('766', '280'), ('768', '281'), ('770', '282'), ('769', '281'), ('774', '284')] have been feature-extracted
+2022-04-01 09:38:36,158 - hashing: 760_278 started
+2022-04-01 09:38:36,159 - hashing: 760_278 completed
+2022-04-01 09:38:36,162 - hashing: 762_278 started
+2022-04-01 09:38:36,162 - hashing: 762_278 completed
+2022-04-01 09:38:36,165 - hashing: 764_279 started
+2022-04-01 09:38:36,165 - hashing: 764_279 completed
+2022-04-01 09:38:36,168 - hashing: 766_280 started
+2022-04-01 09:38:36,169 - hashing: 766_280 completed
+2022-04-01 09:38:36,171 - hashing: 768_281 started
+2022-04-01 09:38:36,172 - hashing: 768_281 completed
+2022-04-01 09:38:36,175 - hashing: 770_282 started
+2022-04-01 09:38:36,175 - hashing: 770_282 completed
+2022-04-01 09:38:36,180 - hashing: 769_281 started
+2022-04-01 09:38:36,180 - hashing: 769_281 completed
+2022-04-01 09:38:36,183 - hashing: 774_284 started
+2022-04-01 09:38:36,183 - hashing: 774_284 completed
+2022-04-01 09:38:36,194 - image 776_285 arrived at feature extraction
+2022-04-01 09:38:36,196 - image 778_285 arrived at feature extraction
+2022-04-01 09:38:36,197 - image 777_285 arrived at feature extraction
+2022-04-01 09:38:36,199 - image 782_287 arrived at feature extraction
+2022-04-01 09:38:36,202 - image 784_288 arrived at feature extraction
+2022-04-01 09:38:36,204 - image 786_289 arrived at feature extraction
+2022-04-01 09:38:36,206 - image 788_290 arrived at feature extraction
+2022-04-01 09:38:36,208 - image 790_290 arrived at feature extraction
+2022-04-01 09:38:36,209 - Extracting started: [('776', '285'), ('778', '285'), ('777', '285'), ('782', '287'), ('784', '288'), ('786', '289'), ('788', '290'), ('790', '290')] being feature-extracted
+2022-04-01 09:38:38,603 - Extracting completed: [('776', '285'), ('778', '285'), ('777', '285'), ('782', '287'), ('784', '288'), ('786', '289'), ('788', '290'), ('790', '290')] have been feature-extracted
+2022-04-01 09:38:38,604 - hashing: 776_285 started
+2022-04-01 09:38:38,604 - hashing: 776_285 completed
+2022-04-01 09:38:38,608 - hashing: 778_285 started
+2022-04-01 09:38:38,609 - hashing: 778_285 completed
+2022-04-01 09:38:38,611 - hashing: 777_285 started
+2022-04-01 09:38:38,612 - hashing: 777_285 completed
+2022-04-01 09:38:38,615 - hashing: 782_287 started
+2022-04-01 09:38:38,615 - hashing: 782_287 completed
+2022-04-01 09:38:38,618 - hashing: 784_288 started
+2022-04-01 09:38:38,618 - hashing: 784_288 completed
+2022-04-01 09:38:38,621 - hashing: 786_289 started
+2022-04-01 09:38:38,621 - hashing: 786_289 completed
+2022-04-01 09:38:38,624 - hashing: 788_290 started
+2022-04-01 09:38:38,624 - hashing: 788_290 completed
+2022-04-01 09:38:38,627 - hashing: 790_290 started
+2022-04-01 09:38:38,627 - hashing: 790_290 completed
+2022-04-01 09:38:38,634 - image 792_291 arrived at feature extraction
+2022-04-01 09:38:38,636 - image 794_292 arrived at feature extraction
+2022-04-01 09:38:38,637 - image 796_293 arrived at feature extraction
+2022-04-01 09:38:38,639 - image 793_292 arrived at feature extraction
+2022-04-01 09:38:38,641 - image 795_292 arrived at feature extraction
+2022-04-01 09:38:38,643 - image 802_296 arrived at feature extraction
+2022-04-01 09:38:38,645 - image 804_296 arrived at feature extraction
+2022-04-01 09:38:38,647 - image 806_297 arrived at feature extraction
+2022-04-01 09:38:38,648 - Extracting started: [('792', '291'), ('794', '292'), ('796', '293'), ('793', '292'), ('795', '292'), ('802', '296'), ('804', '296'), ('806', '297')] being feature-extracted
+2022-04-01 09:38:40,759 - Extracting completed: [('792', '291'), ('794', '292'), ('796', '293'), ('793', '292'), ('795', '292'), ('802', '296'), ('804', '296'), ('806', '297')] have been feature-extracted
+2022-04-01 09:38:40,759 - hashing: 792_291 started
+2022-04-01 09:38:40,760 - hashing: 792_291 completed
+2022-04-01 09:38:40,762 - hashing: 794_292 started
+2022-04-01 09:38:40,763 - hashing: 794_292 completed
+2022-04-01 09:38:40,764 - hashing: 796_293 started
+2022-04-01 09:38:40,765 - hashing: 796_293 completed
+2022-04-01 09:38:40,767 - hashing: 793_292 started
+2022-04-01 09:38:40,767 - hashing: 793_292 completed
+2022-04-01 09:38:40,769 - hashing: 795_292 started
+2022-04-01 09:38:40,770 - hashing: 795_292 completed
+2022-04-01 09:38:40,772 - hashing: 802_296 started
+2022-04-01 09:38:40,773 - hashing: 802_296 completed
+2022-04-01 09:38:40,775 - hashing: 804_296 started
+2022-04-01 09:38:40,776 - hashing: 804_296 completed
+2022-04-01 09:38:40,778 - hashing: 806_297 started
+2022-04-01 09:38:40,778 - hashing: 806_297 completed
+2022-04-01 09:38:40,783 - image 808_298 arrived at feature extraction
+2022-04-01 09:38:40,784 - image 810_299 arrived at feature extraction
+2022-04-01 09:38:40,786 - image 809_298 arrived at feature extraction
+2022-04-01 09:38:40,787 - image 0_0 arrived at feature extraction
+2022-04-01 09:38:40,787 - Extracting started: [('808', '298'), ('810', '299'), ('809', '298')] being feature-extracted
+2022-04-01 09:38:44,780 - Extracting completed: [('808', '298'), ('810', '299'), ('809', '298')] have been feature-extracted
+2022-04-01 09:38:44,780 - hashing: 808_298 started
+2022-04-01 09:38:44,781 - hashing: 808_298 completed
+2022-04-01 09:38:44,784 - hashing: 810_299 started
+2022-04-01 09:38:44,784 - hashing: 810_299 completed
+2022-04-01 09:38:44,786 - hashing: 809_298 started
+2022-04-01 09:38:44,786 - hashing: 809_298 completed
+2022-04-01 09:38:44,791 - Closing connection (200): Normal shutdown
+2022-04-01 09:38:44,791 - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x132dfd5b0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2022-04-01 09:38:44,792 - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x132dfd5b0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2022-04-01 09:38:44,792 - Closing connection (200): 'Normal shutdown'
+2022-04-01 09:38:44,793 - Aborting transport connection: state=1; <socket.socket fd=16, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 62624), raddr=('127.0.0.1', 5672)>
+2022-04-01 09:38:44,793 - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=16, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 62624), raddr=('127.0.0.1', 5672)>
+2022-04-01 09:38:44,793 - Deactivating transport: state=1; <socket.socket fd=16, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 62624), raddr=('127.0.0.1', 5672)>
+2022-04-01 09:38:44,794 - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2022-04-01 09:38:44,794 - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2022-04-01 09:38:44,794 - Closing transport socket and unlinking: state=3; <socket.socket fd=16, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 62624), raddr=('127.0.0.1', 5672)>
+2022-04-01 09:38:44,794 - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2022-04-01 09:38:44,795 - PID 68737 completed feature extraction

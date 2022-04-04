@@ -1,0 +1,1337 @@
+2022-04-01 12:25:07,539 - Pika version 1.2.0 connecting to ('::1', 5672, 0, 0)
+2022-04-01 12:25:07,539 - Socket failed to connect: <socket.socket fd=9, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 63907, 0, 0)>; error=61 (Connection refused)
+2022-04-01 12:25:07,540 - TCP Connection attempt failed: ConnectionRefusedError(61, 'Connection refused'); dest=(<AddressFamily.AF_INET6: 30>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('::1', 5672, 0, 0))
+2022-04-01 12:25:07,540 - AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(61, 'Connection refused')
+2022-04-01 12:25:07,540 - Pika version 1.2.0 connecting to ('127.0.0.1', 5672)
+2022-04-01 12:25:07,540 - Socket connected: <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 63908), raddr=('127.0.0.1', 5672)>
+2022-04-01 12:25:07,541 - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x115d95ac0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x115d95ac0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+2022-04-01 12:25:07,545 - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x115d95ac0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-01 12:25:07,545 - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x115d95ac0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-01 12:25:07,545 - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x115d95ac0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-01 12:25:07,546 - Created channel=1
+2022-04-01 12:25:08,582 - image: 0_mag arrived at table_manipulation
+2022-04-01 12:25:08,583 - adding: 0_mag to LSH
+2022-04-01 12:25:08,583 - added: 0_mag to LSH
+2022-04-01 12:25:08,746 - image: 1_mag arrived at table_manipulation
+2022-04-01 12:25:08,746 - adding: 1_mag to LSH
+2022-04-01 12:25:08,746 - added: 1_mag to LSH
+2022-04-01 12:25:08,901 - image: 2_mag arrived at table_manipulation
+2022-04-01 12:25:08,901 - adding: 2_mag to LSH
+2022-04-01 12:25:08,901 - added: 2_mag to LSH
+2022-04-01 12:25:09,065 - image: 3_mag arrived at table_manipulation
+2022-04-01 12:25:09,065 - adding: 3_mag to LSH
+2022-04-01 12:25:09,065 - added: 3_mag to LSH
+2022-04-01 12:25:09,226 - image: 4_mag arrived at table_manipulation
+2022-04-01 12:25:09,226 - adding: 4_mag to LSH
+2022-04-01 12:25:09,226 - added: 4_mag to LSH
+2022-04-01 12:25:09,380 - image: 5_mag arrived at table_manipulation
+2022-04-01 12:25:09,381 - adding: 5_mag to LSH
+2022-04-01 12:25:09,381 - added: 5_mag to LSH
+2022-04-01 12:25:09,537 - image: 6_mag arrived at table_manipulation
+2022-04-01 12:25:09,537 - adding: 6_mag to LSH
+2022-04-01 12:25:09,538 - added: 6_mag to LSH
+2022-04-01 12:25:09,700 - image: 7_mag arrived at table_manipulation
+2022-04-01 12:25:09,701 - adding: 7_mag to LSH
+2022-04-01 12:25:09,701 - added: 7_mag to LSH
+2022-04-01 12:25:09,851 - image: 8_mag arrived at table_manipulation
+2022-04-01 12:25:09,851 - adding: 8_mag to LSH
+2022-04-01 12:25:09,851 - added: 8_mag to LSH
+2022-04-01 12:25:10,007 - image: 9_mag arrived at table_manipulation
+2022-04-01 12:25:10,008 - adding: 9_mag to LSH
+2022-04-01 12:25:10,008 - added: 9_mag to LSH
+2022-04-01 12:25:10,182 - image: 10_mag arrived at table_manipulation
+2022-04-01 12:25:10,182 - adding: 10_mag to LSH
+2022-04-01 12:25:10,182 - added: 10_mag to LSH
+2022-04-01 12:25:10,338 - image: 11_mag arrived at table_manipulation
+2022-04-01 12:25:10,338 - adding: 11_mag to LSH
+2022-04-01 12:25:10,338 - added: 11_mag to LSH
+2022-04-01 12:25:10,495 - image: 12_mag arrived at table_manipulation
+2022-04-01 12:25:10,495 - adding: 12_mag to LSH
+2022-04-01 12:25:10,495 - added: 12_mag to LSH
+2022-04-01 12:25:10,650 - image: 13_mag arrived at table_manipulation
+2022-04-01 12:25:10,650 - adding: 13_mag to LSH
+2022-04-01 12:25:10,650 - added: 13_mag to LSH
+2022-04-01 12:25:10,802 - image: 14_mag arrived at table_manipulation
+2022-04-01 12:25:10,802 - adding: 14_mag to LSH
+2022-04-01 12:25:10,802 - added: 14_mag to LSH
+2022-04-01 12:25:10,962 - image: 15_mag arrived at table_manipulation
+2022-04-01 12:25:10,962 - adding: 15_mag to LSH
+2022-04-01 12:25:10,962 - added: 15_mag to LSH
+2022-04-01 12:25:11,127 - image: 16_mag arrived at table_manipulation
+2022-04-01 12:25:11,127 - adding: 16_mag to LSH
+2022-04-01 12:25:11,127 - added: 16_mag to LSH
+2022-04-01 12:25:11,290 - image: 17_mag arrived at table_manipulation
+2022-04-01 12:25:11,290 - adding: 17_mag to LSH
+2022-04-01 12:25:11,290 - added: 17_mag to LSH
+2022-04-01 12:25:11,446 - image: 18_mag arrived at table_manipulation
+2022-04-01 12:25:11,446 - adding: 18_mag to LSH
+2022-04-01 12:25:11,446 - added: 18_mag to LSH
+2022-04-01 12:25:11,598 - image: 19_mag arrived at table_manipulation
+2022-04-01 12:25:11,598 - adding: 19_mag to LSH
+2022-04-01 12:25:11,598 - added: 19_mag to LSH
+2022-04-01 12:25:11,766 - image: 20_mag arrived at table_manipulation
+2022-04-01 12:25:11,766 - adding: 20_mag to LSH
+2022-04-01 12:25:11,766 - added: 20_mag to LSH
+2022-04-01 12:25:11,920 - image: 21_mag arrived at table_manipulation
+2022-04-01 12:25:11,921 - adding: 21_mag to LSH
+2022-04-01 12:25:11,921 - added: 21_mag to LSH
+2022-04-01 12:25:12,071 - image: 22_mag arrived at table_manipulation
+2022-04-01 12:25:12,071 - adding: 22_mag to LSH
+2022-04-01 12:25:12,071 - added: 22_mag to LSH
+2022-04-01 12:25:12,238 - image: 23_mag arrived at table_manipulation
+2022-04-01 12:25:12,238 - adding: 23_mag to LSH
+2022-04-01 12:25:12,238 - added: 23_mag to LSH
+2022-04-01 12:25:12,396 - image: 24_mag arrived at table_manipulation
+2022-04-01 12:25:12,396 - adding: 24_mag to LSH
+2022-04-01 12:25:12,396 - added: 24_mag to LSH
+2022-04-01 12:25:12,550 - image: 25_mag arrived at table_manipulation
+2022-04-01 12:25:12,550 - adding: 25_mag to LSH
+2022-04-01 12:25:12,550 - added: 25_mag to LSH
+2022-04-01 12:25:12,709 - image: 26_mag arrived at table_manipulation
+2022-04-01 12:25:12,709 - adding: 26_mag to LSH
+2022-04-01 12:25:12,709 - added: 26_mag to LSH
+2022-04-01 12:25:12,865 - image: 27_mag arrived at table_manipulation
+2022-04-01 12:25:12,865 - adding: 27_mag to LSH
+2022-04-01 12:25:12,865 - added: 27_mag to LSH
+2022-04-01 12:25:13,019 - image: 28_mag arrived at table_manipulation
+2022-04-01 12:25:13,019 - adding: 28_mag to LSH
+2022-04-01 12:25:13,019 - added: 28_mag to LSH
+2022-04-01 12:25:13,180 - image: 29_mag arrived at table_manipulation
+2022-04-01 12:25:13,180 - adding: 29_mag to LSH
+2022-04-01 12:25:13,180 - added: 29_mag to LSH
+2022-04-01 12:25:13,341 - image: 30_mag arrived at table_manipulation
+2022-04-01 12:25:13,342 - adding: 30_mag to LSH
+2022-04-01 12:25:13,342 - added: 30_mag to LSH
+2022-04-01 12:25:13,499 - image: 31_mag arrived at table_manipulation
+2022-04-01 12:25:13,499 - adding: 31_mag to LSH
+2022-04-01 12:25:13,499 - added: 31_mag to LSH
+2022-04-01 12:25:13,655 - image: 32_mag arrived at table_manipulation
+2022-04-01 12:25:13,655 - adding: 32_mag to LSH
+2022-04-01 12:25:13,655 - added: 32_mag to LSH
+2022-04-01 12:25:13,807 - image: 33_mag arrived at table_manipulation
+2022-04-01 12:25:13,807 - adding: 33_mag to LSH
+2022-04-01 12:25:13,807 - added: 33_mag to LSH
+2022-04-01 12:25:13,963 - image: 34_mag arrived at table_manipulation
+2022-04-01 12:25:13,963 - adding: 34_mag to LSH
+2022-04-01 12:25:13,963 - added: 34_mag to LSH
+2022-04-01 12:25:14,117 - image: 35_mag arrived at table_manipulation
+2022-04-01 12:25:14,117 - adding: 35_mag to LSH
+2022-04-01 12:25:14,118 - added: 35_mag to LSH
+2022-04-01 12:25:14,278 - image: 36_mag arrived at table_manipulation
+2022-04-01 12:25:14,278 - adding: 36_mag to LSH
+2022-04-01 12:25:14,278 - added: 36_mag to LSH
+2022-04-01 12:25:14,436 - image: 37_mag arrived at table_manipulation
+2022-04-01 12:25:14,436 - adding: 37_mag to LSH
+2022-04-01 12:25:14,436 - added: 37_mag to LSH
+2022-04-01 12:25:14,590 - image: 38_mag arrived at table_manipulation
+2022-04-01 12:25:14,590 - adding: 38_mag to LSH
+2022-04-01 12:25:14,590 - added: 38_mag to LSH
+2022-04-01 12:25:14,746 - image: 39_mag arrived at table_manipulation
+2022-04-01 12:25:14,746 - adding: 39_mag to LSH
+2022-04-01 12:25:14,746 - added: 39_mag to LSH
+2022-04-01 12:25:14,905 - image: 40_mag arrived at table_manipulation
+2022-04-01 12:25:14,905 - adding: 40_mag to LSH
+2022-04-01 12:25:14,905 - added: 40_mag to LSH
+2022-04-01 12:25:15,064 - image: 41_mag arrived at table_manipulation
+2022-04-01 12:25:15,064 - adding: 41_mag to LSH
+2022-04-01 12:25:15,064 - added: 41_mag to LSH
+2022-04-01 12:25:15,224 - image: 42_mag arrived at table_manipulation
+2022-04-01 12:25:15,224 - adding: 42_mag to LSH
+2022-04-01 12:25:15,225 - added: 42_mag to LSH
+2022-04-01 12:25:15,380 - image: 43_mag arrived at table_manipulation
+2022-04-01 12:25:15,380 - adding: 43_mag to LSH
+2022-04-01 12:25:15,380 - added: 43_mag to LSH
+2022-04-01 12:25:15,540 - image: 44_mag arrived at table_manipulation
+2022-04-01 12:25:15,540 - adding: 44_mag to LSH
+2022-04-01 12:25:15,540 - added: 44_mag to LSH
+2022-04-01 12:25:15,698 - image: 45_mag arrived at table_manipulation
+2022-04-01 12:25:15,698 - adding: 45_mag to LSH
+2022-04-01 12:25:15,698 - added: 45_mag to LSH
+2022-04-01 12:25:15,852 - image: 46_mag arrived at table_manipulation
+2022-04-01 12:25:15,852 - adding: 46_mag to LSH
+2022-04-01 12:25:15,852 - added: 46_mag to LSH
+2022-04-01 12:25:16,015 - image: 47_mag arrived at table_manipulation
+2022-04-01 12:25:16,015 - adding: 47_mag to LSH
+2022-04-01 12:25:16,015 - added: 47_mag to LSH
+2022-04-01 12:25:16,177 - image: 48_mag arrived at table_manipulation
+2022-04-01 12:25:16,177 - adding: 48_mag to LSH
+2022-04-01 12:25:16,177 - added: 48_mag to LSH
+2022-04-01 12:25:16,351 - image: 49_mag arrived at table_manipulation
+2022-04-01 12:25:16,351 - adding: 49_mag to LSH
+2022-04-01 12:25:16,351 - added: 49_mag to LSH
+2022-04-01 12:25:16,518 - image: 50_mag arrived at table_manipulation
+2022-04-01 12:25:16,518 - adding: 50_mag to LSH
+2022-04-01 12:25:16,518 - added: 50_mag to LSH
+2022-04-01 12:25:16,675 - image: 51_mag arrived at table_manipulation
+2022-04-01 12:25:16,675 - adding: 51_mag to LSH
+2022-04-01 12:25:16,675 - added: 51_mag to LSH
+2022-04-01 12:25:16,829 - image: 52_mag arrived at table_manipulation
+2022-04-01 12:25:16,829 - adding: 52_mag to LSH
+2022-04-01 12:25:16,829 - added: 52_mag to LSH
+2022-04-01 12:25:16,987 - image: 53_mag arrived at table_manipulation
+2022-04-01 12:25:16,987 - adding: 53_mag to LSH
+2022-04-01 12:25:16,987 - added: 53_mag to LSH
+2022-04-01 12:25:17,150 - image: 54_mag arrived at table_manipulation
+2022-04-01 12:25:17,150 - adding: 54_mag to LSH
+2022-04-01 12:25:17,150 - added: 54_mag to LSH
+2022-04-01 12:25:17,307 - image: 55_mag arrived at table_manipulation
+2022-04-01 12:25:17,307 - adding: 55_mag to LSH
+2022-04-01 12:25:17,307 - added: 55_mag to LSH
+2022-04-01 12:25:17,463 - image: 56_mag arrived at table_manipulation
+2022-04-01 12:25:17,463 - adding: 56_mag to LSH
+2022-04-01 12:25:17,463 - added: 56_mag to LSH
+2022-04-01 12:25:17,624 - image: 57_mag arrived at table_manipulation
+2022-04-01 12:25:17,624 - adding: 57_mag to LSH
+2022-04-01 12:25:17,624 - added: 57_mag to LSH
+2022-04-01 12:25:17,780 - image: 58_mag arrived at table_manipulation
+2022-04-01 12:25:17,780 - adding: 58_mag to LSH
+2022-04-01 12:25:17,780 - added: 58_mag to LSH
+2022-04-01 12:25:17,935 - image: 59_mag arrived at table_manipulation
+2022-04-01 12:25:17,935 - adding: 59_mag to LSH
+2022-04-01 12:25:17,935 - added: 59_mag to LSH
+2022-04-01 12:25:18,099 - image: 60_mag arrived at table_manipulation
+2022-04-01 12:25:18,099 - adding: 60_mag to LSH
+2022-04-01 12:25:18,099 - added: 60_mag to LSH
+2022-04-01 12:25:18,265 - image: 61_mag arrived at table_manipulation
+2022-04-01 12:25:18,265 - adding: 61_mag to LSH
+2022-04-01 12:25:18,265 - added: 61_mag to LSH
+2022-04-01 12:25:18,416 - image: 62_mag arrived at table_manipulation
+2022-04-01 12:25:18,416 - adding: 62_mag to LSH
+2022-04-01 12:25:18,416 - added: 62_mag to LSH
+2022-04-01 12:25:18,574 - image: 63_mag arrived at table_manipulation
+2022-04-01 12:25:18,574 - adding: 63_mag to LSH
+2022-04-01 12:25:18,574 - added: 63_mag to LSH
+2022-04-01 12:25:18,735 - image: 64_mag arrived at table_manipulation
+2022-04-01 12:25:18,735 - adding: 64_mag to LSH
+2022-04-01 12:25:18,735 - added: 64_mag to LSH
+2022-04-01 12:25:18,888 - image: 65_mag arrived at table_manipulation
+2022-04-01 12:25:18,888 - adding: 65_mag to LSH
+2022-04-01 12:25:18,888 - added: 65_mag to LSH
+2022-04-01 12:25:19,040 - image: 66_mag arrived at table_manipulation
+2022-04-01 12:25:19,040 - adding: 66_mag to LSH
+2022-04-01 12:25:19,041 - added: 66_mag to LSH
+2022-04-01 12:25:19,200 - image: 67_mag arrived at table_manipulation
+2022-04-01 12:25:19,200 - adding: 67_mag to LSH
+2022-04-01 12:25:19,200 - added: 67_mag to LSH
+2022-04-01 12:25:19,357 - image: 68_mag arrived at table_manipulation
+2022-04-01 12:25:19,357 - adding: 68_mag to LSH
+2022-04-01 12:25:19,357 - added: 68_mag to LSH
+2022-04-01 12:25:19,514 - image: 69_mag arrived at table_manipulation
+2022-04-01 12:25:19,514 - adding: 69_mag to LSH
+2022-04-01 12:25:19,515 - added: 69_mag to LSH
+2022-04-01 12:25:19,680 - image: 70_mag arrived at table_manipulation
+2022-04-01 12:25:19,680 - adding: 70_mag to LSH
+2022-04-01 12:25:19,680 - added: 70_mag to LSH
+2022-04-01 12:25:19,835 - image: 71_mag arrived at table_manipulation
+2022-04-01 12:25:19,836 - adding: 71_mag to LSH
+2022-04-01 12:25:19,836 - added: 71_mag to LSH
+2022-04-01 12:25:19,988 - image: 72_mag arrived at table_manipulation
+2022-04-01 12:25:19,988 - adding: 72_mag to LSH
+2022-04-01 12:25:19,988 - added: 72_mag to LSH
+2022-04-01 12:25:20,146 - image: 73_mag arrived at table_manipulation
+2022-04-01 12:25:20,146 - adding: 73_mag to LSH
+2022-04-01 12:25:20,146 - added: 73_mag to LSH
+2022-04-01 12:25:20,299 - image: 74_mag arrived at table_manipulation
+2022-04-01 12:25:20,299 - adding: 74_mag to LSH
+2022-04-01 12:25:20,299 - added: 74_mag to LSH
+2022-04-01 12:25:20,451 - image: 75_mag arrived at table_manipulation
+2022-04-01 12:25:20,451 - adding: 75_mag to LSH
+2022-04-01 12:25:20,451 - added: 75_mag to LSH
+2022-04-01 12:25:20,611 - image: 76_mag arrived at table_manipulation
+2022-04-01 12:25:20,611 - adding: 76_mag to LSH
+2022-04-01 12:25:20,611 - added: 76_mag to LSH
+2022-04-01 12:25:20,766 - image: 77_mag arrived at table_manipulation
+2022-04-01 12:25:20,767 - adding: 77_mag to LSH
+2022-04-01 12:25:20,767 - added: 77_mag to LSH
+2022-04-01 12:25:20,930 - image: 78_mag arrived at table_manipulation
+2022-04-01 12:25:20,930 - adding: 78_mag to LSH
+2022-04-01 12:25:20,930 - added: 78_mag to LSH
+2022-04-01 12:25:21,084 - image: 79_mag arrived at table_manipulation
+2022-04-01 12:25:21,084 - adding: 79_mag to LSH
+2022-04-01 12:25:21,084 - added: 79_mag to LSH
+2022-04-01 12:25:21,253 - image: 80_mag arrived at table_manipulation
+2022-04-01 12:25:21,253 - adding: 80_mag to LSH
+2022-04-01 12:25:21,253 - added: 80_mag to LSH
+2022-04-01 12:25:21,406 - image: 81_mag arrived at table_manipulation
+2022-04-01 12:25:21,406 - adding: 81_mag to LSH
+2022-04-01 12:25:21,406 - added: 81_mag to LSH
+2022-04-01 12:25:21,564 - image: 82_mag arrived at table_manipulation
+2022-04-01 12:25:21,564 - adding: 82_mag to LSH
+2022-04-01 12:25:21,565 - added: 82_mag to LSH
+2022-04-01 12:25:21,722 - image: 83_mag arrived at table_manipulation
+2022-04-01 12:25:21,722 - adding: 83_mag to LSH
+2022-04-01 12:25:21,722 - added: 83_mag to LSH
+2022-04-01 12:25:21,877 - image: 84_mag arrived at table_manipulation
+2022-04-01 12:25:21,877 - adding: 84_mag to LSH
+2022-04-01 12:25:21,877 - added: 84_mag to LSH
+2022-04-01 12:25:22,034 - image: 85_mag arrived at table_manipulation
+2022-04-01 12:25:22,034 - adding: 85_mag to LSH
+2022-04-01 12:25:22,034 - added: 85_mag to LSH
+2022-04-01 12:25:22,196 - image: 86_mag arrived at table_manipulation
+2022-04-01 12:25:22,196 - adding: 86_mag to LSH
+2022-04-01 12:25:22,197 - added: 86_mag to LSH
+2022-04-01 12:25:22,352 - image: 87_mag arrived at table_manipulation
+2022-04-01 12:25:22,352 - adding: 87_mag to LSH
+2022-04-01 12:25:22,352 - added: 87_mag to LSH
+2022-04-01 12:25:22,511 - image: 88_mag arrived at table_manipulation
+2022-04-01 12:25:22,511 - adding: 88_mag to LSH
+2022-04-01 12:25:22,511 - added: 88_mag to LSH
+2022-04-01 12:25:22,673 - image: 89_mag arrived at table_manipulation
+2022-04-01 12:25:22,673 - adding: 89_mag to LSH
+2022-04-01 12:25:22,673 - added: 89_mag to LSH
+2022-04-01 12:25:22,830 - image: 90_mag arrived at table_manipulation
+2022-04-01 12:25:22,830 - adding: 90_mag to LSH
+2022-04-01 12:25:22,830 - added: 90_mag to LSH
+2022-04-01 12:25:22,985 - image: 91_mag arrived at table_manipulation
+2022-04-01 12:25:22,985 - adding: 91_mag to LSH
+2022-04-01 12:25:22,985 - added: 91_mag to LSH
+2022-04-01 12:25:23,146 - image: 92_mag arrived at table_manipulation
+2022-04-01 12:25:23,146 - adding: 92_mag to LSH
+2022-04-01 12:25:23,146 - added: 92_mag to LSH
+2022-04-01 12:25:23,301 - image: 93_mag arrived at table_manipulation
+2022-04-01 12:25:23,301 - adding: 93_mag to LSH
+2022-04-01 12:25:23,301 - added: 93_mag to LSH
+2022-04-01 12:25:23,458 - image: 94_mag arrived at table_manipulation
+2022-04-01 12:25:23,458 - adding: 94_mag to LSH
+2022-04-01 12:25:23,459 - added: 94_mag to LSH
+2022-04-01 12:25:23,617 - image: 95_mag arrived at table_manipulation
+2022-04-01 12:25:23,617 - adding: 95_mag to LSH
+2022-04-01 12:25:23,617 - added: 95_mag to LSH
+2022-04-01 12:25:23,779 - image: 96_mag arrived at table_manipulation
+2022-04-01 12:25:23,779 - adding: 96_mag to LSH
+2022-04-01 12:25:23,779 - added: 96_mag to LSH
+2022-04-01 12:25:23,932 - image: 97_mag arrived at table_manipulation
+2022-04-01 12:25:23,932 - adding: 97_mag to LSH
+2022-04-01 12:25:23,932 - added: 97_mag to LSH
+2022-04-01 12:25:24,080 - image: 98_mag arrived at table_manipulation
+2022-04-01 12:25:24,080 - adding: 98_mag to LSH
+2022-04-01 12:25:24,080 - added: 98_mag to LSH
+2022-04-01 12:25:24,239 - image: 99_mag arrived at table_manipulation
+2022-04-01 12:25:24,239 - adding: 99_mag to LSH
+2022-04-01 12:25:24,239 - added: 99_mag to LSH
+2022-04-01 12:25:24,400 - image: 100_mag arrived at table_manipulation
+2022-04-01 12:25:24,400 - adding: 100_mag to LSH
+2022-04-01 12:25:24,400 - added: 100_mag to LSH
+2022-04-01 12:25:24,548 - image: 101_mag arrived at table_manipulation
+2022-04-01 12:25:24,548 - adding: 101_mag to LSH
+2022-04-01 12:25:24,548 - added: 101_mag to LSH
+2022-04-01 12:25:24,712 - image: 102_mag arrived at table_manipulation
+2022-04-01 12:25:24,712 - adding: 102_mag to LSH
+2022-04-01 12:25:24,712 - added: 102_mag to LSH
+2022-04-01 12:25:24,865 - image: 103_mag arrived at table_manipulation
+2022-04-01 12:25:24,865 - adding: 103_mag to LSH
+2022-04-01 12:25:24,865 - added: 103_mag to LSH
+2022-04-01 12:25:25,016 - image: 104_mag arrived at table_manipulation
+2022-04-01 12:25:25,016 - adding: 104_mag to LSH
+2022-04-01 12:25:25,016 - added: 104_mag to LSH
+2022-04-01 12:25:25,173 - image: 105_mag arrived at table_manipulation
+2022-04-01 12:25:25,173 - adding: 105_mag to LSH
+2022-04-01 12:25:25,173 - added: 105_mag to LSH
+2022-04-01 12:25:25,325 - image: 106_mag arrived at table_manipulation
+2022-04-01 12:25:25,325 - adding: 106_mag to LSH
+2022-04-01 12:25:25,325 - added: 106_mag to LSH
+2022-04-01 12:25:25,480 - image: 107_mag arrived at table_manipulation
+2022-04-01 12:25:25,480 - adding: 107_mag to LSH
+2022-04-01 12:25:25,480 - added: 107_mag to LSH
+2022-04-01 12:25:25,640 - image: 108_mag arrived at table_manipulation
+2022-04-01 12:25:25,640 - adding: 108_mag to LSH
+2022-04-01 12:25:25,640 - added: 108_mag to LSH
+2022-04-01 12:25:25,803 - image: 109_mag arrived at table_manipulation
+2022-04-01 12:25:25,803 - adding: 109_mag to LSH
+2022-04-01 12:25:25,804 - added: 109_mag to LSH
+2022-04-01 12:25:25,972 - image: 110_mag arrived at table_manipulation
+2022-04-01 12:25:25,972 - adding: 110_mag to LSH
+2022-04-01 12:25:25,972 - added: 110_mag to LSH
+2022-04-01 12:25:26,125 - image: 111_mag arrived at table_manipulation
+2022-04-01 12:25:26,125 - adding: 111_mag to LSH
+2022-04-01 12:25:26,125 - added: 111_mag to LSH
+2022-04-01 12:25:26,285 - image: 112_mag arrived at table_manipulation
+2022-04-01 12:25:26,285 - adding: 112_mag to LSH
+2022-04-01 12:25:26,285 - added: 112_mag to LSH
+2022-04-01 12:25:26,438 - image: 113_mag arrived at table_manipulation
+2022-04-01 12:25:26,438 - adding: 113_mag to LSH
+2022-04-01 12:25:26,438 - added: 113_mag to LSH
+2022-04-01 12:25:26,590 - image: 114_mag arrived at table_manipulation
+2022-04-01 12:25:26,590 - adding: 114_mag to LSH
+2022-04-01 12:25:26,590 - added: 114_mag to LSH
+2022-04-01 12:25:26,750 - image: 115_mag arrived at table_manipulation
+2022-04-01 12:25:26,750 - adding: 115_mag to LSH
+2022-04-01 12:25:26,750 - added: 115_mag to LSH
+2022-04-01 12:25:26,931 - image: 116_mag arrived at table_manipulation
+2022-04-01 12:25:26,931 - adding: 116_mag to LSH
+2022-04-01 12:25:26,931 - added: 116_mag to LSH
+2022-04-01 12:25:27,088 - image: 117_mag arrived at table_manipulation
+2022-04-01 12:25:27,088 - adding: 117_mag to LSH
+2022-04-01 12:25:27,088 - added: 117_mag to LSH
+2022-04-01 12:25:27,246 - image: 118_mag arrived at table_manipulation
+2022-04-01 12:25:27,246 - adding: 118_mag to LSH
+2022-04-01 12:25:27,246 - added: 118_mag to LSH
+2022-04-01 12:25:27,400 - image: 119_mag arrived at table_manipulation
+2022-04-01 12:25:27,400 - adding: 119_mag to LSH
+2022-04-01 12:25:27,400 - added: 119_mag to LSH
+2022-04-01 12:25:27,560 - image: 120_mag arrived at table_manipulation
+2022-04-01 12:25:27,560 - adding: 120_mag to LSH
+2022-04-01 12:25:27,560 - added: 120_mag to LSH
+2022-04-01 12:25:27,720 - image: 121_mag arrived at table_manipulation
+2022-04-01 12:25:27,720 - adding: 121_mag to LSH
+2022-04-01 12:25:27,720 - added: 121_mag to LSH
+2022-04-01 12:25:27,876 - image: 122_mag arrived at table_manipulation
+2022-04-01 12:25:27,877 - adding: 122_mag to LSH
+2022-04-01 12:25:27,877 - added: 122_mag to LSH
+2022-04-01 12:25:28,037 - image: 123_mag arrived at table_manipulation
+2022-04-01 12:25:28,037 - adding: 123_mag to LSH
+2022-04-01 12:25:28,037 - added: 123_mag to LSH
+2022-04-01 12:25:28,196 - image: 124_mag arrived at table_manipulation
+2022-04-01 12:25:28,196 - adding: 124_mag to LSH
+2022-04-01 12:25:28,196 - added: 124_mag to LSH
+2022-04-01 12:25:28,350 - image: 125_mag arrived at table_manipulation
+2022-04-01 12:25:28,350 - adding: 125_mag to LSH
+2022-04-01 12:25:28,351 - added: 125_mag to LSH
+2022-04-01 12:25:28,510 - image: 126_mag arrived at table_manipulation
+2022-04-01 12:25:28,510 - adding: 126_mag to LSH
+2022-04-01 12:25:28,510 - added: 126_mag to LSH
+2022-04-01 12:25:28,670 - image: 127_mag arrived at table_manipulation
+2022-04-01 12:25:28,670 - adding: 127_mag to LSH
+2022-04-01 12:25:28,671 - added: 127_mag to LSH
+2022-04-01 12:25:28,823 - image: 128_mag arrived at table_manipulation
+2022-04-01 12:25:28,824 - adding: 128_mag to LSH
+2022-04-01 12:25:28,824 - added: 128_mag to LSH
+2022-04-01 12:25:28,980 - image: 129_mag arrived at table_manipulation
+2022-04-01 12:25:28,980 - adding: 129_mag to LSH
+2022-04-01 12:25:28,980 - added: 129_mag to LSH
+2022-04-01 12:25:29,141 - image: 130_mag arrived at table_manipulation
+2022-04-01 12:25:29,141 - adding: 130_mag to LSH
+2022-04-01 12:25:29,141 - added: 130_mag to LSH
+2022-04-01 12:25:29,302 - image: 131_mag arrived at table_manipulation
+2022-04-01 12:25:29,302 - adding: 131_mag to LSH
+2022-04-01 12:25:29,302 - added: 131_mag to LSH
+2022-04-01 12:25:29,458 - image: 132_mag arrived at table_manipulation
+2022-04-01 12:25:29,458 - adding: 132_mag to LSH
+2022-04-01 12:25:29,458 - added: 132_mag to LSH
+2022-04-01 12:25:29,611 - image: 133_mag arrived at table_manipulation
+2022-04-01 12:25:29,611 - adding: 133_mag to LSH
+2022-04-01 12:25:29,611 - added: 133_mag to LSH
+2022-04-01 12:25:29,765 - image: 134_mag arrived at table_manipulation
+2022-04-01 12:25:29,766 - adding: 134_mag to LSH
+2022-04-01 12:25:29,766 - added: 134_mag to LSH
+2022-04-01 12:25:29,924 - image: 135_mag arrived at table_manipulation
+2022-04-01 12:25:29,924 - adding: 135_mag to LSH
+2022-04-01 12:25:29,924 - added: 135_mag to LSH
+2022-04-01 12:25:30,079 - image: 136_mag arrived at table_manipulation
+2022-04-01 12:25:30,079 - adding: 136_mag to LSH
+2022-04-01 12:25:30,079 - added: 136_mag to LSH
+2022-04-01 12:25:30,238 - image: 137_mag arrived at table_manipulation
+2022-04-01 12:25:30,238 - adding: 137_mag to LSH
+2022-04-01 12:25:30,238 - added: 137_mag to LSH
+2022-04-01 12:25:30,391 - image: 138_mag arrived at table_manipulation
+2022-04-01 12:25:30,392 - adding: 138_mag to LSH
+2022-04-01 12:25:30,392 - added: 138_mag to LSH
+2022-04-01 12:25:30,555 - image: 139_mag arrived at table_manipulation
+2022-04-01 12:25:30,555 - adding: 139_mag to LSH
+2022-04-01 12:25:30,555 - added: 139_mag to LSH
+2022-04-01 12:25:30,713 - image: 140_mag arrived at table_manipulation
+2022-04-01 12:25:30,713 - adding: 140_mag to LSH
+2022-04-01 12:25:30,713 - added: 140_mag to LSH
+2022-04-01 12:25:30,880 - image: 141_mag arrived at table_manipulation
+2022-04-01 12:25:30,880 - adding: 141_mag to LSH
+2022-04-01 12:25:30,880 - added: 141_mag to LSH
+2022-04-01 12:25:31,037 - image: 142_mag arrived at table_manipulation
+2022-04-01 12:25:31,037 - adding: 142_mag to LSH
+2022-04-01 12:25:31,037 - added: 142_mag to LSH
+2022-04-01 12:25:31,197 - image: 143_mag arrived at table_manipulation
+2022-04-01 12:25:31,197 - adding: 143_mag to LSH
+2022-04-01 12:25:31,197 - added: 143_mag to LSH
+2022-04-01 12:25:31,351 - image: 144_mag arrived at table_manipulation
+2022-04-01 12:25:31,351 - adding: 144_mag to LSH
+2022-04-01 12:25:31,352 - added: 144_mag to LSH
+2022-04-01 12:25:31,508 - image: 145_mag arrived at table_manipulation
+2022-04-01 12:25:31,508 - adding: 145_mag to LSH
+2022-04-01 12:25:31,508 - added: 145_mag to LSH
+2022-04-01 12:25:31,669 - image: 146_mag arrived at table_manipulation
+2022-04-01 12:25:31,669 - adding: 146_mag to LSH
+2022-04-01 12:25:31,669 - added: 146_mag to LSH
+2022-04-01 12:25:31,823 - image: 147_mag arrived at table_manipulation
+2022-04-01 12:25:31,823 - adding: 147_mag to LSH
+2022-04-01 12:25:31,823 - added: 147_mag to LSH
+2022-04-01 12:25:31,981 - image: 148_mag arrived at table_manipulation
+2022-04-01 12:25:31,981 - adding: 148_mag to LSH
+2022-04-01 12:25:31,981 - added: 148_mag to LSH
+2022-04-01 12:25:32,146 - image: 149_mag arrived at table_manipulation
+2022-04-01 12:25:32,146 - adding: 149_mag to LSH
+2022-04-01 12:25:32,146 - added: 149_mag to LSH
+2022-04-01 12:25:32,303 - image: 150_mag arrived at table_manipulation
+2022-04-01 12:25:32,303 - adding: 150_mag to LSH
+2022-04-01 12:25:32,303 - added: 150_mag to LSH
+2022-04-01 12:25:32,464 - image: 151_mag arrived at table_manipulation
+2022-04-01 12:25:32,464 - adding: 151_mag to LSH
+2022-04-01 12:25:32,464 - added: 151_mag to LSH
+2022-04-01 12:25:32,624 - image: 152_mag arrived at table_manipulation
+2022-04-01 12:25:32,624 - adding: 152_mag to LSH
+2022-04-01 12:25:32,624 - added: 152_mag to LSH
+2022-04-01 12:25:32,781 - image: 153_mag arrived at table_manipulation
+2022-04-01 12:25:32,781 - adding: 153_mag to LSH
+2022-04-01 12:25:32,781 - added: 153_mag to LSH
+2022-04-01 12:25:32,934 - image: 154_mag arrived at table_manipulation
+2022-04-01 12:25:32,934 - adding: 154_mag to LSH
+2022-04-01 12:25:32,934 - added: 154_mag to LSH
+2022-04-01 12:25:33,096 - image: 155_mag arrived at table_manipulation
+2022-04-01 12:25:33,096 - adding: 155_mag to LSH
+2022-04-01 12:25:33,096 - added: 155_mag to LSH
+2022-04-01 12:25:33,257 - image: 156_mag arrived at table_manipulation
+2022-04-01 12:25:33,257 - adding: 156_mag to LSH
+2022-04-01 12:25:33,257 - added: 156_mag to LSH
+2022-04-01 12:25:33,415 - image: 157_mag arrived at table_manipulation
+2022-04-01 12:25:33,415 - adding: 157_mag to LSH
+2022-04-01 12:25:33,415 - added: 157_mag to LSH
+2022-04-01 12:25:33,572 - image: 158_mag arrived at table_manipulation
+2022-04-01 12:25:33,572 - adding: 158_mag to LSH
+2022-04-01 12:25:33,572 - added: 158_mag to LSH
+2022-04-01 12:25:33,734 - image: 159_mag arrived at table_manipulation
+2022-04-01 12:25:33,734 - adding: 159_mag to LSH
+2022-04-01 12:25:33,734 - added: 159_mag to LSH
+2022-04-01 12:25:33,886 - image: 160_mag arrived at table_manipulation
+2022-04-01 12:25:33,886 - adding: 160_mag to LSH
+2022-04-01 12:25:33,887 - added: 160_mag to LSH
+2022-04-01 12:25:34,051 - image: 161_mag arrived at table_manipulation
+2022-04-01 12:25:34,051 - adding: 161_mag to LSH
+2022-04-01 12:25:34,051 - added: 161_mag to LSH
+2022-04-01 12:25:34,213 - image: 162_mag arrived at table_manipulation
+2022-04-01 12:25:34,213 - adding: 162_mag to LSH
+2022-04-01 12:25:34,213 - added: 162_mag to LSH
+2022-04-01 12:25:34,366 - image: 163_mag arrived at table_manipulation
+2022-04-01 12:25:34,366 - adding: 163_mag to LSH
+2022-04-01 12:25:34,366 - added: 163_mag to LSH
+2022-04-01 12:25:34,524 - image: 164_mag arrived at table_manipulation
+2022-04-01 12:25:34,525 - adding: 164_mag to LSH
+2022-04-01 12:25:34,525 - added: 164_mag to LSH
+2022-04-01 12:25:34,688 - image: 165_mag arrived at table_manipulation
+2022-04-01 12:25:34,689 - adding: 165_mag to LSH
+2022-04-01 12:25:34,689 - added: 165_mag to LSH
+2022-04-01 12:25:34,843 - image: 166_mag arrived at table_manipulation
+2022-04-01 12:25:34,843 - adding: 166_mag to LSH
+2022-04-01 12:25:34,843 - added: 166_mag to LSH
+2022-04-01 12:25:34,998 - image: 167_mag arrived at table_manipulation
+2022-04-01 12:25:34,998 - adding: 167_mag to LSH
+2022-04-01 12:25:34,998 - added: 167_mag to LSH
+2022-04-01 12:25:35,160 - image: 168_mag arrived at table_manipulation
+2022-04-01 12:25:35,160 - adding: 168_mag to LSH
+2022-04-01 12:25:35,160 - added: 168_mag to LSH
+2022-04-01 12:25:35,317 - image: 169_mag arrived at table_manipulation
+2022-04-01 12:25:35,317 - adding: 169_mag to LSH
+2022-04-01 12:25:35,317 - added: 169_mag to LSH
+2022-04-01 12:25:35,477 - image: 170_mag arrived at table_manipulation
+2022-04-01 12:25:35,477 - adding: 170_mag to LSH
+2022-04-01 12:25:35,477 - added: 170_mag to LSH
+2022-04-01 12:25:35,642 - image: 171_mag arrived at table_manipulation
+2022-04-01 12:25:35,642 - adding: 171_mag to LSH
+2022-04-01 12:25:35,642 - added: 171_mag to LSH
+2022-04-01 12:25:35,801 - image: 172_mag arrived at table_manipulation
+2022-04-01 12:25:35,801 - adding: 172_mag to LSH
+2022-04-01 12:25:35,801 - added: 172_mag to LSH
+2022-04-01 12:25:35,958 - image: 173_mag arrived at table_manipulation
+2022-04-01 12:25:35,958 - adding: 173_mag to LSH
+2022-04-01 12:25:35,958 - added: 173_mag to LSH
+2022-04-01 12:25:36,112 - image: 174_mag arrived at table_manipulation
+2022-04-01 12:25:36,112 - adding: 174_mag to LSH
+2022-04-01 12:25:36,112 - added: 174_mag to LSH
+2022-04-01 12:25:36,267 - image: 175_mag arrived at table_manipulation
+2022-04-01 12:25:36,267 - adding: 175_mag to LSH
+2022-04-01 12:25:36,267 - added: 175_mag to LSH
+2022-04-01 12:25:36,423 - image: 176_mag arrived at table_manipulation
+2022-04-01 12:25:36,423 - adding: 176_mag to LSH
+2022-04-01 12:25:36,423 - added: 176_mag to LSH
+2022-04-01 12:25:36,588 - image: 177_mag arrived at table_manipulation
+2022-04-01 12:25:36,588 - adding: 177_mag to LSH
+2022-04-01 12:25:36,588 - added: 177_mag to LSH
+2022-04-01 12:25:36,748 - image: 178_mag arrived at table_manipulation
+2022-04-01 12:25:36,748 - adding: 178_mag to LSH
+2022-04-01 12:25:36,748 - added: 178_mag to LSH
+2022-04-01 12:25:36,907 - image: 179_mag arrived at table_manipulation
+2022-04-01 12:25:36,907 - adding: 179_mag to LSH
+2022-04-01 12:25:36,907 - added: 179_mag to LSH
+2022-04-01 12:25:37,065 - image: 180_mag arrived at table_manipulation
+2022-04-01 12:25:37,065 - adding: 180_mag to LSH
+2022-04-01 12:25:37,065 - added: 180_mag to LSH
+2022-04-01 12:25:37,232 - image: 181_mag arrived at table_manipulation
+2022-04-01 12:25:37,232 - adding: 181_mag to LSH
+2022-04-01 12:25:37,232 - added: 181_mag to LSH
+2022-04-01 12:25:37,419 - image: 182_mag arrived at table_manipulation
+2022-04-01 12:25:37,419 - adding: 182_mag to LSH
+2022-04-01 12:25:37,419 - added: 182_mag to LSH
+2022-04-01 12:25:37,640 - image: 183_mag arrived at table_manipulation
+2022-04-01 12:25:37,640 - adding: 183_mag to LSH
+2022-04-01 12:25:37,641 - added: 183_mag to LSH
+2022-04-01 12:25:37,746 - image: 184_mag arrived at table_manipulation
+2022-04-01 12:25:37,746 - adding: 184_mag to LSH
+2022-04-01 12:25:37,746 - added: 184_mag to LSH
+2022-04-01 12:25:37,902 - image: 185_mag arrived at table_manipulation
+2022-04-01 12:25:37,902 - adding: 185_mag to LSH
+2022-04-01 12:25:37,902 - added: 185_mag to LSH
+2022-04-01 12:25:38,061 - image: 186_mag arrived at table_manipulation
+2022-04-01 12:25:38,061 - adding: 186_mag to LSH
+2022-04-01 12:25:38,061 - added: 186_mag to LSH
+2022-04-01 12:25:38,222 - image: 187_mag arrived at table_manipulation
+2022-04-01 12:25:38,222 - adding: 187_mag to LSH
+2022-04-01 12:25:38,222 - added: 187_mag to LSH
+2022-04-01 12:25:38,377 - image: 188_mag arrived at table_manipulation
+2022-04-01 12:25:38,377 - adding: 188_mag to LSH
+2022-04-01 12:25:38,377 - added: 188_mag to LSH
+2022-04-01 12:25:38,534 - image: 189_mag arrived at table_manipulation
+2022-04-01 12:25:38,534 - adding: 189_mag to LSH
+2022-04-01 12:25:38,535 - added: 189_mag to LSH
+2022-04-01 12:25:38,696 - image: 190_mag arrived at table_manipulation
+2022-04-01 12:25:38,696 - adding: 190_mag to LSH
+2022-04-01 12:25:38,696 - added: 190_mag to LSH
+2022-04-01 12:25:38,851 - image: 191_mag arrived at table_manipulation
+2022-04-01 12:25:38,851 - adding: 191_mag to LSH
+2022-04-01 12:25:38,851 - added: 191_mag to LSH
+2022-04-01 12:25:39,007 - image: 192_mag arrived at table_manipulation
+2022-04-01 12:25:39,007 - adding: 192_mag to LSH
+2022-04-01 12:25:39,007 - added: 192_mag to LSH
+2022-04-01 12:25:39,171 - image: 193_mag arrived at table_manipulation
+2022-04-01 12:25:39,171 - adding: 193_mag to LSH
+2022-04-01 12:25:39,171 - added: 193_mag to LSH
+2022-04-01 12:25:39,327 - image: 194_mag arrived at table_manipulation
+2022-04-01 12:25:39,327 - adding: 194_mag to LSH
+2022-04-01 12:25:39,327 - added: 194_mag to LSH
+2022-04-01 12:25:39,482 - image: 195_mag arrived at table_manipulation
+2022-04-01 12:25:39,482 - adding: 195_mag to LSH
+2022-04-01 12:25:39,482 - added: 195_mag to LSH
+2022-04-01 12:25:39,634 - image: 196_mag arrived at table_manipulation
+2022-04-01 12:25:39,634 - adding: 196_mag to LSH
+2022-04-01 12:25:39,634 - added: 196_mag to LSH
+2022-04-01 12:25:39,790 - image: 197_mag arrived at table_manipulation
+2022-04-01 12:25:39,790 - adding: 197_mag to LSH
+2022-04-01 12:25:39,790 - added: 197_mag to LSH
+2022-04-01 12:25:39,940 - image: 198_mag arrived at table_manipulation
+2022-04-01 12:25:39,940 - adding: 198_mag to LSH
+2022-04-01 12:25:39,940 - added: 198_mag to LSH
+2022-04-01 12:25:40,097 - image: 199_mag arrived at table_manipulation
+2022-04-01 12:25:40,097 - adding: 199_mag to LSH
+2022-04-01 12:25:40,097 - added: 199_mag to LSH
+2022-04-01 12:25:40,260 - image: 200_mag arrived at table_manipulation
+2022-04-01 12:25:40,260 - adding: 200_mag to LSH
+2022-04-01 12:25:40,260 - added: 200_mag to LSH
+2022-04-01 12:25:40,421 - image: 201_mag arrived at table_manipulation
+2022-04-01 12:25:40,421 - adding: 201_mag to LSH
+2022-04-01 12:25:40,421 - added: 201_mag to LSH
+2022-04-01 12:25:40,582 - image: 202_mag arrived at table_manipulation
+2022-04-01 12:25:40,582 - adding: 202_mag to LSH
+2022-04-01 12:25:40,582 - added: 202_mag to LSH
+2022-04-01 12:25:40,738 - image: 203_mag arrived at table_manipulation
+2022-04-01 12:25:40,738 - adding: 203_mag to LSH
+2022-04-01 12:25:40,738 - added: 203_mag to LSH
+2022-04-01 12:25:40,895 - image: 204_mag arrived at table_manipulation
+2022-04-01 12:25:40,895 - adding: 204_mag to LSH
+2022-04-01 12:25:40,895 - added: 204_mag to LSH
+2022-04-01 12:25:41,052 - image: 205_mag arrived at table_manipulation
+2022-04-01 12:25:41,052 - adding: 205_mag to LSH
+2022-04-01 12:25:41,052 - added: 205_mag to LSH
+2022-04-01 12:25:41,212 - image: 206_mag arrived at table_manipulation
+2022-04-01 12:25:41,212 - adding: 206_mag to LSH
+2022-04-01 12:25:41,212 - added: 206_mag to LSH
+2022-04-01 12:25:41,364 - image: 207_mag arrived at table_manipulation
+2022-04-01 12:25:41,364 - adding: 207_mag to LSH
+2022-04-01 12:25:41,364 - added: 207_mag to LSH
+2022-04-01 12:25:41,520 - image: 208_mag arrived at table_manipulation
+2022-04-01 12:25:41,520 - adding: 208_mag to LSH
+2022-04-01 12:25:41,521 - added: 208_mag to LSH
+2022-04-01 12:25:41,680 - image: 209_mag arrived at table_manipulation
+2022-04-01 12:25:41,680 - adding: 209_mag to LSH
+2022-04-01 12:25:41,680 - added: 209_mag to LSH
+2022-04-01 12:25:41,835 - image: 210_mag arrived at table_manipulation
+2022-04-01 12:25:41,836 - adding: 210_mag to LSH
+2022-04-01 12:25:41,836 - added: 210_mag to LSH
+2022-04-01 12:25:41,994 - image: 211_mag arrived at table_manipulation
+2022-04-01 12:25:41,994 - adding: 211_mag to LSH
+2022-04-01 12:25:41,994 - added: 211_mag to LSH
+2022-04-01 12:25:42,154 - image: 212_mag arrived at table_manipulation
+2022-04-01 12:25:42,154 - adding: 212_mag to LSH
+2022-04-01 12:25:42,155 - added: 212_mag to LSH
+2022-04-01 12:25:42,316 - image: 213_mag arrived at table_manipulation
+2022-04-01 12:25:42,316 - adding: 213_mag to LSH
+2022-04-01 12:25:42,316 - added: 213_mag to LSH
+2022-04-01 12:25:42,469 - image: 214_mag arrived at table_manipulation
+2022-04-01 12:25:42,469 - adding: 214_mag to LSH
+2022-04-01 12:25:42,469 - added: 214_mag to LSH
+2022-04-01 12:25:42,628 - image: 215_mag arrived at table_manipulation
+2022-04-01 12:25:42,628 - adding: 215_mag to LSH
+2022-04-01 12:25:42,629 - added: 215_mag to LSH
+2022-04-01 12:25:42,787 - image: 216_mag arrived at table_manipulation
+2022-04-01 12:25:42,787 - adding: 216_mag to LSH
+2022-04-01 12:25:42,788 - added: 216_mag to LSH
+2022-04-01 12:25:42,940 - image: 217_mag arrived at table_manipulation
+2022-04-01 12:25:42,940 - adding: 217_mag to LSH
+2022-04-01 12:25:42,940 - added: 217_mag to LSH
+2022-04-01 12:25:43,101 - image: 218_mag arrived at table_manipulation
+2022-04-01 12:25:43,101 - adding: 218_mag to LSH
+2022-04-01 12:25:43,101 - added: 218_mag to LSH
+2022-04-01 12:25:43,264 - image: 219_mag arrived at table_manipulation
+2022-04-01 12:25:43,264 - adding: 219_mag to LSH
+2022-04-01 12:25:43,264 - added: 219_mag to LSH
+2022-04-01 12:25:43,423 - image: 220_mag arrived at table_manipulation
+2022-04-01 12:25:43,423 - adding: 220_mag to LSH
+2022-04-01 12:25:43,423 - added: 220_mag to LSH
+2022-04-01 12:25:43,579 - image: 221_mag arrived at table_manipulation
+2022-04-01 12:25:43,579 - adding: 221_mag to LSH
+2022-04-01 12:25:43,580 - added: 221_mag to LSH
+2022-04-01 12:25:43,747 - image: 222_mag arrived at table_manipulation
+2022-04-01 12:25:43,747 - adding: 222_mag to LSH
+2022-04-01 12:25:43,747 - added: 222_mag to LSH
+2022-04-01 12:25:43,899 - image: 223_mag arrived at table_manipulation
+2022-04-01 12:25:43,899 - adding: 223_mag to LSH
+2022-04-01 12:25:43,899 - added: 223_mag to LSH
+2022-04-01 12:25:44,052 - image: 224_mag arrived at table_manipulation
+2022-04-01 12:25:44,052 - adding: 224_mag to LSH
+2022-04-01 12:25:44,052 - added: 224_mag to LSH
+2022-04-01 12:25:44,214 - image: 225_mag arrived at table_manipulation
+2022-04-01 12:25:44,214 - adding: 225_mag to LSH
+2022-04-01 12:25:44,214 - added: 225_mag to LSH
+2022-04-01 12:25:44,370 - image: 226_mag arrived at table_manipulation
+2022-04-01 12:25:44,370 - adding: 226_mag to LSH
+2022-04-01 12:25:44,370 - added: 226_mag to LSH
+2022-04-01 12:25:44,526 - image: 227_mag arrived at table_manipulation
+2022-04-01 12:25:44,526 - adding: 227_mag to LSH
+2022-04-01 12:25:44,526 - added: 227_mag to LSH
+2022-04-01 12:25:44,685 - image: 228_mag arrived at table_manipulation
+2022-04-01 12:25:44,685 - adding: 228_mag to LSH
+2022-04-01 12:25:44,685 - added: 228_mag to LSH
+2022-04-01 12:25:44,844 - image: 229_mag arrived at table_manipulation
+2022-04-01 12:25:44,844 - adding: 229_mag to LSH
+2022-04-01 12:25:44,844 - added: 229_mag to LSH
+2022-04-01 12:25:45,000 - image: 230_mag arrived at table_manipulation
+2022-04-01 12:25:45,000 - adding: 230_mag to LSH
+2022-04-01 12:25:45,000 - added: 230_mag to LSH
+2022-04-01 12:25:45,164 - image: 231_mag arrived at table_manipulation
+2022-04-01 12:25:45,164 - adding: 231_mag to LSH
+2022-04-01 12:25:45,164 - added: 231_mag to LSH
+2022-04-01 12:25:45,319 - image: 232_mag arrived at table_manipulation
+2022-04-01 12:25:45,319 - adding: 232_mag to LSH
+2022-04-01 12:25:45,319 - added: 232_mag to LSH
+2022-04-01 12:25:45,475 - image: 233_mag arrived at table_manipulation
+2022-04-01 12:25:45,475 - adding: 233_mag to LSH
+2022-04-01 12:25:45,475 - added: 233_mag to LSH
+2022-04-01 12:25:45,632 - image: 234_mag arrived at table_manipulation
+2022-04-01 12:25:45,633 - adding: 234_mag to LSH
+2022-04-01 12:25:45,633 - added: 234_mag to LSH
+2022-04-01 12:25:45,793 - image: 235_mag arrived at table_manipulation
+2022-04-01 12:25:45,793 - adding: 235_mag to LSH
+2022-04-01 12:25:45,793 - added: 235_mag to LSH
+2022-04-01 12:25:45,953 - image: 236_mag arrived at table_manipulation
+2022-04-01 12:25:45,953 - adding: 236_mag to LSH
+2022-04-01 12:25:45,953 - added: 236_mag to LSH
+2022-04-01 12:25:46,106 - image: 237_mag arrived at table_manipulation
+2022-04-01 12:25:46,106 - adding: 237_mag to LSH
+2022-04-01 12:25:46,106 - added: 237_mag to LSH
+2022-04-01 12:25:46,268 - image: 238_mag arrived at table_manipulation
+2022-04-01 12:25:46,268 - adding: 238_mag to LSH
+2022-04-01 12:25:46,268 - added: 238_mag to LSH
+2022-04-01 12:25:46,428 - image: 239_mag arrived at table_manipulation
+2022-04-01 12:25:46,429 - adding: 239_mag to LSH
+2022-04-01 12:25:46,429 - added: 239_mag to LSH
+2022-04-01 12:25:46,582 - image: 240_mag arrived at table_manipulation
+2022-04-01 12:25:46,582 - adding: 240_mag to LSH
+2022-04-01 12:25:46,582 - added: 240_mag to LSH
+2022-04-01 12:25:46,755 - image: 241_mag arrived at table_manipulation
+2022-04-01 12:25:46,755 - adding: 241_mag to LSH
+2022-04-01 12:25:46,755 - added: 241_mag to LSH
+2022-04-01 12:25:46,911 - image: 242_mag arrived at table_manipulation
+2022-04-01 12:25:46,911 - adding: 242_mag to LSH
+2022-04-01 12:25:46,911 - added: 242_mag to LSH
+2022-04-01 12:25:47,064 - image: 243_mag arrived at table_manipulation
+2022-04-01 12:25:47,064 - adding: 243_mag to LSH
+2022-04-01 12:25:47,064 - added: 243_mag to LSH
+2022-04-01 12:25:47,226 - image: 244_mag arrived at table_manipulation
+2022-04-01 12:25:47,227 - adding: 244_mag to LSH
+2022-04-01 12:25:47,227 - added: 244_mag to LSH
+2022-04-01 12:25:47,382 - image: 245_mag arrived at table_manipulation
+2022-04-01 12:25:47,382 - adding: 245_mag to LSH
+2022-04-01 12:25:47,382 - added: 245_mag to LSH
+2022-04-01 12:25:47,538 - image: 246_mag arrived at table_manipulation
+2022-04-01 12:25:47,538 - adding: 246_mag to LSH
+2022-04-01 12:25:47,538 - added: 246_mag to LSH
+2022-04-01 12:25:47,698 - image: 247_mag arrived at table_manipulation
+2022-04-01 12:25:47,698 - adding: 247_mag to LSH
+2022-04-01 12:25:47,698 - added: 247_mag to LSH
+2022-04-01 12:25:47,877 - image: 248_mag arrived at table_manipulation
+2022-04-01 12:25:47,877 - adding: 248_mag to LSH
+2022-04-01 12:25:47,877 - added: 248_mag to LSH
+2022-04-01 12:25:48,034 - image: 249_mag arrived at table_manipulation
+2022-04-01 12:25:48,034 - adding: 249_mag to LSH
+2022-04-01 12:25:48,035 - added: 249_mag to LSH
+2022-04-01 12:25:48,193 - image: 250_mag arrived at table_manipulation
+2022-04-01 12:25:48,193 - adding: 250_mag to LSH
+2022-04-01 12:25:48,193 - added: 250_mag to LSH
+2022-04-01 12:25:48,354 - image: 251_mag arrived at table_manipulation
+2022-04-01 12:25:48,354 - adding: 251_mag to LSH
+2022-04-01 12:25:48,354 - added: 251_mag to LSH
+2022-04-01 12:25:48,514 - image: 252_mag arrived at table_manipulation
+2022-04-01 12:25:48,514 - adding: 252_mag to LSH
+2022-04-01 12:25:48,514 - added: 252_mag to LSH
+2022-04-01 12:25:48,672 - image: 253_mag arrived at table_manipulation
+2022-04-01 12:25:48,672 - adding: 253_mag to LSH
+2022-04-01 12:25:48,672 - added: 253_mag to LSH
+2022-04-01 12:25:48,827 - image: 254_mag arrived at table_manipulation
+2022-04-01 12:25:48,827 - adding: 254_mag to LSH
+2022-04-01 12:25:48,827 - added: 254_mag to LSH
+2022-04-01 12:25:48,984 - image: 255_mag arrived at table_manipulation
+2022-04-01 12:25:48,984 - adding: 255_mag to LSH
+2022-04-01 12:25:48,984 - added: 255_mag to LSH
+2022-04-01 12:25:49,140 - image: 256_mag arrived at table_manipulation
+2022-04-01 12:25:49,140 - adding: 256_mag to LSH
+2022-04-01 12:25:49,140 - added: 256_mag to LSH
+2022-04-01 12:25:49,298 - image: 257_mag arrived at table_manipulation
+2022-04-01 12:25:49,298 - adding: 257_mag to LSH
+2022-04-01 12:25:49,298 - added: 257_mag to LSH
+2022-04-01 12:25:49,453 - image: 258_mag arrived at table_manipulation
+2022-04-01 12:25:49,453 - adding: 258_mag to LSH
+2022-04-01 12:25:49,453 - added: 258_mag to LSH
+2022-04-01 12:25:49,607 - image: 259_mag arrived at table_manipulation
+2022-04-01 12:25:49,607 - adding: 259_mag to LSH
+2022-04-01 12:25:49,607 - added: 259_mag to LSH
+2022-04-01 12:25:49,768 - image: 260_mag arrived at table_manipulation
+2022-04-01 12:25:49,768 - adding: 260_mag to LSH
+2022-04-01 12:25:49,768 - added: 260_mag to LSH
+2022-04-01 12:25:49,932 - image: 261_mag arrived at table_manipulation
+2022-04-01 12:25:49,932 - adding: 261_mag to LSH
+2022-04-01 12:25:49,932 - added: 261_mag to LSH
+2022-04-01 12:25:50,088 - image: 262_mag arrived at table_manipulation
+2022-04-01 12:25:50,088 - adding: 262_mag to LSH
+2022-04-01 12:25:50,088 - added: 262_mag to LSH
+2022-04-01 12:25:50,245 - image: 263_mag arrived at table_manipulation
+2022-04-01 12:25:50,245 - adding: 263_mag to LSH
+2022-04-01 12:25:50,245 - added: 263_mag to LSH
+2022-04-01 12:25:50,403 - image: 264_mag arrived at table_manipulation
+2022-04-01 12:25:50,403 - adding: 264_mag to LSH
+2022-04-01 12:25:50,403 - added: 264_mag to LSH
+2022-04-01 12:25:50,558 - image: 265_mag arrived at table_manipulation
+2022-04-01 12:25:50,558 - adding: 265_mag to LSH
+2022-04-01 12:25:50,558 - added: 265_mag to LSH
+2022-04-01 12:25:50,717 - image: 266_mag arrived at table_manipulation
+2022-04-01 12:25:50,717 - adding: 266_mag to LSH
+2022-04-01 12:25:50,717 - added: 266_mag to LSH
+2022-04-01 12:25:50,879 - image: 267_mag arrived at table_manipulation
+2022-04-01 12:25:50,879 - adding: 267_mag to LSH
+2022-04-01 12:25:50,879 - added: 267_mag to LSH
+2022-04-01 12:25:51,045 - image: 268_mag arrived at table_manipulation
+2022-04-01 12:25:51,045 - adding: 268_mag to LSH
+2022-04-01 12:25:51,045 - added: 268_mag to LSH
+2022-04-01 12:25:51,205 - image: 269_mag arrived at table_manipulation
+2022-04-01 12:25:51,205 - adding: 269_mag to LSH
+2022-04-01 12:25:51,205 - added: 269_mag to LSH
+2022-04-01 12:25:51,364 - image: 270_mag arrived at table_manipulation
+2022-04-01 12:25:51,364 - adding: 270_mag to LSH
+2022-04-01 12:25:51,364 - added: 270_mag to LSH
+2022-04-01 12:25:51,525 - image: 271_mag arrived at table_manipulation
+2022-04-01 12:25:51,525 - adding: 271_mag to LSH
+2022-04-01 12:25:51,525 - added: 271_mag to LSH
+2022-04-01 12:25:51,683 - image: 272_mag arrived at table_manipulation
+2022-04-01 12:25:51,684 - adding: 272_mag to LSH
+2022-04-01 12:25:51,684 - added: 272_mag to LSH
+2022-04-01 12:25:51,839 - image: 273_mag arrived at table_manipulation
+2022-04-01 12:25:51,840 - adding: 273_mag to LSH
+2022-04-01 12:25:51,840 - added: 273_mag to LSH
+2022-04-01 12:25:51,996 - image: 274_mag arrived at table_manipulation
+2022-04-01 12:25:51,996 - adding: 274_mag to LSH
+2022-04-01 12:25:51,996 - added: 274_mag to LSH
+2022-04-01 12:25:52,155 - image: 275_mag arrived at table_manipulation
+2022-04-01 12:25:52,156 - adding: 275_mag to LSH
+2022-04-01 12:25:52,156 - added: 275_mag to LSH
+2022-04-01 12:25:52,311 - image: 276_mag arrived at table_manipulation
+2022-04-01 12:25:52,311 - adding: 276_mag to LSH
+2022-04-01 12:25:52,311 - added: 276_mag to LSH
+2022-04-01 12:25:52,469 - image: 277_mag arrived at table_manipulation
+2022-04-01 12:25:52,469 - adding: 277_mag to LSH
+2022-04-01 12:25:52,469 - added: 277_mag to LSH
+2022-04-01 12:25:52,624 - image: 278_mag arrived at table_manipulation
+2022-04-01 12:25:52,624 - adding: 278_mag to LSH
+2022-04-01 12:25:52,624 - added: 278_mag to LSH
+2022-04-01 12:25:52,779 - image: 279_mag arrived at table_manipulation
+2022-04-01 12:25:52,779 - adding: 279_mag to LSH
+2022-04-01 12:25:52,779 - added: 279_mag to LSH
+2022-04-01 12:25:52,933 - image: 280_mag arrived at table_manipulation
+2022-04-01 12:25:52,934 - adding: 280_mag to LSH
+2022-04-01 12:25:52,934 - added: 280_mag to LSH
+2022-04-01 12:25:53,091 - image: 281_mag arrived at table_manipulation
+2022-04-01 12:25:53,091 - adding: 281_mag to LSH
+2022-04-01 12:25:53,091 - added: 281_mag to LSH
+2022-04-01 12:25:53,259 - image: 282_mag arrived at table_manipulation
+2022-04-01 12:25:53,259 - adding: 282_mag to LSH
+2022-04-01 12:25:53,260 - added: 282_mag to LSH
+2022-04-01 12:25:53,416 - image: 283_mag arrived at table_manipulation
+2022-04-01 12:25:53,416 - adding: 283_mag to LSH
+2022-04-01 12:25:53,416 - added: 283_mag to LSH
+2022-04-01 12:25:53,576 - image: 284_mag arrived at table_manipulation
+2022-04-01 12:25:53,576 - adding: 284_mag to LSH
+2022-04-01 12:25:53,576 - added: 284_mag to LSH
+2022-04-01 12:25:53,737 - image: 285_mag arrived at table_manipulation
+2022-04-01 12:25:53,737 - adding: 285_mag to LSH
+2022-04-01 12:25:53,737 - added: 285_mag to LSH
+2022-04-01 12:25:53,891 - image: 286_mag arrived at table_manipulation
+2022-04-01 12:25:53,891 - adding: 286_mag to LSH
+2022-04-01 12:25:53,891 - added: 286_mag to LSH
+2022-04-01 12:25:54,048 - image: 287_mag arrived at table_manipulation
+2022-04-01 12:25:54,048 - adding: 287_mag to LSH
+2022-04-01 12:25:54,048 - added: 287_mag to LSH
+2022-04-01 12:25:54,207 - image: 288_mag arrived at table_manipulation
+2022-04-01 12:25:54,207 - adding: 288_mag to LSH
+2022-04-01 12:25:54,207 - added: 288_mag to LSH
+2022-04-01 12:25:54,362 - image: 289_mag arrived at table_manipulation
+2022-04-01 12:25:54,362 - adding: 289_mag to LSH
+2022-04-01 12:25:54,362 - added: 289_mag to LSH
+2022-04-01 12:25:54,521 - image: 290_mag arrived at table_manipulation
+2022-04-01 12:25:54,521 - adding: 290_mag to LSH
+2022-04-01 12:25:54,521 - added: 290_mag to LSH
+2022-04-01 12:25:54,684 - image: 291_mag arrived at table_manipulation
+2022-04-01 12:25:54,684 - adding: 291_mag to LSH
+2022-04-01 12:25:54,684 - added: 291_mag to LSH
+2022-04-01 12:25:54,839 - image: 292_mag arrived at table_manipulation
+2022-04-01 12:25:54,839 - adding: 292_mag to LSH
+2022-04-01 12:25:54,839 - added: 292_mag to LSH
+2022-04-01 12:25:54,991 - image: 293_mag arrived at table_manipulation
+2022-04-01 12:25:54,991 - adding: 293_mag to LSH
+2022-04-01 12:25:54,991 - added: 293_mag to LSH
+2022-04-01 12:25:55,151 - image: 294_mag arrived at table_manipulation
+2022-04-01 12:25:55,151 - adding: 294_mag to LSH
+2022-04-01 12:25:55,152 - added: 294_mag to LSH
+2022-04-01 12:25:55,308 - image: 295_mag arrived at table_manipulation
+2022-04-01 12:25:55,308 - adding: 295_mag to LSH
+2022-04-01 12:25:55,308 - added: 295_mag to LSH
+2022-04-01 12:25:55,470 - image: 296_mag arrived at table_manipulation
+2022-04-01 12:25:55,470 - adding: 296_mag to LSH
+2022-04-01 12:25:55,470 - added: 296_mag to LSH
+2022-04-01 12:25:55,627 - image: 297_mag arrived at table_manipulation
+2022-04-01 12:25:55,627 - adding: 297_mag to LSH
+2022-04-01 12:25:55,627 - added: 297_mag to LSH
+2022-04-01 12:25:55,783 - image: 298_mag arrived at table_manipulation
+2022-04-01 12:25:55,783 - adding: 298_mag to LSH
+2022-04-01 12:25:55,783 - added: 298_mag to LSH
+2022-04-01 12:25:55,943 - image: 299_mag arrived at table_manipulation
+2022-04-01 12:25:55,944 - adding: 299_mag to LSH
+2022-04-01 12:25:55,944 - added: 299_mag to LSH
+2022-04-01 12:25:56,097 - image: 300_mag arrived at table_manipulation
+2022-04-01 12:25:56,097 - adding: 300_mag to LSH
+2022-04-01 12:25:56,097 - added: 300_mag to LSH
+2022-04-01 12:25:56,259 - image: 301_mag arrived at table_manipulation
+2022-04-01 12:25:56,259 - adding: 301_mag to LSH
+2022-04-01 12:25:56,259 - added: 301_mag to LSH
+2022-04-01 12:25:56,423 - image: 302_mag arrived at table_manipulation
+2022-04-01 12:25:56,423 - adding: 302_mag to LSH
+2022-04-01 12:25:56,423 - added: 302_mag to LSH
+2022-04-01 12:25:56,582 - image: 303_mag arrived at table_manipulation
+2022-04-01 12:25:56,582 - adding: 303_mag to LSH
+2022-04-01 12:25:56,582 - added: 303_mag to LSH
+2022-04-01 12:25:56,739 - image: 304_mag arrived at table_manipulation
+2022-04-01 12:25:56,739 - adding: 304_mag to LSH
+2022-04-01 12:25:56,739 - added: 304_mag to LSH
+2022-04-01 12:25:56,893 - image: 305_mag arrived at table_manipulation
+2022-04-01 12:25:56,893 - adding: 305_mag to LSH
+2022-04-01 12:25:56,893 - added: 305_mag to LSH
+2022-04-01 12:25:57,047 - image: 306_mag arrived at table_manipulation
+2022-04-01 12:25:57,047 - adding: 306_mag to LSH
+2022-04-01 12:25:57,047 - added: 306_mag to LSH
+2022-04-01 12:25:57,214 - image: 307_mag arrived at table_manipulation
+2022-04-01 12:25:57,214 - adding: 307_mag to LSH
+2022-04-01 12:25:57,214 - added: 307_mag to LSH
+2022-04-01 12:25:57,371 - image: 308_mag arrived at table_manipulation
+2022-04-01 12:25:57,371 - adding: 308_mag to LSH
+2022-04-01 12:25:57,371 - added: 308_mag to LSH
+2022-04-01 12:25:57,528 - image: 309_mag arrived at table_manipulation
+2022-04-01 12:25:57,528 - adding: 309_mag to LSH
+2022-04-01 12:25:57,528 - added: 309_mag to LSH
+2022-04-01 12:25:57,688 - image: 310_mag arrived at table_manipulation
+2022-04-01 12:25:57,688 - adding: 310_mag to LSH
+2022-04-01 12:25:57,689 - added: 310_mag to LSH
+2022-04-01 12:25:57,842 - image: 311_mag arrived at table_manipulation
+2022-04-01 12:25:57,842 - adding: 311_mag to LSH
+2022-04-01 12:25:57,842 - added: 311_mag to LSH
+2022-04-01 12:25:58,007 - image: 312_mag arrived at table_manipulation
+2022-04-01 12:25:58,007 - adding: 312_mag to LSH
+2022-04-01 12:25:58,007 - added: 312_mag to LSH
+2022-04-01 12:25:58,164 - image: 313_mag arrived at table_manipulation
+2022-04-01 12:25:58,164 - adding: 313_mag to LSH
+2022-04-01 12:25:58,164 - added: 313_mag to LSH
+2022-04-01 12:25:58,341 - image: 314_mag arrived at table_manipulation
+2022-04-01 12:25:58,341 - adding: 314_mag to LSH
+2022-04-01 12:25:58,341 - added: 314_mag to LSH
+2022-04-01 12:25:58,508 - image: 315_mag arrived at table_manipulation
+2022-04-01 12:25:58,508 - adding: 315_mag to LSH
+2022-04-01 12:25:58,508 - added: 315_mag to LSH
+2022-04-01 12:25:58,665 - image: 316_mag arrived at table_manipulation
+2022-04-01 12:25:58,665 - adding: 316_mag to LSH
+2022-04-01 12:25:58,665 - added: 316_mag to LSH
+2022-04-01 12:25:58,818 - image: 317_mag arrived at table_manipulation
+2022-04-01 12:25:58,818 - adding: 317_mag to LSH
+2022-04-01 12:25:58,818 - added: 317_mag to LSH
+2022-04-01 12:25:58,976 - image: 318_mag arrived at table_manipulation
+2022-04-01 12:25:58,976 - adding: 318_mag to LSH
+2022-04-01 12:25:58,976 - added: 318_mag to LSH
+2022-04-01 12:25:59,134 - image: 319_mag arrived at table_manipulation
+2022-04-01 12:25:59,134 - adding: 319_mag to LSH
+2022-04-01 12:25:59,134 - added: 319_mag to LSH
+2022-04-01 12:25:59,288 - image: 320_mag arrived at table_manipulation
+2022-04-01 12:25:59,288 - adding: 320_mag to LSH
+2022-04-01 12:25:59,288 - added: 320_mag to LSH
+2022-04-01 12:25:59,445 - image: 321_mag arrived at table_manipulation
+2022-04-01 12:25:59,445 - adding: 321_mag to LSH
+2022-04-01 12:25:59,445 - added: 321_mag to LSH
+2022-04-01 12:25:59,606 - image: 322_mag arrived at table_manipulation
+2022-04-01 12:25:59,606 - adding: 322_mag to LSH
+2022-04-01 12:25:59,606 - added: 322_mag to LSH
+2022-04-01 12:25:59,761 - image: 323_mag arrived at table_manipulation
+2022-04-01 12:25:59,761 - adding: 323_mag to LSH
+2022-04-01 12:25:59,761 - added: 323_mag to LSH
+2022-04-01 12:25:59,918 - image: 324_mag arrived at table_manipulation
+2022-04-01 12:25:59,919 - adding: 324_mag to LSH
+2022-04-01 12:25:59,919 - added: 324_mag to LSH
+2022-04-01 12:26:00,076 - image: 325_mag arrived at table_manipulation
+2022-04-01 12:26:00,076 - adding: 325_mag to LSH
+2022-04-01 12:26:00,076 - added: 325_mag to LSH
+2022-04-01 12:26:00,237 - image: 326_mag arrived at table_manipulation
+2022-04-01 12:26:00,238 - adding: 326_mag to LSH
+2022-04-01 12:26:00,238 - added: 326_mag to LSH
+2022-04-01 12:26:00,393 - image: 327_mag arrived at table_manipulation
+2022-04-01 12:26:00,393 - adding: 327_mag to LSH
+2022-04-01 12:26:00,393 - added: 327_mag to LSH
+2022-04-01 12:26:00,555 - image: 328_mag arrived at table_manipulation
+2022-04-01 12:26:00,555 - adding: 328_mag to LSH
+2022-04-01 12:26:00,555 - added: 328_mag to LSH
+2022-04-01 12:26:00,716 - image: 329_mag arrived at table_manipulation
+2022-04-01 12:26:00,716 - adding: 329_mag to LSH
+2022-04-01 12:26:00,716 - added: 329_mag to LSH
+2022-04-01 12:26:00,876 - image: 330_mag arrived at table_manipulation
+2022-04-01 12:26:00,876 - adding: 330_mag to LSH
+2022-04-01 12:26:00,876 - added: 330_mag to LSH
+2022-04-01 12:26:01,035 - image: 331_mag arrived at table_manipulation
+2022-04-01 12:26:01,036 - adding: 331_mag to LSH
+2022-04-01 12:26:01,036 - added: 331_mag to LSH
+2022-04-01 12:26:01,201 - image: 332_mag arrived at table_manipulation
+2022-04-01 12:26:01,201 - adding: 332_mag to LSH
+2022-04-01 12:26:01,201 - added: 332_mag to LSH
+2022-04-01 12:26:01,354 - image: 333_mag arrived at table_manipulation
+2022-04-01 12:26:01,354 - adding: 333_mag to LSH
+2022-04-01 12:26:01,355 - added: 333_mag to LSH
+2022-04-01 12:26:01,519 - image: 334_mag arrived at table_manipulation
+2022-04-01 12:26:01,519 - adding: 334_mag to LSH
+2022-04-01 12:26:01,519 - added: 334_mag to LSH
+2022-04-01 12:26:01,676 - image: 335_mag arrived at table_manipulation
+2022-04-01 12:26:01,676 - adding: 335_mag to LSH
+2022-04-01 12:26:01,676 - added: 335_mag to LSH
+2022-04-01 12:26:01,830 - image: 336_mag arrived at table_manipulation
+2022-04-01 12:26:01,830 - adding: 336_mag to LSH
+2022-04-01 12:26:01,830 - added: 336_mag to LSH
+2022-04-01 12:26:01,994 - image: 337_mag arrived at table_manipulation
+2022-04-01 12:26:01,995 - adding: 337_mag to LSH
+2022-04-01 12:26:01,995 - added: 337_mag to LSH
+2022-04-01 12:26:02,154 - image: 338_mag arrived at table_manipulation
+2022-04-01 12:26:02,154 - adding: 338_mag to LSH
+2022-04-01 12:26:02,154 - added: 338_mag to LSH
+2022-04-01 12:26:02,312 - image: 339_mag arrived at table_manipulation
+2022-04-01 12:26:02,312 - adding: 339_mag to LSH
+2022-04-01 12:26:02,312 - added: 339_mag to LSH
+2022-04-01 12:26:02,469 - image: 340_mag arrived at table_manipulation
+2022-04-01 12:26:02,469 - adding: 340_mag to LSH
+2022-04-01 12:26:02,469 - added: 340_mag to LSH
+2022-04-01 12:26:02,629 - image: 341_mag arrived at table_manipulation
+2022-04-01 12:26:02,630 - adding: 341_mag to LSH
+2022-04-01 12:26:02,630 - added: 341_mag to LSH
+2022-04-01 12:26:02,791 - image: 342_mag arrived at table_manipulation
+2022-04-01 12:26:02,791 - adding: 342_mag to LSH
+2022-04-01 12:26:02,791 - added: 342_mag to LSH
+2022-04-01 12:26:02,947 - image: 343_mag arrived at table_manipulation
+2022-04-01 12:26:02,947 - adding: 343_mag to LSH
+2022-04-01 12:26:02,947 - added: 343_mag to LSH
+2022-04-01 12:26:03,101 - image: 344_mag arrived at table_manipulation
+2022-04-01 12:26:03,101 - adding: 344_mag to LSH
+2022-04-01 12:26:03,101 - added: 344_mag to LSH
+2022-04-01 12:26:03,259 - image: 345_mag arrived at table_manipulation
+2022-04-01 12:26:03,259 - adding: 345_mag to LSH
+2022-04-01 12:26:03,259 - added: 345_mag to LSH
+2022-04-01 12:26:03,413 - image: 346_mag arrived at table_manipulation
+2022-04-01 12:26:03,413 - adding: 346_mag to LSH
+2022-04-01 12:26:03,413 - added: 346_mag to LSH
+2022-04-01 12:26:03,572 - image: 347_mag arrived at table_manipulation
+2022-04-01 12:26:03,572 - adding: 347_mag to LSH
+2022-04-01 12:26:03,573 - added: 347_mag to LSH
+2022-04-01 12:26:03,733 - image: 348_mag arrived at table_manipulation
+2022-04-01 12:26:03,733 - adding: 348_mag to LSH
+2022-04-01 12:26:03,733 - added: 348_mag to LSH
+2022-04-01 12:26:03,888 - image: 349_mag arrived at table_manipulation
+2022-04-01 12:26:03,888 - adding: 349_mag to LSH
+2022-04-01 12:26:03,888 - added: 349_mag to LSH
+2022-04-01 12:26:04,041 - image: 350_mag arrived at table_manipulation
+2022-04-01 12:26:04,041 - adding: 350_mag to LSH
+2022-04-01 12:26:04,041 - added: 350_mag to LSH
+2022-04-01 12:26:04,200 - image: 351_mag arrived at table_manipulation
+2022-04-01 12:26:04,200 - adding: 351_mag to LSH
+2022-04-01 12:26:04,200 - added: 351_mag to LSH
+2022-04-01 12:26:04,363 - image: 352_mag arrived at table_manipulation
+2022-04-01 12:26:04,363 - adding: 352_mag to LSH
+2022-04-01 12:26:04,363 - added: 352_mag to LSH
+2022-04-01 12:26:04,518 - image: 353_mag arrived at table_manipulation
+2022-04-01 12:26:04,518 - adding: 353_mag to LSH
+2022-04-01 12:26:04,518 - added: 353_mag to LSH
+2022-04-01 12:26:04,677 - image: 354_mag arrived at table_manipulation
+2022-04-01 12:26:04,677 - adding: 354_mag to LSH
+2022-04-01 12:26:04,677 - added: 354_mag to LSH
+2022-04-01 12:26:04,833 - image: 355_mag arrived at table_manipulation
+2022-04-01 12:26:04,833 - adding: 355_mag to LSH
+2022-04-01 12:26:04,833 - added: 355_mag to LSH
+2022-04-01 12:26:04,993 - image: 356_mag arrived at table_manipulation
+2022-04-01 12:26:04,993 - adding: 356_mag to LSH
+2022-04-01 12:26:04,993 - added: 356_mag to LSH
+2022-04-01 12:26:05,151 - image: 357_mag arrived at table_manipulation
+2022-04-01 12:26:05,151 - adding: 357_mag to LSH
+2022-04-01 12:26:05,151 - added: 357_mag to LSH
+2022-04-01 12:26:05,304 - image: 358_mag arrived at table_manipulation
+2022-04-01 12:26:05,304 - adding: 358_mag to LSH
+2022-04-01 12:26:05,304 - added: 358_mag to LSH
+2022-04-01 12:26:05,461 - image: 359_mag arrived at table_manipulation
+2022-04-01 12:26:05,462 - adding: 359_mag to LSH
+2022-04-01 12:26:05,462 - added: 359_mag to LSH
+2022-04-01 12:26:05,618 - image: 360_mag arrived at table_manipulation
+2022-04-01 12:26:05,618 - adding: 360_mag to LSH
+2022-04-01 12:26:05,618 - added: 360_mag to LSH
+2022-04-01 12:26:05,776 - image: 361_mag arrived at table_manipulation
+2022-04-01 12:26:05,776 - adding: 361_mag to LSH
+2022-04-01 12:26:05,776 - added: 361_mag to LSH
+2022-04-01 12:26:05,943 - image: 362_mag arrived at table_manipulation
+2022-04-01 12:26:05,943 - adding: 362_mag to LSH
+2022-04-01 12:26:05,943 - added: 362_mag to LSH
+2022-04-01 12:26:06,099 - image: 363_mag arrived at table_manipulation
+2022-04-01 12:26:06,099 - adding: 363_mag to LSH
+2022-04-01 12:26:06,099 - added: 363_mag to LSH
+2022-04-01 12:26:06,260 - image: 364_mag arrived at table_manipulation
+2022-04-01 12:26:06,260 - adding: 364_mag to LSH
+2022-04-01 12:26:06,260 - added: 364_mag to LSH
+2022-04-01 12:26:06,417 - image: 365_mag arrived at table_manipulation
+2022-04-01 12:26:06,417 - adding: 365_mag to LSH
+2022-04-01 12:26:06,417 - added: 365_mag to LSH
+2022-04-01 12:26:06,573 - image: 366_mag arrived at table_manipulation
+2022-04-01 12:26:06,573 - adding: 366_mag to LSH
+2022-04-01 12:26:06,573 - added: 366_mag to LSH
+2022-04-01 12:26:06,735 - image: 367_mag arrived at table_manipulation
+2022-04-01 12:26:06,735 - adding: 367_mag to LSH
+2022-04-01 12:26:06,735 - added: 367_mag to LSH
+2022-04-01 12:26:06,894 - image: 368_mag arrived at table_manipulation
+2022-04-01 12:26:06,894 - adding: 368_mag to LSH
+2022-04-01 12:26:06,894 - added: 368_mag to LSH
+2022-04-01 12:26:07,049 - image: 369_mag arrived at table_manipulation
+2022-04-01 12:26:07,049 - adding: 369_mag to LSH
+2022-04-01 12:26:07,049 - added: 369_mag to LSH
+2022-04-01 12:26:07,207 - image: 370_mag arrived at table_manipulation
+2022-04-01 12:26:07,207 - adding: 370_mag to LSH
+2022-04-01 12:26:07,208 - added: 370_mag to LSH
+2022-04-01 12:26:07,363 - image: 371_mag arrived at table_manipulation
+2022-04-01 12:26:07,363 - adding: 371_mag to LSH
+2022-04-01 12:26:07,363 - added: 371_mag to LSH
+2022-04-01 12:26:07,526 - image: 372_mag arrived at table_manipulation
+2022-04-01 12:26:07,526 - adding: 372_mag to LSH
+2022-04-01 12:26:07,526 - added: 372_mag to LSH
+2022-04-01 12:26:07,688 - image: 373_mag arrived at table_manipulation
+2022-04-01 12:26:07,688 - adding: 373_mag to LSH
+2022-04-01 12:26:07,688 - added: 373_mag to LSH
+2022-04-01 12:26:07,848 - image: 374_mag arrived at table_manipulation
+2022-04-01 12:26:07,848 - adding: 374_mag to LSH
+2022-04-01 12:26:07,848 - added: 374_mag to LSH
+2022-04-01 12:26:08,001 - image: 375_mag arrived at table_manipulation
+2022-04-01 12:26:08,001 - adding: 375_mag to LSH
+2022-04-01 12:26:08,001 - added: 375_mag to LSH
+2022-04-01 12:26:08,156 - image: 376_mag arrived at table_manipulation
+2022-04-01 12:26:08,156 - adding: 376_mag to LSH
+2022-04-01 12:26:08,156 - added: 376_mag to LSH
+2022-04-01 12:26:08,313 - image: 377_mag arrived at table_manipulation
+2022-04-01 12:26:08,313 - adding: 377_mag to LSH
+2022-04-01 12:26:08,313 - added: 377_mag to LSH
+2022-04-01 12:26:08,466 - image: 378_mag arrived at table_manipulation
+2022-04-01 12:26:08,466 - adding: 378_mag to LSH
+2022-04-01 12:26:08,466 - added: 378_mag to LSH
+2022-04-01 12:26:08,627 - image: 379_mag arrived at table_manipulation
+2022-04-01 12:26:08,627 - adding: 379_mag to LSH
+2022-04-01 12:26:08,627 - added: 379_mag to LSH
+2022-04-01 12:26:08,797 - image: 380_mag arrived at table_manipulation
+2022-04-01 12:26:08,797 - adding: 380_mag to LSH
+2022-04-01 12:26:08,797 - added: 380_mag to LSH
+2022-04-01 12:26:08,960 - image: 381_mag arrived at table_manipulation
+2022-04-01 12:26:08,960 - adding: 381_mag to LSH
+2022-04-01 12:26:08,960 - added: 381_mag to LSH
+2022-04-01 12:26:09,119 - image: 382_mag arrived at table_manipulation
+2022-04-01 12:26:09,119 - adding: 382_mag to LSH
+2022-04-01 12:26:09,119 - added: 382_mag to LSH
+2022-04-01 12:26:09,275 - image: 383_mag arrived at table_manipulation
+2022-04-01 12:26:09,275 - adding: 383_mag to LSH
+2022-04-01 12:26:09,275 - added: 383_mag to LSH
+2022-04-01 12:26:09,428 - image: 384_mag arrived at table_manipulation
+2022-04-01 12:26:09,428 - adding: 384_mag to LSH
+2022-04-01 12:26:09,428 - added: 384_mag to LSH
+2022-04-01 12:26:09,581 - image: 385_mag arrived at table_manipulation
+2022-04-01 12:26:09,581 - adding: 385_mag to LSH
+2022-04-01 12:26:09,582 - added: 385_mag to LSH
+2022-04-01 12:26:09,743 - image: 386_mag arrived at table_manipulation
+2022-04-01 12:26:09,743 - adding: 386_mag to LSH
+2022-04-01 12:26:09,743 - added: 386_mag to LSH
+2022-04-01 12:26:09,896 - image: 387_mag arrived at table_manipulation
+2022-04-01 12:26:09,896 - adding: 387_mag to LSH
+2022-04-01 12:26:09,897 - added: 387_mag to LSH
+2022-04-01 12:26:10,050 - image: 388_mag arrived at table_manipulation
+2022-04-01 12:26:10,050 - adding: 388_mag to LSH
+2022-04-01 12:26:10,050 - added: 388_mag to LSH
+2022-04-01 12:26:10,212 - image: 389_mag arrived at table_manipulation
+2022-04-01 12:26:10,212 - adding: 389_mag to LSH
+2022-04-01 12:26:10,212 - added: 389_mag to LSH
+2022-04-01 12:26:10,366 - image: 390_mag arrived at table_manipulation
+2022-04-01 12:26:10,366 - adding: 390_mag to LSH
+2022-04-01 12:26:10,366 - added: 390_mag to LSH
+2022-04-01 12:26:10,519 - image: 391_mag arrived at table_manipulation
+2022-04-01 12:26:10,520 - adding: 391_mag to LSH
+2022-04-01 12:26:10,520 - added: 391_mag to LSH
+2022-04-01 12:26:10,689 - image: 392_mag arrived at table_manipulation
+2022-04-01 12:26:10,689 - adding: 392_mag to LSH
+2022-04-01 12:26:10,689 - added: 392_mag to LSH
+2022-04-01 12:26:10,958 - image: 393_mag arrived at table_manipulation
+2022-04-01 12:26:10,959 - adding: 393_mag to LSH
+2022-04-01 12:26:10,959 - added: 393_mag to LSH
+2022-04-01 12:26:11,112 - image: 394_mag arrived at table_manipulation
+2022-04-01 12:26:11,112 - adding: 394_mag to LSH
+2022-04-01 12:26:11,112 - added: 394_mag to LSH
+2022-04-01 12:26:11,267 - image: 395_mag arrived at table_manipulation
+2022-04-01 12:26:11,267 - adding: 395_mag to LSH
+2022-04-01 12:26:11,267 - added: 395_mag to LSH
+2022-04-01 12:26:11,423 - image: 396_mag arrived at table_manipulation
+2022-04-01 12:26:11,423 - adding: 396_mag to LSH
+2022-04-01 12:26:11,423 - added: 396_mag to LSH
+2022-04-01 12:26:11,578 - image: 397_mag arrived at table_manipulation
+2022-04-01 12:26:11,578 - adding: 397_mag to LSH
+2022-04-01 12:26:11,578 - added: 397_mag to LSH
+2022-04-01 12:26:11,735 - image: 398_mag arrived at table_manipulation
+2022-04-01 12:26:11,735 - adding: 398_mag to LSH
+2022-04-01 12:26:11,735 - added: 398_mag to LSH
+2022-04-01 12:26:11,888 - image: 399_mag arrived at table_manipulation
+2022-04-01 12:26:11,888 - adding: 399_mag to LSH
+2022-04-01 12:26:11,888 - added: 399_mag to LSH
+2022-04-01 12:26:12,048 - image: 400_mag arrived at table_manipulation
+2022-04-01 12:26:12,048 - adding: 400_mag to LSH
+2022-04-01 12:26:12,048 - added: 400_mag to LSH
+2022-04-01 12:26:12,205 - image: 401_mag arrived at table_manipulation
+2022-04-01 12:26:12,205 - adding: 401_mag to LSH
+2022-04-01 12:26:12,205 - added: 401_mag to LSH
+2022-04-01 12:26:12,362 - image: 402_mag arrived at table_manipulation
+2022-04-01 12:26:12,362 - adding: 402_mag to LSH
+2022-04-01 12:26:12,362 - added: 402_mag to LSH
+2022-04-01 12:26:12,520 - image: 403_mag arrived at table_manipulation
+2022-04-01 12:26:12,521 - adding: 403_mag to LSH
+2022-04-01 12:26:12,521 - added: 403_mag to LSH
+2022-04-01 12:26:12,679 - image: 404_mag arrived at table_manipulation
+2022-04-01 12:26:12,679 - adding: 404_mag to LSH
+2022-04-01 12:26:12,679 - added: 404_mag to LSH
+2022-04-01 12:26:12,832 - image: 405_mag arrived at table_manipulation
+2022-04-01 12:26:12,832 - adding: 405_mag to LSH
+2022-04-01 12:26:12,832 - added: 405_mag to LSH
+2022-04-01 12:26:12,986 - image: 406_mag arrived at table_manipulation
+2022-04-01 12:26:12,986 - adding: 406_mag to LSH
+2022-04-01 12:26:12,986 - added: 406_mag to LSH
+2022-04-01 12:26:13,147 - image: 407_mag arrived at table_manipulation
+2022-04-01 12:26:13,147 - adding: 407_mag to LSH
+2022-04-01 12:26:13,147 - added: 407_mag to LSH
+2022-04-01 12:26:13,309 - image: 408_mag arrived at table_manipulation
+2022-04-01 12:26:13,309 - adding: 408_mag to LSH
+2022-04-01 12:26:13,309 - added: 408_mag to LSH
+2022-04-01 12:26:13,464 - image: 409_mag arrived at table_manipulation
+2022-04-01 12:26:13,464 - adding: 409_mag to LSH
+2022-04-01 12:26:13,464 - added: 409_mag to LSH
+2022-04-01 12:26:13,619 - image: 410_mag arrived at table_manipulation
+2022-04-01 12:26:13,619 - adding: 410_mag to LSH
+2022-04-01 12:26:13,619 - added: 410_mag to LSH
+2022-04-01 12:26:13,778 - image: 411_mag arrived at table_manipulation
+2022-04-01 12:26:13,778 - adding: 411_mag to LSH
+2022-04-01 12:26:13,778 - added: 411_mag to LSH
+2022-04-01 12:26:13,930 - image: 412_mag arrived at table_manipulation
+2022-04-01 12:26:13,930 - adding: 412_mag to LSH
+2022-04-01 12:26:13,930 - added: 412_mag to LSH
+2022-04-01 12:26:14,095 - image: 413_mag arrived at table_manipulation
+2022-04-01 12:26:14,095 - adding: 413_mag to LSH
+2022-04-01 12:26:14,095 - added: 413_mag to LSH
+2022-04-01 12:26:14,253 - image: 414_mag arrived at table_manipulation
+2022-04-01 12:26:14,253 - adding: 414_mag to LSH
+2022-04-01 12:26:14,253 - added: 414_mag to LSH
+2022-04-01 12:26:14,411 - image: 415_mag arrived at table_manipulation
+2022-04-01 12:26:14,412 - adding: 415_mag to LSH
+2022-04-01 12:26:14,412 - added: 415_mag to LSH
+2022-04-01 12:26:14,566 - image: 416_mag arrived at table_manipulation
+2022-04-01 12:26:14,566 - adding: 416_mag to LSH
+2022-04-01 12:26:14,566 - added: 416_mag to LSH
+2022-04-01 12:26:14,740 - image: 417_mag arrived at table_manipulation
+2022-04-01 12:26:14,740 - adding: 417_mag to LSH
+2022-04-01 12:26:14,740 - added: 417_mag to LSH
+2022-04-01 12:26:14,908 - image: 418_mag arrived at table_manipulation
+2022-04-01 12:26:14,908 - adding: 418_mag to LSH
+2022-04-01 12:26:14,908 - added: 418_mag to LSH
+2022-04-01 12:26:15,081 - image: 419_mag arrived at table_manipulation
+2022-04-01 12:26:15,081 - adding: 419_mag to LSH
+2022-04-01 12:26:15,081 - added: 419_mag to LSH
+2022-04-01 12:26:15,240 - image: 420_mag arrived at table_manipulation
+2022-04-01 12:26:15,240 - adding: 420_mag to LSH
+2022-04-01 12:26:15,240 - added: 420_mag to LSH
+2022-04-01 12:26:15,397 - image: 421_mag arrived at table_manipulation
+2022-04-01 12:26:15,397 - adding: 421_mag to LSH
+2022-04-01 12:26:15,397 - added: 421_mag to LSH
+2022-04-01 12:26:15,555 - image: 422_mag arrived at table_manipulation
+2022-04-01 12:26:15,555 - adding: 422_mag to LSH
+2022-04-01 12:26:15,555 - added: 422_mag to LSH
+2022-04-01 12:26:15,726 - image: 423_mag arrived at table_manipulation
+2022-04-01 12:26:15,726 - adding: 423_mag to LSH
+2022-04-01 12:26:15,726 - added: 423_mag to LSH
+2022-04-01 12:26:15,883 - image: 424_mag arrived at table_manipulation
+2022-04-01 12:26:15,884 - adding: 424_mag to LSH
+2022-04-01 12:26:15,884 - added: 424_mag to LSH
+2022-04-01 12:26:16,048 - image: 425_mag arrived at table_manipulation
+2022-04-01 12:26:16,048 - adding: 425_mag to LSH
+2022-04-01 12:26:16,048 - added: 425_mag to LSH
+2022-04-01 12:26:16,216 - image: 426_mag arrived at table_manipulation
+2022-04-01 12:26:16,216 - adding: 426_mag to LSH
+2022-04-01 12:26:16,216 - added: 426_mag to LSH
+2022-04-01 12:26:16,373 - image: 427_mag arrived at table_manipulation
+2022-04-01 12:26:16,373 - adding: 427_mag to LSH
+2022-04-01 12:26:16,373 - added: 427_mag to LSH
+2022-04-01 12:26:16,531 - image: 428_mag arrived at table_manipulation
+2022-04-01 12:26:16,531 - adding: 428_mag to LSH
+2022-04-01 12:26:16,531 - added: 428_mag to LSH
+2022-04-01 12:26:16,693 - image: 429_mag arrived at table_manipulation
+2022-04-01 12:26:16,693 - adding: 429_mag to LSH
+2022-04-01 12:26:16,694 - added: 429_mag to LSH
+2022-04-01 12:26:16,845 - image: 430_mag arrived at table_manipulation
+2022-04-01 12:26:16,845 - adding: 430_mag to LSH
+2022-04-01 12:26:16,845 - added: 430_mag to LSH
+2022-04-01 12:26:17,005 - image: 431_mag arrived at table_manipulation
+2022-04-01 12:26:17,005 - adding: 431_mag to LSH
+2022-04-01 12:26:17,005 - added: 431_mag to LSH
+2022-04-01 12:26:17,172 - image: 432_mag arrived at table_manipulation
+2022-04-01 12:26:17,172 - adding: 432_mag to LSH
+2022-04-01 12:26:17,172 - added: 432_mag to LSH
+2022-04-01 12:26:17,338 - image: 433_mag arrived at table_manipulation
+2022-04-01 12:26:17,338 - adding: 433_mag to LSH
+2022-04-01 12:26:17,338 - added: 433_mag to LSH
+2022-04-01 12:26:17,498 - image: 434_mag arrived at table_manipulation
+2022-04-01 12:26:17,498 - adding: 434_mag to LSH
+2022-04-01 12:26:17,498 - added: 434_mag to LSH
+2022-04-01 12:26:17,661 - image: 435_mag arrived at table_manipulation
+2022-04-01 12:26:17,661 - adding: 435_mag to LSH
+2022-04-01 12:26:17,661 - added: 435_mag to LSH
+2022-04-01 12:26:17,819 - image: 436_mag arrived at table_manipulation
+2022-04-01 12:26:17,820 - adding: 436_mag to LSH
+2022-04-01 12:26:17,820 - added: 436_mag to LSH
+2022-04-01 12:26:17,976 - image: 437_mag arrived at table_manipulation
+2022-04-01 12:26:17,976 - adding: 437_mag to LSH
+2022-04-01 12:26:17,976 - added: 437_mag to LSH
+2022-04-01 12:26:18,137 - image: 438_mag arrived at table_manipulation
+2022-04-01 12:26:18,137 - adding: 438_mag to LSH
+2022-04-01 12:26:18,137 - added: 438_mag to LSH
+2022-04-01 12:26:18,300 - image: 439_mag arrived at table_manipulation
+2022-04-01 12:26:18,300 - adding: 439_mag to LSH
+2022-04-01 12:26:18,300 - added: 439_mag to LSH
+2022-04-01 12:26:18,464 - image: 440_mag arrived at table_manipulation
+2022-04-01 12:26:18,464 - adding: 440_mag to LSH
+2022-04-01 12:26:18,464 - added: 440_mag to LSH
+2022-04-01 12:26:18,634 - image: 441_mag arrived at table_manipulation
+2022-04-01 12:26:18,634 - adding: 441_mag to LSH
+2022-04-01 12:26:18,634 - added: 441_mag to LSH

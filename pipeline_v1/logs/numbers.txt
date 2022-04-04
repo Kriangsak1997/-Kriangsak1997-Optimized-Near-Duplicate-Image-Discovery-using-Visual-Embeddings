@@ -1,0 +1,106 @@
+
+#arrow - for timing
+                                                    9k
+Baseline:    137,133,132.5 s                        20 mins
+1-1-1-1:     139 s                                  22 mins
+1-1-2-1:     109 s                                  13 mins
+1-2-1-1:     132,128 s                              22 mins
+1-2-2-1:     90,77 s                                14 mins
+1-2-1+GPU-1: 85,93, 89 s                            17 mins
+1-2-2+GPU-1: 72;89 s                                13 mins 17 secs
+
+
+1-1-1-1:
+    - benchmark:2022-04-01 12:27:34,702
+                                        - 2022-04-01 12:50:20,743
+
+
+1-2-1-1:Best combo so far                                                             : acc time (s)
+    - Crawler: 2022-03-31 18:25:35,347 - 2022-03-31 18:25:35,486        : 0 s
+    - processing:
+        - p1: 2022-03-31 18:25:33,562 - 2022-03-31 18:26:28,684         :
+        - p2: 2022-03-31 18:25:33,562 - 2022-03-31 18:26:29,157         : 54 s
+    - feature_extraction:
+        - p1:2022-03-31 18:25:39,875  - 2022-03-31 18:27:47,165         : 72 s
+    - Table_manipulation:
+        - 2022-03-31 18:25:41,128 - 2022-03-31 18:27:47,165             : 132 s
+
+    -II: 2022-04-01 11:45:01,853 - 2022-04-01 11:47:09,476              : 128 s
+    - benchmark: 2022-04-01 11:16:01,255
+                                        - 2022-04-01 11:39:25,127       :22mins
+
+1-2-2-1
+    -I: crawler: 2022-03-31 19:00:08,667 - 2022-03-31 19:00:08,828
+    -                                   2022-03-31 19:01:38,226:
+    -II:            2022-04-01 09:59:49,904 -
+                                            - 2022-04-01 10:01:06,986:  77s
+    - benchmark dataset: 2022-04-01 10:05:40,281 -
+                                                    - 2022-04-01 10:19:13,200: 14.33
+1-1-2-1
+    - 2022-03-31 19:09:41,120 - 2022-03-31 19:11:30,876 : 109
+    - benchmark: 2022-04-01 12:02:14,640 - 2022-04-01 12:15:10,325 :    13 mins
+1-2-GPU-1
+    -2022-04-01 00:48:20,520
+                                - 2022-04-01 00:50:55,808:      : 155
+
+1-2-1+GPU-1:
+    - 2022-04-01 01:54:06,056
+                                - 2022-04-01 01:55:31,819:      :85s
+    - 2022-04-01 09:37:05,423
+                                - 2022-04-01 09:38:34,072       : 89s
+    - benchmark: 2022-04-01 10:46:58,299
+                                - 2022-04-01 11:04:24,375       : 17 mins
+GOD-LIKE-COMBO: 1-2-2+GPU-1
+    - 2022-04-01 01:37:10,047
+                              - 2022-04-01 01:38:22,623         :72s
+    -2nd run: 2022-04-01 05:53:32,453 -
+                                   -2022-04-01 05:55:01,401
+    - benchmark dataset:
+        - crawler: 2022-04-01 05:32:05,732 - 2022-04-01 05:32:07,195
+        -                                  - 2022-04-01 05:45:22,069: 13:17 mins
+
+812
+2022-04-01 04:10:37.851855: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Load and resize  took 39.96689
+processing  took 0.639339
+812/812 [==============================] - 96s 117ms/step
+Feature Extraction  took 96.614516
+Hashing  took 0.011278
+Adding to Table  took 0.008541
+Total time taken is137.307586
+
+Load and resize  took 39.721439
+processing  took 0.366401
+812/812 [==============================] - 92s 113ms/step
+Feature Extraction  took 92.635733
+Hashing  took 0.010765
+Adding to Table  took 0.007635
+Total time taken is132.794407
+
+Load and resize  took 40.062666
+processing  took 0.361998
+812/812 [==============================] - 92s 112ms/step
+Feature Extraction  took 92.067121
+Hashing  took 0.009864
+Adding to Table  took 0.00875
+Total time taken is132.56372
+
+Load and resize  took 12.262061
+processing  took 12.136486
+9144/9144 [==============================] - 1149s 126ms/step
+Feature Extraction  took 1186.375248
+Hashing  took 0.129686
+Adding to Table  took 1.661644
+Total time taken is1214.675796 -> 20 mins
+
+oad and resize  took 12.420655
+processing  took 12.509116
+9144/9144 [==============================] - 1075s 117ms/step
+Feature Extraction  took 1110.240404
+Hashing  took 0.12695
+Adding to Table  took 0.118898
+Total time taken is1138.248931   -> 19mins
+
+
+1-2-GPU-1:   155 s  why?? backpressure?
