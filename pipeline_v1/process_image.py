@@ -8,14 +8,17 @@ import schema
 from load_process import load_process
 import logging
 from connector import connect
-
+from dotenv import dotenv_values
+config = dotenv_values("foo.bar")
+dir = config["log_dir"]
+name = config["name"]
 Log_Format = "%(asctime)s - %(message)s"
 
 
 def main() -> None:
     pid = os.getpid()
     print(f"PID: {pid} is processing")
-    logging.basicConfig(filename=f"logs/1_1_1_1/benchmark_{pid}_process_image.log",
+    logging.basicConfig(filename=f"{dir}{name}_{pid}_process_image.log",
                         filemode="w",
                         format=Log_Format,
                         level=logging.INFO)

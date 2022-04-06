@@ -5,10 +5,13 @@ import schema
 import logging
 import LSH
 from connector import connect
-
+from dotenv import dotenv_values
+config = dotenv_values("foo.bar")
+dir = config["log_dir"]
+name = config["name"]
 Log_Format = "%(asctime)s - %(message)s"
 pid = os.getpid()
-logging.basicConfig(filename=f"logs/1_1_2_1/benchmark_{pid}_table_manipulation.log",
+logging.basicConfig(filename=f"{dir}{name}_{pid}_table_manipulation.log",
                     filemode="w",
                     format=Log_Format,
                     level=logging.INFO)

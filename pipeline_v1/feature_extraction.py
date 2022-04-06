@@ -11,7 +11,10 @@ import extract
 import hash_function
 from connector import connect
 import logging
-
+from dotenv import dotenv_values
+config = dotenv_values("foo.bar")
+dir = config["log_dir"]
+name = config["name"]
 Log_Format = "%(asctime)s - %(message)s"
 
 
@@ -22,7 +25,7 @@ class Table:
 
 def main(batch_size: int) -> None:
     pid = os.getpid()
-    logging.basicConfig(filename=f"logs/1_1_1_1/benchmark_cpu_{pid}_feature_extract.log",
+    logging.basicConfig(filename=f"{dir}{name}_cpu_{pid}_feature_extract.log",
                         filemode="w",
                         format=Log_Format,
                         level=logging.INFO)
