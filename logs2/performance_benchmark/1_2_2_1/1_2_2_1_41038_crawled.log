@@ -1,0 +1,24 @@
+2022-04-07 15:10:00,190 - PID 41038 started Crawling
+2022-04-07 15:10:00,193 - Pika version 1.2.0 connecting to ('::1', 5672, 0, 0)
+2022-04-07 15:10:00,193 - Socket failed to connect: <socket.socket fd=9, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 62512, 0, 0)>; error=61 (Connection refused)
+2022-04-07 15:10:00,193 - TCP Connection attempt failed: ConnectionRefusedError(61, 'Connection refused'); dest=(<AddressFamily.AF_INET6: 30>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('::1', 5672, 0, 0))
+2022-04-07 15:10:00,193 - AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(61, 'Connection refused')
+2022-04-07 15:10:00,194 - Pika version 1.2.0 connecting to ('127.0.0.1', 5672)
+2022-04-07 15:10:00,194 - Socket connected: <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 62513), raddr=('127.0.0.1', 5672)>
+2022-04-07 15:10:00,194 - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x105e3edc0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x105e3edc0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+2022-04-07 15:10:00,198 - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x105e3edc0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-07 15:10:00,198 - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x105e3edc0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-07 15:10:00,198 - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x105e3edc0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-07 15:10:00,198 - Created channel=1
+2022-04-07 15:10:01,768 - Closing connection (200): Normal shutdown
+2022-04-07 15:10:01,769 - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x105e3edc0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2022-04-07 15:10:01,769 - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x105e3edc0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2022-04-07 15:10:01,770 - Closing connection (200): 'Normal shutdown'
+2022-04-07 15:10:01,770 - Aborting transport connection: state=1; <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 62513), raddr=('127.0.0.1', 5672)>
+2022-04-07 15:10:01,770 - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 62513), raddr=('127.0.0.1', 5672)>
+2022-04-07 15:10:01,770 - Deactivating transport: state=1; <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 62513), raddr=('127.0.0.1', 5672)>
+2022-04-07 15:10:01,770 - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2022-04-07 15:10:01,771 - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2022-04-07 15:10:01,771 - Closing transport socket and unlinking: state=3; <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 62513), raddr=('127.0.0.1', 5672)>
+2022-04-07 15:10:01,771 - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2022-04-07 15:10:01,771 - PID 41038 done Crawling

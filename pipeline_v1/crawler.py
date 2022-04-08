@@ -12,10 +12,11 @@ name = config["name"]
 Log_Format = "%(asctime)s - %(message)s"
 
 
+
 def crawl(path: str) -> None:
 
     pid = os.getpid()
-    logging.basicConfig(filename=f"{dir}{name}_crawled.log",
+    logging.basicConfig(filename=f"{dir}{name}_{pid}_crawled.log",
                         filemode="w",
                         format=Log_Format,
                         level=logging.INFO)
@@ -31,19 +32,12 @@ def crawl(path: str) -> None:
     labels = [filename.split("/")[-1][1:4] for filename in filenames]
     paths = [labels[i] + "-" + str(i) + "-" + filenames[i] for i in range(len(filenames))]
 
-    # bench = [filename for filename in glob.iglob(path + '**/*.jpg', recursive=True)]
-    # bench = np.sort(np.array(bench))
-    # # print(len(bench))
-    # labels = [filename.split("/")[7] for filename in bench]
-    # benchmark_data = [ labels[i]+ "-" + str(i) + "-" + bench[i] for i in range(len(bench))]
-
     for item in paths:
-        print(item)
         channel.basic_publish(exchange='',
                               routing_key='path',
                               body=item,
                               mandatory=True)
-    for i in range(1):
+    for i in range(2):
         channel.basic_publish(exchange='',
                               routing_key='path',
                               body="0-0-0",

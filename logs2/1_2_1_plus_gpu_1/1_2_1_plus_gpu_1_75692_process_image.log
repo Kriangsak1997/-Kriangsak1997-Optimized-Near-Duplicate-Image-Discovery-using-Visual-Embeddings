@@ -1,0 +1,110 @@
+2022-04-08 09:43:28,113 - PID 75692 started loading and processing
+2022-04-08 09:43:28,120 - Pika version 1.2.0 connecting to ('::1', 5672, 0, 0)
+2022-04-08 09:43:28,120 - Socket failed to connect: <socket.socket fd=22, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 51097, 0, 0)>; error=61 (Connection refused)
+2022-04-08 09:43:28,121 - TCP Connection attempt failed: ConnectionRefusedError(61, 'Connection refused'); dest=(<AddressFamily.AF_INET6: 30>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('::1', 5672, 0, 0))
+2022-04-08 09:43:28,121 - AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(61, 'Connection refused')
+2022-04-08 09:43:28,121 - Pika version 1.2.0 connecting to ('127.0.0.1', 5672)
+2022-04-08 09:43:28,121 - Socket connected: <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 51100), raddr=('127.0.0.1', 5672)>
+2022-04-08 09:43:28,122 - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x121c6d1c0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x121c6d1c0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+2022-04-08 09:43:28,126 - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x121c6d1c0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-08 09:43:28,126 - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x121c6d1c0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-08 09:43:28,126 - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x121c6d1c0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-08 09:43:28,126 - Created channel=1
+2022-04-08 09:43:28,128 - Logging before start consuming
+2022-04-08 09:43:29,267 - processing started: 1_000 
+2022-04-08 09:43:29,463 - processing completed: 1_000
+2022-04-08 09:43:29,485 - processing started: 3_001 
+2022-04-08 09:43:29,702 - processing completed: 3_001
+2022-04-08 09:43:29,707 - processing started: 5_002 
+2022-04-08 09:43:29,914 - processing completed: 5_002
+2022-04-08 09:43:29,920 - processing started: 7_003 
+2022-04-08 09:43:30,078 - processing completed: 7_003
+2022-04-08 09:43:30,084 - processing started: 9_003 
+2022-04-08 09:43:30,315 - processing completed: 9_003
+2022-04-08 09:43:30,321 - processing started: 11_004 
+2022-04-08 09:43:30,366 - processing completed: 11_004
+2022-04-08 09:43:30,368 - processing started: 13_005 
+2022-04-08 09:43:30,603 - processing completed: 13_005
+2022-04-08 09:43:30,608 - processing started: 15_005 
+2022-04-08 09:43:30,785 - processing completed: 15_005
+2022-04-08 09:43:30,790 - processing started: 17_006 
+2022-04-08 09:43:30,943 - processing completed: 17_006
+2022-04-08 09:43:30,947 - processing started: 19_007 
+2022-04-08 09:43:31,122 - processing completed: 19_007
+2022-04-08 09:43:31,130 - processing started: 21_008 
+2022-04-08 09:43:31,396 - processing completed: 21_008
+2022-04-08 09:43:31,402 - processing started: 23_009 
+2022-04-08 09:43:31,590 - processing completed: 23_009
+2022-04-08 09:43:31,597 - processing started: 25_010 
+2022-04-08 09:43:31,831 - processing completed: 25_010
+2022-04-08 09:43:31,838 - processing started: 27_011 
+2022-04-08 09:43:32,017 - processing completed: 27_011
+2022-04-08 09:43:32,023 - processing started: 29_012 
+2022-04-08 09:43:32,159 - processing completed: 29_012
+2022-04-08 09:43:32,162 - processing started: 31_013 
+2022-04-08 09:43:32,290 - processing completed: 31_013
+2022-04-08 09:43:32,295 - processing started: 33_014 
+2022-04-08 09:43:32,459 - processing completed: 33_014
+2022-04-08 09:43:32,465 - processing started: 35_014 
+2022-04-08 09:43:32,627 - processing completed: 35_014
+2022-04-08 09:43:32,631 - processing started: 37_014 
+2022-04-08 09:43:32,739 - processing completed: 37_014
+2022-04-08 09:43:32,742 - processing started: 39_015 
+2022-04-08 09:43:32,923 - processing completed: 39_015
+2022-04-08 09:43:32,930 - processing started: 41_015 
+2022-04-08 09:43:33,033 - processing completed: 41_015
+2022-04-08 09:43:33,037 - processing started: 43_016 
+2022-04-08 09:43:33,234 - processing completed: 43_016
+2022-04-08 09:43:33,239 - processing started: 45_017 
+2022-04-08 09:43:33,362 - processing completed: 45_017
+2022-04-08 09:43:33,366 - processing started: 47_017 
+2022-04-08 09:43:33,537 - processing completed: 47_017
+2022-04-08 09:43:33,542 - processing started: 49_018 
+2022-04-08 09:43:33,636 - processing completed: 49_018
+2022-04-08 09:43:33,640 - processing started: 51_019 
+2022-04-08 09:43:33,826 - processing completed: 51_019
+2022-04-08 09:43:33,831 - processing started: 53_020 
+2022-04-08 09:43:33,951 - processing completed: 53_020
+2022-04-08 09:43:33,975 - processing started: 55_021 
+2022-04-08 09:43:34,173 - processing completed: 55_021
+2022-04-08 09:43:34,178 - processing started: 57_022 
+2022-04-08 09:43:34,290 - processing completed: 57_022
+2022-04-08 09:43:34,294 - processing started: 59_023 
+2022-04-08 09:43:34,481 - processing completed: 59_023
+2022-04-08 09:43:34,487 - processing started: 61_023 
+2022-04-08 09:43:34,594 - processing completed: 61_023
+2022-04-08 09:43:34,597 - processing started: 63_024 
+2022-04-08 09:43:34,777 - processing completed: 63_024
+2022-04-08 09:43:34,782 - processing started: 65_024 
+2022-04-08 09:43:34,947 - processing completed: 65_024
+2022-04-08 09:43:34,950 - processing started: 67_025 
+2022-04-08 09:43:35,050 - processing completed: 67_025
+2022-04-08 09:43:35,055 - processing started: 69_026 
+2022-04-08 09:43:35,214 - processing completed: 69_026
+2022-04-08 09:43:35,218 - processing started: 71_027 
+2022-04-08 09:43:35,315 - processing completed: 71_027
+2022-04-08 09:43:35,319 - processing started: 73_028 
+2022-04-08 09:43:35,470 - processing completed: 73_028
+2022-04-08 09:43:35,474 - processing started: 75_029 
+2022-04-08 09:43:35,575 - processing completed: 75_029
+2022-04-08 09:43:35,579 - processing started: 77_030 
+2022-04-08 09:43:35,729 - processing completed: 77_030
+2022-04-08 09:43:35,735 - processing started: 79_030 
+2022-04-08 09:43:35,833 - processing completed: 79_030
+2022-04-08 09:43:35,837 - processing started: 81_031 
+2022-04-08 09:43:35,997 - processing completed: 81_031
+2022-04-08 09:43:36,001 - processing started: 83_032 
+2022-04-08 09:43:36,148 - processing completed: 83_032
+2022-04-08 09:43:36,155 - processing started: 85_032 
+2022-04-08 09:43:36,397 - processing completed: 85_032
+2022-04-08 09:43:36,402 - processing started: 87_032 
+2022-04-08 09:43:36,562 - processing completed: 87_032
+2022-04-08 09:43:36,568 - processing started: 89_033 
+2022-04-08 09:43:36,733 - processing completed: 89_033
+2022-04-08 09:43:36,737 - processing started: 91_033 
+2022-04-08 09:43:36,844 - processing completed: 91_033
+2022-04-08 09:43:36,847 - processing started: 93_034 
+2022-04-08 09:43:37,023 - processing completed: 93_034
+2022-04-08 09:43:37,027 - processing started: 95_035 
+2022-04-08 09:43:37,202 - processing completed: 95_035
+2022-04-08 09:43:37,206 - processing started: 97_035 

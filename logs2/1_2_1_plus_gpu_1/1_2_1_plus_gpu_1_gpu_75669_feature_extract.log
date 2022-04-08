@@ -1,0 +1,99 @@
+2022-04-08 09:43:26,318 - PID 75669 started feature extraction
+2022-04-08 09:43:26,322 - Pika version 1.2.0 connecting to ('::1', 5672, 0, 0)
+2022-04-08 09:43:26,323 - Socket failed to connect: <socket.socket fd=16, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 51089, 0, 0)>; error=61 (Connection refused)
+2022-04-08 09:43:26,323 - TCP Connection attempt failed: ConnectionRefusedError(61, 'Connection refused'); dest=(<AddressFamily.AF_INET6: 30>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('::1', 5672, 0, 0))
+2022-04-08 09:43:26,323 - AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(61, 'Connection refused')
+2022-04-08 09:43:26,323 - Pika version 1.2.0 connecting to ('127.0.0.1', 5672)
+2022-04-08 09:43:26,323 - Socket connected: <socket.socket fd=16, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 51090), raddr=('127.0.0.1', 5672)>
+2022-04-08 09:43:26,324 - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x13c7f55e0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x13c7f55e0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+2022-04-08 09:43:26,337 - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x13c7f55e0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-08 09:43:26,337 - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x13c7f55e0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-08 09:43:26,337 - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x13c7f55e0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2022-04-08 09:43:26,338 - Created channel=1
+2022-04-08 09:43:29,494 - image 1_000 arrived at feature extraction
+2022-04-08 09:43:29,500 - image 0_000 arrived at feature extraction
+2022-04-08 09:43:29,712 - image 3_001 arrived at feature extraction
+2022-04-08 09:43:29,718 - image 2_000 arrived at feature extraction
+2022-04-08 09:43:29,926 - image 4_001 arrived at feature extraction
+2022-04-08 09:43:29,932 - image 5_002 arrived at feature extraction
+2022-04-08 09:43:30,089 - image 7_003 arrived at feature extraction
+2022-04-08 09:43:30,095 - image 6_002 arrived at feature extraction
+2022-04-08 09:43:30,095 - Extracting started: [('1', '000'), ('0', '000'), ('3', '001'), ('2', '000'), ('4', '001'), ('5', '002'), ('7', '003'), ('6', '002')] being feature-extracted
+2022-04-08 09:43:32,700 - Extracting completed: [('1', '000'), ('0', '000'), ('3', '001'), ('2', '000'), ('4', '001'), ('5', '002'), ('7', '003'), ('6', '002')] have been feature-extracted
+2022-04-08 09:43:32,701 - hashing: 1_000 started
+2022-04-08 09:43:32,702 - hashing: 1_000 completed
+2022-04-08 09:43:32,819 - hashing: 0_000 started
+2022-04-08 09:43:32,819 - hashing: 0_000 completed
+2022-04-08 09:43:32,829 - hashing: 3_001 started
+2022-04-08 09:43:32,829 - hashing: 3_001 completed
+2022-04-08 09:43:32,830 - hashing: 2_000 started
+2022-04-08 09:43:32,830 - hashing: 2_000 completed
+2022-04-08 09:43:32,831 - hashing: 4_001 started
+2022-04-08 09:43:32,831 - hashing: 4_001 completed
+2022-04-08 09:43:32,832 - hashing: 5_002 started
+2022-04-08 09:43:32,832 - hashing: 5_002 completed
+2022-04-08 09:43:32,834 - hashing: 7_003 started
+2022-04-08 09:43:32,834 - hashing: 7_003 completed
+2022-04-08 09:43:32,835 - hashing: 6_002 started
+2022-04-08 09:43:32,835 - hashing: 6_002 completed
+2022-04-08 09:43:32,838 - image 9_003 arrived at feature extraction
+2022-04-08 09:43:32,839 - image 8_003 arrived at feature extraction
+2022-04-08 09:43:32,840 - image 11_004 arrived at feature extraction
+2022-04-08 09:43:32,841 - image 10_004 arrived at feature extraction
+2022-04-08 09:43:32,842 - image 13_005 arrived at feature extraction
+2022-04-08 09:43:32,843 - image 12_005 arrived at feature extraction
+2022-04-08 09:43:32,844 - image 15_005 arrived at feature extraction
+2022-04-08 09:43:32,845 - image 14_005 arrived at feature extraction
+2022-04-08 09:43:32,846 - Extracting started: [('9', '003'), ('8', '003'), ('11', '004'), ('10', '004'), ('13', '005'), ('12', '005'), ('15', '005'), ('14', '005')] being feature-extracted
+2022-04-08 09:43:34,501 - Extracting completed: [('9', '003'), ('8', '003'), ('11', '004'), ('10', '004'), ('13', '005'), ('12', '005'), ('15', '005'), ('14', '005')] have been feature-extracted
+2022-04-08 09:43:34,501 - hashing: 9_003 started
+2022-04-08 09:43:34,502 - hashing: 9_003 completed
+2022-04-08 09:43:34,620 - hashing: 8_003 started
+2022-04-08 09:43:34,623 - hashing: 8_003 completed
+2022-04-08 09:43:34,629 - hashing: 11_004 started
+2022-04-08 09:43:34,629 - hashing: 11_004 completed
+2022-04-08 09:43:34,631 - hashing: 10_004 started
+2022-04-08 09:43:34,631 - hashing: 10_004 completed
+2022-04-08 09:43:34,632 - hashing: 13_005 started
+2022-04-08 09:43:34,632 - hashing: 13_005 completed
+2022-04-08 09:43:34,633 - hashing: 12_005 started
+2022-04-08 09:43:34,634 - hashing: 12_005 completed
+2022-04-08 09:43:34,635 - hashing: 15_005 started
+2022-04-08 09:43:34,635 - hashing: 15_005 completed
+2022-04-08 09:43:34,636 - hashing: 14_005 started
+2022-04-08 09:43:34,636 - hashing: 14_005 completed
+2022-04-08 09:43:34,638 - image 17_006 arrived at feature extraction
+2022-04-08 09:43:34,639 - image 19_007 arrived at feature extraction
+2022-04-08 09:43:34,639 - image 16_006 arrived at feature extraction
+2022-04-08 09:43:34,640 - image 18_007 arrived at feature extraction
+2022-04-08 09:43:34,641 - image 21_008 arrived at feature extraction
+2022-04-08 09:43:34,642 - image 20_008 arrived at feature extraction
+2022-04-08 09:43:34,643 - image 23_009 arrived at feature extraction
+2022-04-08 09:43:34,644 - image 22_009 arrived at feature extraction
+2022-04-08 09:43:34,645 - Extracting started: [('17', '006'), ('19', '007'), ('16', '006'), ('18', '007'), ('21', '008'), ('20', '008'), ('23', '009'), ('22', '009')] being feature-extracted
+2022-04-08 09:43:36,140 - Extracting completed: [('17', '006'), ('19', '007'), ('16', '006'), ('18', '007'), ('21', '008'), ('20', '008'), ('23', '009'), ('22', '009')] have been feature-extracted
+2022-04-08 09:43:36,140 - hashing: 17_006 started
+2022-04-08 09:43:36,140 - hashing: 17_006 completed
+2022-04-08 09:43:36,209 - hashing: 19_007 started
+2022-04-08 09:43:36,209 - hashing: 19_007 completed
+2022-04-08 09:43:36,214 - hashing: 16_006 started
+2022-04-08 09:43:36,215 - hashing: 16_006 completed
+2022-04-08 09:43:36,216 - hashing: 18_007 started
+2022-04-08 09:43:36,216 - hashing: 18_007 completed
+2022-04-08 09:43:36,217 - hashing: 21_008 started
+2022-04-08 09:43:36,217 - hashing: 21_008 completed
+2022-04-08 09:43:36,218 - hashing: 20_008 started
+2022-04-08 09:43:36,219 - hashing: 20_008 completed
+2022-04-08 09:43:36,220 - hashing: 23_009 started
+2022-04-08 09:43:36,220 - hashing: 23_009 completed
+2022-04-08 09:43:36,221 - hashing: 22_009 started
+2022-04-08 09:43:36,221 - hashing: 22_009 completed
+2022-04-08 09:43:36,224 - image 25_010 arrived at feature extraction
+2022-04-08 09:43:36,225 - image 24_009 arrived at feature extraction
+2022-04-08 09:43:36,226 - image 27_011 arrived at feature extraction
+2022-04-08 09:43:36,227 - image 29_012 arrived at feature extraction
+2022-04-08 09:43:36,228 - image 26_010 arrived at feature extraction
+2022-04-08 09:43:36,229 - image 31_013 arrived at feature extraction
+2022-04-08 09:43:36,230 - image 33_014 arrived at feature extraction
+2022-04-08 09:43:36,231 - image 28_011 arrived at feature extraction
+2022-04-08 09:43:36,231 - Extracting started: [('25', '010'), ('24', '009'), ('27', '011'), ('29', '012'), ('26', '010'), ('31', '013'), ('33', '014'), ('28', '011')] being feature-extracted

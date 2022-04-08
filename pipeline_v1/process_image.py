@@ -15,7 +15,7 @@ name = config["name"]
 Log_Format = "%(asctime)s - %(message)s"
 
 
-def main() -> None:
+def main(blah:int) -> None:
     pid = os.getpid()
     print(f"PID: {pid} is processing")
     logging.basicConfig(filename=f"{dir}{name}_{pid}_process_image.log",
@@ -68,12 +68,12 @@ def main() -> None:
 
 if __name__ == '__main__':
     try:
-        main()
-        # max_worker = 2
-        # with ProcessPoolExecutor(max_workers=max_worker) as executor:
-        #     futures = [executor.submit(main, num) for num in range(2)]
-        #     # time.sleep(1)
-        #     executor.shutdown()
+        # main()
+        max_worker = 2
+        with ProcessPoolExecutor(max_workers=max_worker) as executor:
+            futures = [executor.submit(main, num) for num in range(2)]
+            # time.sleep(1)
+            executor.shutdown()
     except KeyboardInterrupt:
         print('Interrupted')
         try:
@@ -85,7 +85,7 @@ if __name__ == '__main__':
         connection = connect()
         channel = connection.channel()
         channel.queue_declare(queue='path')
-        for i in range(1):
+        for i in range(2):
             channel.basic_publish(exchange='',
                                   routing_key='image_array',
                                   body=poison_tail,

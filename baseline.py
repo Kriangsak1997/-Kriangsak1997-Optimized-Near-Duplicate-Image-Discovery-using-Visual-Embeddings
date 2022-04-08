@@ -1,5 +1,6 @@
 import tensorflow as tf
-
+import logging
+import os
 tf.config.threading.set_intra_op_parallelism_threads(1)
 tf.config.threading.set_inter_op_parallelism_threads(1)
 import numpy as np
@@ -8,7 +9,8 @@ from keras.preprocessing import image
 from keras.applications.resnet import ResNet50
 from datetime import datetime
 import glob
-
+Log_Format = "%(asctime)s - %(message)s"
+log_dir ="/Users/kriangsakthuiprakhon/Documents/pipeline_v1/logs2/performance_benchmark/baseline/"
 path = "/Users/kriangsakthuiprakhon/Documents/seniorProject/image/INRIA"
 
 bench = [filename for filename in glob.iglob(path + '**/*.jpg', recursive=True)]
@@ -22,6 +24,8 @@ bench = [filename for filename in glob.iglob(large + '**/*.jpg', recursive=True)
 bench = np.sort(np.array(bench))
 labels = [filename.split("/")[7] for filename in bench]
 benchmark_data = [[labels[i], bench[i]] for i in range(len(bench))]
+
+
 # print(labels)
 # print(len(train))
 
@@ -119,7 +123,7 @@ class BuildLSHTable:
         end_load_and_resize = datetime.now()
         time_load_and_resize = end_load_and_resize - start_load_and_resize
         time_load_and_resize = time_load_and_resize.total_seconds()
-        print(f'Load and resize  took {time_load_and_resize}')
+        logger.info(f'Load and resize  took {time_load_and_resize}')
 
         # process #time this
         start_process = datetime.now()
@@ -131,7 +135,7 @@ class BuildLSHTable:
         end_process = datetime.now()
         time_process = end_process - start_process
         time_process = time_process.total_seconds()
-        print(f'processing  took {time_process}')
+        logger.info(f'processing  took {time_process}')
         # feature_extract #time this
         embeddings = []
         start_extract = datetime.now()
@@ -140,7 +144,7 @@ class BuildLSHTable:
         end_extract = datetime.now()
         time_extract = end_extract - start_extract
         time_extract = time_extract.total_seconds()
-        print(f'Feature Extraction  took {time_extract}')
+        logger.info(f'Feature Extraction  took {time_extract}')
         labels = [trainingfile[0] for trainingfile in training_files]
         hashes = []
 
@@ -152,7 +156,7 @@ class BuildLSHTable:
         end_hash = datetime.now()
         time_hash = end_hash - start_hash
         time_hash = time_hash.total_seconds()
-        print(f'Hashing  took {time_hash}')
+        logger.info(f'Hashing  took {time_hash}')
         start_add = datetime.now()
         for item in hashes:
             id, embedding, label, h = item
@@ -160,7 +164,7 @@ class BuildLSHTable:
         end_add = datetime.now()
         time_add = end_add - start_add
         time_add = time_add.total_seconds()
-        print(f'Adding to Table  took {time_add}')
+        logger.info(f'Adding to Table  took {time_add}')
 
     def query(self, path, verbose=True):
         # Compute the embeddings of the query image and fetch the results.
@@ -187,15 +191,19 @@ def get_model():
     resnet = ResNet50(weights='imagenet', include_top=False, pooling='avg')
     return resnet
 
-
 resnet50 = get_model()
 
-start = datetime.now()
-lsh_builder = BuildLSHTable(resnet50)
-lsh_builder.train(train, 1)
-# lsh_builder.train(benchmark_data, 1)
-end = datetime.now()
-total = end - start
-total = total.total_seconds()
-print(f'Total time taken is{total}')
-
+for i in range(5):
+    logging.basicConfig(filename=f"{log_dir}_{i}_baseline.log",
+                        filemode="w",
+                        format=Log_Format,
+                        level=logging.INFO)
+    logger = logging.getLogger()
+    start = datetime.now()
+    lsh_builder = BuildLSHTable(resnet50)
+    lsh_builder.train(train, 1)
+    # lsh_builder.train(benchmark_data, 1)
+    end = datetime.now()
+    total = end - start
+    total = total.total_seconds()
+    logger.info(f'Total time taken is{total}')
