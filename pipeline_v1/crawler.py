@@ -37,7 +37,7 @@ def crawl(path: str) -> None:
                               routing_key='path',
                               body=item,
                               mandatory=True)
-    for i in range(2):
+    for i in range(1):
         channel.basic_publish(exchange='',
                               routing_key='path',
                               body="0-0-0",
