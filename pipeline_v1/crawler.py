@@ -1,4 +1,3 @@
-import datetime
 import os
 import sys
 import numpy as np
@@ -6,15 +5,14 @@ import logging
 import glob
 from connector import connect
 from dotenv import dotenv_values
+
 config = dotenv_values("foo.bar")
 dir = config["log_dir"]
 name = config["name"]
 Log_Format = "%(asctime)s - %(message)s"
 
 
-
 def crawl(path: str) -> None:
-
     pid = os.getpid()
     logging.basicConfig(filename=f"{dir}{name}_{pid}_crawled.log",
                         filemode="w",
