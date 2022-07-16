@@ -12,6 +12,7 @@ import hash_function
 from connector import connect
 import logging
 from dotenv import dotenv_values
+
 config = dotenv_values("foo.bar")
 dir = config["log_dir"]
 name = config["name"]
@@ -87,11 +88,12 @@ def main(batch_size: int) -> None:
             # print(f"PID: {pid} doing feature extraction for less than {batch_size} images")
             if len(table.table) > 0:
                 # print(f'table size {len(table.table)}')
-                feature_extract(batch_size=batch_size)
+                feature_extract(batch_size=batch_size) #also make this an environmental variable
             # publish(poison_tail)
             channel.stop_consuming()
         else:
-            # we need tensors of shape((224, 224, 3)
+            # we need tensors of shape((224, 224, 3). also make this an env variable,
+            # then the deserializer prolly wont work
             array = npdeserializer.byte_deserializer(msg, (224, 224, 3))
             table.table[id] = (label, array)
         if len(table.table) == batch_size:
@@ -123,7 +125,7 @@ if __name__ == '__main__':
             os._exit(0)
     finally:  # this will only execute if all the above processes are done
         poison_tail = serializer.dWriter(schema.hash_schema,
-                                                       [{"label": "0", "id": "0", "hash_value": "0"}])
+                                         [{"label": "0", "id": "0", "hash_value": "0"}])
         connection = connect()
         channel = connection.channel()
         channel.queue_declare(queue='hash')
