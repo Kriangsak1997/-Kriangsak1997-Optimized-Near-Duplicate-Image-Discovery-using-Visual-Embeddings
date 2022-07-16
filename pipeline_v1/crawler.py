@@ -5,6 +5,7 @@ import logging
 import glob
 from connector import connect
 from dotenv import dotenv_values
+ls
 
 config = dotenv_values("foo.bar")
 dir = config["log_dir"]
